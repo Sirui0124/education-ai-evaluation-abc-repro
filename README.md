@@ -16,7 +16,7 @@ python3 reproduce.py --claim all
 python3 reproduce.py --claim random --seed 42
 ```
 
-`--claim` 还接受 `A-FUNNEL`、`B-AGREEMENT`、`B-STUDENT`、`C-AIV-OLD`、`C-WEIGHTS`。每项如何从输入逐步计算，见 [结论与复算范围](CLAIMS.md)；数据字段见 [数据字典](DATA_DICTIONARY.md)，运行条件见 [环境说明](ENVIRONMENT.md)。数值脚本验证冻结标签的下游计算。语义标注本身需按原文、量尺与证据人工复核；重新调用大模型不会保证生成相同标签。
+`--claim` 还接受 `A-FUNNEL`、`B-AGREEMENT`、`B-STUDENT`、`C-AIV-OLD`、`C-WEIGHTS`。每项如何从输入逐步计算，见 [结论与复算范围](CLAIMS.md)；数据字段见 [数据字典](DATA_DICTIONARY.md)，运行条件见 [环境说明](ENVIRONMENT.md)，正式版本和论文数字的核对见 [版本一致性审计](VERSION_AUDIT.md)。数值脚本验证冻结标签的下游计算。语义标注本身需按原文、量尺与证据人工复核；重新调用大模型不会保证生成相同标签。
 
 | 板块 | 入口 | 交付边界 |
 |---|---|---|
@@ -37,9 +37,9 @@ python3 reproduce.py --claim random --seed 42
 - 模块 B 的 Q2 因果增量接口仍有条件未满足，不能把观察前后差解释成无 AI 反事实增量。
 - 模块 C 174 人旧版 AIV 表是探索性结果。2026-09-27 的三目的八指标权重已提出，但 H/E 全量语义评分尚未完成，故未生成该方案的最终综合排名。
 
-## 文件校验与重新打包
+## 文件校验
 
-本地源项目存在时运行 `python3 build_packages.py` 可重新复制并打包；GitHub 克隆无需运行此脚本。`文件校验清单.json` 用于逐文件验来源。第三块的复核队列由以下命令生成，默认对双标一致条目抽取稳定的 10%：
+`文件校验清单.json` 记录本地源项目的逐文件哈希，`PUBLIC_SHA256.json` 记录公开副本哈希。第三块的复核队列由以下命令生成，默认对双标一致条目抽取稳定的 10%：
 
 ```bash
 python3 03_模型测算与人工抽检/build_review_queue.py \
