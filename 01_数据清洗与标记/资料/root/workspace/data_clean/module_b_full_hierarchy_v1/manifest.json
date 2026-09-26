@@ -1,0 +1,28 @@
+{
+  "version": "module-b-full-hierarchy-v1",
+  "qa_pro_standard": "v2.4",
+  "conversation_count": 1327,
+  "topic_row_count": 1391,
+  "exclusion_counts": {
+    "疑似老师剔除": 28,
+    "不剔除": 1286,
+    "空对话": 13
+  },
+  "nonexcluded_tier_counts": {
+    "仅QA": 578,
+    "QA Pro": 425,
+    "仅QA3": 283
+  },
+  "qapro_resolution_counts": {
+    "FULL_FRESH_DUAL_AGREEMENT_V24": 708
+  },
+  "source_hashes": {
+    "panel": "5a15a487d1bea80866c451f9ab168c9b0da76893f064f5e32b053e1f3557fe00",
+    "aligned": "a58a8cbd2620be7a1a0f6827a3806cfd7b4848892192842b39e73acea2d316fc"
+  },
+  "output_hashes": {
+    "conversation_labels_jsonl": "2abdb1268472958b89ec737f05b6edf6460107ae0d1b17e408c263500421b08e",
+    "topic_labels_jsonl": "2f3fea4f96025589b8f9cbd8b1591e8070c44438be478fdfc882b307a702b8c0"
+  },
+  "validation": "PASS"
+}

@@ -1,0 +1,341 @@
+{
+  "rubric_id": "module-c-student-evaluation-atoms",
+  "version": "1.1.1",
+  "status": "READY_FOR_SCORING_MAPPING_PENDING",
+  "scope": {
+    "unit": "student_key = semester:student_id",
+    "constructs": [
+      "表达满意度与积极态度",
+      "自述收益",
+      "证据支持"
+    ],
+    "benefit_term_assumption": "暂按自述收益解释字数收益，待主任务澄清；任何情况下不按字数计分",
+    "eight_indicator_mapping": null,
+    "eight_indicator_mapping_status": "PENDING_MAIN_THREAD_CONFIRMATION",
+    "prohibited": [
+      "母源修改",
+      "全量评分",
+      "收费模型API",
+      "把表达态度解释为真实学习增益",
+      "用字数或发帖量加分",
+      "用身份匹配代替行为佐证",
+      "由AI文风直接认定代写"
+    ],
+    "score_construct": "已表达／已支持的积极理解保守证据分；不是潜在满意度或真实收益估计"
+  },
+  "sources": {
+    "root": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926",
+    "primary_feedback": "snapshot/discussion_records.jsonl",
+    "summary_only": "snapshot/discussion.jsonl",
+    "dialogue_evidence": "evidence/valid_dialogues.jsonl",
+    "roster_and_locator_only": "indicator_matrix.jsonl",
+    "feedback_text_field": "raw_text",
+    "dialogue_text_field": "original_messages[].text",
+    "dialogue_role_field": "original_messages[].role",
+    "warning": "汇总分类、existing score、before/after标签及AI赞扬不能作为独立行为佐证；valid_dialogues只是现有可查窗口，未找到不证明行为不存在",
+    "all_frozen_sessions": {
+      "path": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-eight-indicator-20260926/materials/raw_sessions",
+      "binding_status": "BOUND",
+      "manifest_path": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-eight-indicator-20260926/materials/manifest.json",
+      "manifest_sha256": "3cdef8ec00a4c9837553c2327226dd4236cef70671c6e86852f9533d4bb34c9e",
+      "student_materials": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-eight-indicator-20260926/materials/students",
+      "session_array": "raw_sessions",
+      "session_id_field": "raw_sessions[].original_session.session_id",
+      "student_field": "raw_sessions[].original_session.student_key",
+      "term_field": "raw_sessions[].original_session.term",
+      "turns_field": "raw_sessions[].original_session.turns",
+      "text_field": "raw_sessions[].original_session.turns[].text",
+      "role_field": "raw_sessions[].original_session.turns[].role",
+      "window_policy": "先在学生全部冻结会话索引检索概念、agent、任务及必要同义语义，再读候选会话原始学生轮次；不要求逐字阅读无关会话。查无支持时记录检索范围和依据；空会话及排除记录不作支持。每学生运行时验证清单中的文件哈希。"
+    }
+  },
+  "dimensions": [
+    {
+      "id": "S",
+      "name": "满意度与积极态度",
+      "default_weights": {
+        "S1": 0.5,
+        "S2": 0.25,
+        "S3": 0.25
+      },
+      "atoms": [
+        {
+          "id": "S1",
+          "name": "整体使用体验",
+          "anchors": {
+            "0": "明确否定或中性且无正向认可；原文无明确表述则value=null并留语义状态",
+            "0.25": "明确但微弱或有严格条件的认可",
+            "0.5": "同一方面存在实质正向认可与负向权衡，无明确正向主导",
+            "0.75": "明确肯定，包括简单的好用、有帮助",
+            "1": "明确强烈肯定；由语义强度判断，不因篇幅、重复或形容词数量提高"
+          }
+        },
+        {
+          "id": "S2",
+          "name": "对AI学习支持价值的认可",
+          "anchors": {
+            "0": "明确否定或中性且无正向认可；原文无明确表述则value=null并留语义状态",
+            "0.25": "明确但微弱或有严格条件的认可",
+            "0.5": "同一方面存在实质正向认可与负向权衡，无明确正向主导",
+            "0.75": "明确肯定，包括简单的好用、有帮助",
+            "1": "明确强烈肯定；由语义强度判断，不因篇幅、重复或形容词数量提高"
+          }
+        },
+        {
+          "id": "S3",
+          "name": "明确继续使用或推荐意愿",
+          "anchors": {
+            "0": "明确否定或中性且无正向认可；原文无明确表述则value=null并留语义状态",
+            "0.25": "明确但微弱或有严格条件的认可",
+            "0.5": "同一方面存在实质正向认可与负向权衡，无明确正向主导",
+            "0.75": "明确肯定，包括简单的好用、有帮助",
+            "1": "明确强烈肯定；由语义强度判断，不因篇幅、重复或形容词数量提高"
+          }
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "自述收益",
+      "default_weights": {
+        "B1": 0.25,
+        "B2": 0.25,
+        "B3": 0.25,
+        "B4": 0.25
+      },
+      "atoms": [
+        {
+          "id": "B1",
+          "name": "概念理解与思考",
+          "anchors": {
+            "0": "明确自述没有改善或出现退步；另存negative_change标记",
+            "0.25": "明确但笼统地声称该方面有帮助",
+            "0.5": "明确声称在某个任务或知识点有所改善",
+            "0.75": "说明自己的具体改变或可执行行动",
+            "1": "给出清楚的前后状态或已完成结果，且明确归因于自己的使用经历；仍仅为自述"
+          }
+        },
+        {
+          "id": "B2",
+          "name": "解题、实践与迁移",
+          "anchors": {
+            "0": "明确自述没有改善或出现退步；另存negative_change标记",
+            "0.25": "明确但笼统地声称该方面有帮助",
+            "0.5": "明确声称在某个任务或知识点有所改善",
+            "0.75": "说明自己的具体改变或可执行行动",
+            "1": "给出清楚的前后状态或已完成结果，且明确归因于自己的使用经历；仍仅为自述"
+          }
+        },
+        {
+          "id": "B3",
+          "name": "效率与任务推进",
+          "anchors": {
+            "0": "明确自述没有改善或出现退步；另存negative_change标记",
+            "0.25": "明确但笼统地声称该方面有帮助",
+            "0.5": "明确声称在某个任务或知识点有所改善",
+            "0.75": "说明自己的具体改变或可执行行动",
+            "1": "给出清楚的前后状态或已完成结果，且明确归因于自己的使用经历；仍仅为自述"
+          }
+        },
+        {
+          "id": "B4",
+          "name": "学习策略与自主调节",
+          "anchors": {
+            "0": "明确自述没有改善或出现退步；另存negative_change标记",
+            "0.25": "明确但笼统地声称该方面有帮助",
+            "0.5": "明确声称在某个任务或知识点有所改善",
+            "0.75": "说明自己的具体改变或可执行行动",
+            "1": "给出清楚的前后状态或已完成结果，且明确归因于自己的使用经历；仍仅为自述"
+          }
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "证据支持",
+      "default_weights": {
+        "E1": 0.2,
+        "E2": 0.2,
+        "E3": 0.6
+      },
+      "atoms": [
+        {
+          "id": "E1",
+          "name": "自述具体性",
+          "anchors": {
+            "0": "只有泛泛称赞，无具体收益或行为主张",
+            "0.25": "指明收益领域但无任务",
+            "0.5": "有明确任务或知识点",
+            "0.75": "有自己的具体行动或变化",
+            "1": "有可核查的过程、前后状态或结果；不要求数字"
+          }
+        },
+        {
+          "id": "E2",
+          "name": "主张与对话的可定位性",
+          "anchors": {
+            "0": "已查窗口内没有内容对应；仅身份对应也为0",
+            "0.25": "主题相近但不能定位具体事件",
+            "0.5": "任务或知识点对应，具体会话仍有歧义",
+            "0.75": "会话及任务对应，但时间或主体细节未完整确认",
+            "1": "同学生、同学期、同任务/事件和轮次明确对应，时间相容或有明确交叉引用"
+          }
+        },
+        {
+          "id": "E3",
+          "name": "原始学生行为对主张的独立佐证",
+          "anchors": {
+            "0": "已查相关原始文本但未呈现所声称行为，或存在直接反证；另存核验状态",
+            "0.25": "仅见尝试或部分相关行为，尚不足支持结果",
+            "0.5": "学生原始行为支持主张的一部分",
+            "0.75": "原始行为直接支持核心主张，但范围或前后证据有限",
+            "1": "完整覆盖该具体主张所需证据；若声称改善，必须有可比前后学生行为，若声称能力，必须有对应实际表现；不表示AI因果效果"
+          }
+        }
+      ]
+    }
+  ],
+  "atom_statuses": {
+    "OBSERVED": "有足够文本可评分",
+    "MISSING_SOURCE": "无记录、原文缺失或无法读取",
+    "NO_EXPLICIT_STATEMENT": "已读可用记录，但未明确表达该子项",
+    "NOT_VERIFIED": "需要核验但未检查原始对话",
+    "OUT_OF_WINDOW": "现有可查材料不覆盖主张所需范围",
+    "AMBIGUOUS": "归属、指代或语义无法可靠判定"
+  },
+  "verification_statuses": [
+    "NOT_CHECKED",
+    "IDENTITY_ONLY",
+    "TOPIC_ONLY",
+    "SESSION_LINKED",
+    "PARTIALLY_SUPPORTED",
+    "SUPPORTED",
+    "NOT_FOUND_IN_CHECKED_WINDOW",
+    "CONTRADICTED",
+    "UNVERIFIABLE"
+  ],
+  "cache_contract": {
+    "one_line_unit": "one student_key; 10 student_atoms; compact semantic claims nested in each atom; no exhaustive sentence-level decomposition",
+    "required_student_fields": [
+      "student_key",
+      "rubric_version",
+      "source_manifest",
+      "annotator",
+      "record_decisions",
+      "student_atoms",
+      "review_flags"
+    ],
+    "source_manifest_fields": [
+      "relative_path",
+      "sha256",
+      "read_scope"
+    ],
+    "annotator_fields": [
+      "agent_id",
+      "model_or_human",
+      "prompt_version",
+      "scored_at"
+    ],
+    "record_decision_fields": [
+      "record_id",
+      "included",
+      "canonical_record_id",
+      "reason"
+    ],
+    "student_atom_fields": [
+      "atom_id",
+      "value",
+      "status",
+      "claim",
+      "support_refs",
+      "counter_refs",
+      "reason",
+      "verification",
+      "negative_change",
+      "conflict_flag"
+    ],
+    "value_rule": "OBSERVED时value为[0,1]数值；其他状态均为null；计算用contribution另行派生，不覆盖value。聚合中点可以不是原始锚点。",
+    "claim_rule": "每原子只写最小充分语义主张，可附极端锚点及原句；同一证据可被多个相关原子引用。无需把每条记录拆为细碎主张。仍须阅读全部纳入记录，保留能改变判断的反证。",
+    "evidence_ref_fields": [
+      "source_file",
+      "source_record_id",
+      "text_field",
+      "quote",
+      "start_char",
+      "end_char",
+      "speaker_role",
+      "dialogue_id",
+      "turn_index"
+    ],
+    "offset_rule": "原始JSON解码字符串Unicode码点，0-based、左闭右开，text[start_char:end_char]==quote；不改写原句。",
+    "source_record_id_rule": "反馈用record_id，对话用冻结文件的原生record/session ID；若来源无唯一ID，另存jsonl_line_1based。完整dialogue_id不可仅用短号替代。",
+    "verification_fields": [
+      "status",
+      "checked_scope_ref",
+      "support_refs",
+      "counter_refs",
+      "reason"
+    ],
+    "checked_scope_ref_rule": "引用source_manifest并保存检查的学生会话ID清单（可单独清单文件）；具体内容关联在reason内明确身份、学期、任务、时间的匹配与限制。",
+    "minimal_ref_policy": "同一结论只留最小充分支持；不同极端、范围限制及直接反证必须留。句数、字数不是评分依据。",
+    "completion_fields_derived": [
+      "dimension_scores",
+      "coverage",
+      "upper",
+      "completion_status"
+    ]
+  },
+  "aggregation": {
+    "dedup": "同student_key内先按非空duplicate_group_id作候选核验，再按NFKC+空白折叠的文本哈希识别精确副本；保留原文引用。语义同一主张缓存canonical_claim_id。不能按文风跨学生合并。",
+    "eligible": "学生本人陈述可纳入；题目、教师模板、引用AI自评、空帖不作态度或收益证据；回复若有本人实质陈述也可纳入，不机械只收主帖。",
+    "claim_unit": "每原子保留能够支持锚点判断的最小语义主张和关键反证；同一目标/方面/事件的重复表达只计一次，不要求穷尽逐句主张。",
+    "student_atom_rule": "阅读全部纳入记录后，为该原子确定去重语义证据出现的最低与最高有效锚点，value=(min+max)/2；只需缓存两个端点及决定其语义的引用。相同锚点不按条数计权；无明确表述value=null。",
+    "rationale": "固定原子权重；不用记录数/字数/主张数，不取最佳记录。重复相同证据或同分新帖不改变结果；新出现的相反证据会改变范围中点并触发冲突标记。",
+    "conflict_rule": "同一原子存在不同锚点即保留范围；差值>=0.5或直接事实矛盾标记人工复核。明确撤回/更正可替换旧主张，保存supersedes；日期较晚本身不构成撤回。",
+    "E_rule": "E1/E2/E3以可核查收益/行为主张为对象，保留决定范围的最小充分主张；只有态度时E1=0 OBSERVED，E2/E3=null NO_EXPLICIT_STATEMENT。存在待核验主张时E2/E3=NOT_VERIFIED并阻止完成，必须实际检索全部冻结学生sessions。确实超出冻结窗口可标OUT_OF_WINDOW并给计算下界0；不能将未查冒充超窗。"
+  },
+  "reweighting": {
+    "weight_validation": "权重非负，各维合计>0，公式内归一化；当前默认权重可直接执行，属于规范选择。",
+    "scalar_choice": "每维最终标量score=lower，含义为已表达／已支持的积极理解保守证据分；不再要求coverage=1。此定义不用于估计潜在态度或真实收益。",
+    "contribution_by_status": {
+      "OBSERVED": "value",
+      "NO_EXPLICIT_STATEMENT": 0,
+      "OUT_OF_WINDOW": 0,
+      "AMBIGUOUS": 0,
+      "MISSING_SOURCE": 0,
+      "NOT_VERIFIED": "BLOCK_COMPLETION"
+    },
+    "status_policy": "原子value仍保持null。只有MISSING_SOURCE允许主任务在用户另行授权后执行均值填补；当前填补关闭。无明确表达、超窗及歧义不得均值填补。",
+    "per_dimension": "w=raw_w/SUM(raw_w); m=1 iff OBSERVED; lower=SUM(w*m*value); coverage=SUM(w*m); upper=lower+1-coverage; score=lower only if no atom NOT_VERIFIED and material binding/check scope complete where verification is needed",
+    "coverage_meaning": "coverage表示有明确原子数值的加权比例，不等于原文可用率；另行由record_decisions/source_manifest判断是否有来源。",
+    "upper_meaning": "upper为把所有空值赋1的宽松敏感性界限，包含未表达潜在内容，不代表当前材料已支持；不得当预测。",
+    "completion": "COMPLETE_WITH_LIMITS允许NO_EXPLICIT_STATEMENT/OUT_OF_WINDOW/AMBIGUOUS/MISSING_SOURCE并说明界限；任一NOT_VERIFIED为INCOMPLETE，score=null，允许显示provisional_lower但不得用于完成排名。",
+    "missing_source_imputation": {
+      "enabled": false,
+      "authorization": "PENDING_MAIN_THREAD",
+      "eligible_status_only": "MISSING_SOURCE",
+      "audit": "若后续授权，保留原始lower另建imputed_score，记录供体群体、公式、填补值与授权；不得覆盖原子缓存"
+    },
+    "excel": "NumericValues辅助列将null转0；Lower=SUMPRODUCT(NormalizedWeights,ObservedMask,NumericValues); Coverage=SUMPRODUCT(NormalizedWeights,ObservedMask); Upper=Lower+1-Coverage; Score=IF(IncompleteCount>0,\"\",Lower)。材料未绑定/未完成必要检索也计入IncompleteCount。",
+    "optional_composites": {
+      "enabled": false,
+      "reason": "第8项及8指标映射待主任务确认",
+      "proposal_only": {
+        "attitude_and_benefit": "lambda*S+(1-lambda)*B",
+        "evidence_support": "E",
+        "lambda_default_proposal": 0.5
+      }
+    },
+    "cache_invalidation": "仅权重变化不重跑语义评分；原文/窗口/锚点改变时只重评受影响原子。"
+  },
+  "guardrails": [
+    "批评准确性、要求深度或指出依赖风险，不自动降低S1/S2/B1；只给被明确评价的方面评分。",
+    "同一方面明确不满应如实记低满意度，不能以建设性批评为由抹掉；批判性理解需另有实际行为支持。",
+    "愿望、建议、课程能力介绍、AI表扬学生均不能转成学生已经获得的收益。",
+    "收益B与具体性E1允许相关，但E1权重不能被解释为独立真实性；E2定位也不等于E3支持。",
+    "正面短句可以S=.75；泛泛收益只按B=.25；内容长和措辞华丽不提高分值。",
+    "独立佐证指相对于反馈的另一原始行为来源，不保证作者独立、事实全对或AI因果增量。",
+    "明确中性且无积极认可的S原子为0；有原文但未表态保持null并对证据分贡献0，不得当作缺来源填补。",
+    "简短但明确指向AI/智能体使用体验的正向陈述可作S证据；泛泛夸同学、无对象的附和、仅称课程好而未联系AI不得算AI态度。上下文可消解指代，但必须保存消解依据；旧简短回复或排除标签不替代本轮语义判断。"
+  ]
+}

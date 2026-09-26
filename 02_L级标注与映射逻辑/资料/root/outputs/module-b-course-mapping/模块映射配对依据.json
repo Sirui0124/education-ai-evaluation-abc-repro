@@ -1,0 +1,6834 @@
+[
+  {
+    "id": "S0002",
+    "student_key": "2025秋:259340",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0002-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0003",
+    "student_key": "2025秋:259317",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0003-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0003",
+    "student_key": "2025秋:259317",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0003-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0005",
+    "student_key": "2025秋:259106",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0005-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0005",
+    "student_key": "2025秋:259106",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0005-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0014",
+    "student_key": "2025秋:258921",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0014-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0015",
+    "student_key": "2025秋:258953",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0015-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0015",
+    "student_key": "2025秋:258953",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0015-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0017",
+    "student_key": "2025秋:259039",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0017-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0017",
+    "student_key": "2025秋:259039",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0017-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0018",
+    "student_key": "2025秋:258959",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0018-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0018",
+    "student_key": "2025秋:258959",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0018-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0021",
+    "student_key": "2025秋:258917",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0021-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0021",
+    "student_key": "2025秋:258917",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0021-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0022",
+    "student_key": "2025秋:259789",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0022-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0022",
+    "student_key": "2025秋:259789",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0022-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0024",
+    "student_key": "2025秋:258773",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0024-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0025",
+    "student_key": "2025秋:259926",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0025-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0028",
+    "student_key": "2025秋:258868",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-08",
+    "domain_id": "topic-08",
+    "task_ids": [
+      "S0028-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0028",
+    "student_key": "2025秋:258868",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-08",
+    "domain_id": "topic-08",
+    "task_ids": [
+      "S0028-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0029",
+    "student_key": "2025秋:258856",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0029-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0034",
+    "student_key": "2025秋:259092",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0034-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0034",
+    "student_key": "2025秋:259092",
+    "stage": "highest",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0034-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0036",
+    "student_key": "2025秋:259407",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0036-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0036",
+    "student_key": "2025秋:259407",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0036-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0037",
+    "student_key": "2025秋:259425",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0037-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0037",
+    "student_key": "2025秋:259425",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0037-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0039",
+    "student_key": "2025秋:258960",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0039-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0040",
+    "student_key": "2025秋:258889",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0040-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0040",
+    "student_key": "2025秋:258889",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0040-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0041",
+    "student_key": "2025秋:258524",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-10",
+    "domain_id": "topic-10",
+    "task_ids": [
+      "S0041-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0041",
+    "student_key": "2025秋:258524",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-10",
+    "domain_id": "topic-10",
+    "task_ids": [
+      "S0041-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0042",
+    "student_key": "2025秋:258540",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0042-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0042",
+    "student_key": "2025秋:258540",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0042-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0048",
+    "student_key": "2025秋:258945",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0048-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0048",
+    "student_key": "2025秋:258945",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0048-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0051",
+    "student_key": "2025秋:258536",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0051-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0052",
+    "student_key": "2025秋:258430",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0052-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0052",
+    "student_key": "2025秋:258430",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0052-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0056",
+    "student_key": "2025秋:259419",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0056-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0056",
+    "student_key": "2025秋:259419",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0056-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0059",
+    "student_key": "2025秋:258932",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0059-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0060",
+    "student_key": "2025秋:259790",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0060-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0060",
+    "student_key": "2025秋:259790",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0060-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0062",
+    "student_key": "2025秋:259316",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0062-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0062",
+    "student_key": "2025秋:259316",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0062-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0063",
+    "student_key": "2025秋:258880",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0063-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0063",
+    "student_key": "2025秋:258880",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0063-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0066",
+    "student_key": "2025秋:259043",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0066-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0066",
+    "student_key": "2025秋:259043",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0066-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0067",
+    "student_key": "2025秋:25A148",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0067-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0067",
+    "student_key": "2025秋:25A148",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0067-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0068",
+    "student_key": "2025秋:259411",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0068-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0073",
+    "student_key": "2025秋:258938",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0073-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0073",
+    "student_key": "2025秋:258938",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0073-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0074",
+    "student_key": "2025秋:259044",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0074-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0074",
+    "student_key": "2025秋:259044",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0074-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0075",
+    "student_key": "2025秋:258924",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0075-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0075",
+    "student_key": "2025秋:258924",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0075-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0080",
+    "student_key": "2025秋:259843",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0080-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0080",
+    "student_key": "2025秋:259843",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0080-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0084",
+    "student_key": "2025秋:258874",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0084-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0088",
+    "student_key": "2025秋:258854",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0088-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0091",
+    "student_key": "2025秋:258859",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0091-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0091",
+    "student_key": "2025秋:258859",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0091-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0092",
+    "student_key": "2025秋:258912",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0092-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0095",
+    "student_key": "2025秋:258892",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0095-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0095",
+    "student_key": "2025秋:258892",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0095-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0096",
+    "student_key": "2025秋:258428",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0096-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0096",
+    "student_key": "2025秋:258428",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0096-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0102",
+    "student_key": "2025秋:259778",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0102-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0102",
+    "student_key": "2025秋:259778",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0102-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0103",
+    "student_key": "2025秋:258858",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0103-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0103",
+    "student_key": "2025秋:258858",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0103-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0112",
+    "student_key": "2025秋:259329",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0112-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0112",
+    "student_key": "2025秋:259329",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0112-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0113",
+    "student_key": "2025秋:259753",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0113-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0117",
+    "student_key": "2025秋:259896",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0117-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0117",
+    "student_key": "2025秋:259896",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0117-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0119",
+    "student_key": "2025秋:259339",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0119-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0120",
+    "student_key": "2025秋:258923",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0120-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0120",
+    "student_key": "2025秋:258923",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0120-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0121",
+    "student_key": "2025秋:259316",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-11",
+    "domain_id": "topic-11",
+    "task_ids": [
+      "S0121-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0121",
+    "student_key": "2025秋:259316",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-11",
+    "domain_id": "topic-11",
+    "task_ids": [
+      "S0121-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0129",
+    "student_key": "2025秋:258427",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0129-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0130",
+    "student_key": "2025秋:25P025",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0130-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0130",
+    "student_key": "2025秋:25P025",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0130-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0138",
+    "student_key": "2025秋:25A085",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0138-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0138",
+    "student_key": "2025秋:25A085",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0138-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0149",
+    "student_key": "2025秋:258902",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0149-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0149",
+    "student_key": "2025秋:258902",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0149-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0151",
+    "student_key": "2025秋:258862",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0151-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0151",
+    "student_key": "2025秋:258862",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0151-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0152",
+    "student_key": "2025秋:258987",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0152-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0153",
+    "student_key": "2025秋:258894",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0153-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0158",
+    "student_key": "2025秋:258942",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0158-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0158",
+    "student_key": "2025秋:258942",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0158-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0159",
+    "student_key": "2025秋:259001",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0159-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0160",
+    "student_key": "2025秋:259873",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0160-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0160",
+    "student_key": "2025秋:259873",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0160-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0162",
+    "student_key": "2025秋:259846",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0162-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0167",
+    "student_key": "2025秋:259448",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0167-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0168",
+    "student_key": "2025秋:259944",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0168-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0168",
+    "student_key": "2025秋:259944",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0168-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0170",
+    "student_key": "2025秋:259311",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0170-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0172",
+    "student_key": "2025秋:259004",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0172-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0172",
+    "student_key": "2025秋:259004",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0172-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0175",
+    "student_key": "2025秋:259385",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0175-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0176",
+    "student_key": "2025秋:259107",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0176-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0177",
+    "student_key": "2025秋:259342",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0177-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0177",
+    "student_key": "2025秋:259342",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 4,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0177-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0181",
+    "student_key": "2025秋:259430",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0181-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0181",
+    "student_key": "2025秋:259430",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0181-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0183",
+    "student_key": "2025秋:259958",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0183-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0183",
+    "student_key": "2025秋:259958",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0183-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0185",
+    "student_key": "2025秋:258958",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0185-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0185",
+    "student_key": "2025秋:258958",
+    "stage": "highest",
+    "s3": "中",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0185-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0187",
+    "student_key": "2025秋:259437",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0187-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0187",
+    "student_key": "2025秋:259437",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0187-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0190",
+    "student_key": "2025秋:258888",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0190-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0193",
+    "student_key": "2025秋:259419",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0193-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0194",
+    "student_key": "2025秋:259877",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0194-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0194",
+    "student_key": "2025秋:259877",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0194-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0196",
+    "student_key": "2025秋:258937",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0196-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0196",
+    "student_key": "2025秋:258937",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0196-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0201",
+    "student_key": "2025秋:25A168",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0201-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0201",
+    "student_key": "2025秋:25A168",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0201-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0203",
+    "student_key": "2025秋:259016",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0203-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0203",
+    "student_key": "2025秋:259016",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0203-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0204",
+    "student_key": "2025秋:259112",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0204-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0204",
+    "student_key": "2025秋:259112",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0204-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0206",
+    "student_key": "2025秋:253459",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0206-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0207",
+    "student_key": "2025秋:258906",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0207-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0207",
+    "student_key": "2025秋:258906",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0207-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0208",
+    "student_key": "2025秋:25A145",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0208-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0209",
+    "student_key": "2025秋:259902",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0209-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0210",
+    "student_key": "2025秋:259161",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0210-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0210",
+    "student_key": "2025秋:259161",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0210-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0212",
+    "student_key": "2025秋:259897",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0212-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0214",
+    "student_key": "2025秋:25A070",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0214-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0217",
+    "student_key": "2025秋:258964",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0217-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0219",
+    "student_key": "2025秋:259405",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0219-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0219",
+    "student_key": "2025秋:259405",
+    "stage": "highest",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0219-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0220",
+    "student_key": "2025秋:259869",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0220-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0220",
+    "student_key": "2025秋:259869",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 3,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0220-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0223",
+    "student_key": "2025秋:259116",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0223-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0223",
+    "student_key": "2025秋:259116",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0223-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0224",
+    "student_key": "2025秋:259004",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0224-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0224",
+    "student_key": "2025秋:259004",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0224-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0226",
+    "student_key": "2025秋:258867",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0226-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0232",
+    "student_key": "2025秋:258858",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0232-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0232",
+    "student_key": "2025秋:258858",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0232-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0234",
+    "student_key": "2025秋:258856",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0234-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0244",
+    "student_key": "2025秋:259917",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0244-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0244",
+    "student_key": "2025秋:259917",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0244-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0246",
+    "student_key": "2025秋:25A086",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0246-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0246",
+    "student_key": "2025秋:25A086",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0246-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0248",
+    "student_key": "2025秋:252265",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0248-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0248",
+    "student_key": "2025秋:252265",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0248-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0249",
+    "student_key": "2025秋:258898",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0249-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0250",
+    "student_key": "2025秋:259442",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0250-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0256",
+    "student_key": "2025秋:25A146",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0256-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0256",
+    "student_key": "2025秋:25A146",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0256-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0258",
+    "student_key": "2025秋:25A171",
+    "stage": "highest",
+    "s3": "低",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0258-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0259",
+    "student_key": "2025秋:258268",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0259-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0259",
+    "student_key": "2025秋:258268",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0259-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0261",
+    "student_key": "2025秋:258933",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0261-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0263",
+    "student_key": "2025秋:258755",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0263-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0263",
+    "student_key": "2025秋:258755",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0263-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0265",
+    "student_key": "2025秋:259325",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0265-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0265",
+    "student_key": "2025秋:259325",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0265-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0266",
+    "student_key": "2025秋:259116",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0266-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0266",
+    "student_key": "2025秋:259116",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0266-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0268",
+    "student_key": "2025秋:259863",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0268-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0268",
+    "student_key": "2025秋:259863",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0268-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0269",
+    "student_key": "2025秋:258907",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0269-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0269",
+    "student_key": "2025秋:258907",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0269-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0271",
+    "student_key": "2025秋:259927",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0271-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0271",
+    "student_key": "2025秋:259927",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0271-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0274",
+    "student_key": "2025秋:259854",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0274-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0275",
+    "student_key": "2025秋:258274",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0275-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0275",
+    "student_key": "2025秋:258274",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0275-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0276",
+    "student_key": "2025秋:259921",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0276-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0276",
+    "student_key": "2025秋:259921",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0276-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0277",
+    "student_key": "2025秋:259952",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0277-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0277",
+    "student_key": "2025秋:259952",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0277-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0278",
+    "student_key": "2025秋:259863",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0278-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0278",
+    "student_key": "2025秋:259863",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0278-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0279",
+    "student_key": "2025秋:259919",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0279-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0279",
+    "student_key": "2025秋:259919",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0279-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0280",
+    "student_key": "2025秋:258439",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 6,
+    "fold": 4,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0280-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0280",
+    "student_key": "2025秋:258439",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 4,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0280-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0285",
+    "student_key": "2025秋:259323",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0285-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0286",
+    "student_key": "2025秋:259336",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0286-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0286",
+    "student_key": "2025秋:259336",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0286-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0287",
+    "student_key": "2025秋:258918",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0287-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0287",
+    "student_key": "2025秋:258918",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0287-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0288",
+    "student_key": "2025秋:259321",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0288-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0288",
+    "student_key": "2025秋:259321",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0288-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0291",
+    "student_key": "2025秋:259101",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0291-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0291",
+    "student_key": "2025秋:259101",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0291-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0293",
+    "student_key": "2025秋:259404",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0293-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0293",
+    "student_key": "2025秋:259404",
+    "stage": "highest",
+    "s3": "中",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0293-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0294",
+    "student_key": "2025秋:252939",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0294-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0295",
+    "student_key": "2025秋:258927",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0295-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0295",
+    "student_key": "2025秋:258927",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0295-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0296",
+    "student_key": "2025秋:259961",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0296-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0296",
+    "student_key": "2025秋:259961",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0296-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0297",
+    "student_key": "2025秋:258269",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0297-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0297",
+    "student_key": "2025秋:258269",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 4,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0297-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0299",
+    "student_key": "2025秋:259335",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0299-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0299",
+    "student_key": "2025秋:259335",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0299-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0300",
+    "student_key": "2025秋:258526",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0300-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0300",
+    "student_key": "2025秋:258526",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0300-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0303",
+    "student_key": "2025秋:258881",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0303-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0304",
+    "student_key": "2025秋:259931",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0304-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0306",
+    "student_key": "2025秋:259445",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0306-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0309",
+    "student_key": "2025秋:258887",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0309-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0309",
+    "student_key": "2025秋:258887",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0309-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0311",
+    "student_key": "2025秋:25A134",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0311-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0311",
+    "student_key": "2025秋:25A134",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0311-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0315",
+    "student_key": "2025秋:258988",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0315-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0315",
+    "student_key": "2025秋:258988",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0315-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0318",
+    "student_key": "2025秋:259899",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0318-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0318",
+    "student_key": "2025秋:259899",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0318-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0319",
+    "student_key": "2025秋:258425",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0319-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0319",
+    "student_key": "2025秋:258425",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0319-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0320",
+    "student_key": "2025秋:259427",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0320-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0324",
+    "student_key": "2025秋:258433",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-10",
+    "domain_id": "topic-10",
+    "task_ids": [
+      "S0324-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0325",
+    "student_key": "2025秋:259332",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0325-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0333",
+    "student_key": "2025秋:248797",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0333-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0336",
+    "student_key": "2025秋:258903",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0336-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0338",
+    "student_key": "2025秋:258935",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0338-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0341",
+    "student_key": "2025秋:259440",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0341-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0342",
+    "student_key": "2025秋:259933",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0342-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0342",
+    "student_key": "2025秋:259933",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0342-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0343",
+    "student_key": "2025秋:259400",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0343-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0343",
+    "student_key": "2025秋:259400",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0343-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0344",
+    "student_key": "2025秋:259892",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0344-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0345",
+    "student_key": "2025秋:259025",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0345-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0346",
+    "student_key": "2025秋:259887",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0346-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0347",
+    "student_key": "2025秋:259053",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0347-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0350",
+    "student_key": "2025秋:258440",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0350-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0350",
+    "student_key": "2025秋:258440",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0350-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0351",
+    "student_key": "2025秋:258922",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0351-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0351",
+    "student_key": "2025秋:258922",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0351-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0358",
+    "student_key": "2025秋:259933",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0358-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0358",
+    "student_key": "2025秋:259933",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0358-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0359",
+    "student_key": "2025秋:259024",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0359-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0359",
+    "student_key": "2025秋:259024",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 1,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0359-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0360",
+    "student_key": "2025秋:259333",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0360-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0360",
+    "student_key": "2025秋:259333",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0360-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0361",
+    "student_key": "2025秋:259049",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0361-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0362",
+    "student_key": "2025秋:258907",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0362-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0364",
+    "student_key": "2025秋:258878",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0364-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0364",
+    "student_key": "2025秋:258878",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0364-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0365",
+    "student_key": "2025秋:258888",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0365-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0365",
+    "student_key": "2025秋:258888",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0365-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0367",
+    "student_key": "2025秋:258939",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0367-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0367",
+    "student_key": "2025秋:258939",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0367-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0368",
+    "student_key": "2025秋:259449",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0368-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0368",
+    "student_key": "2025秋:259449",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0368-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0371",
+    "student_key": "2025秋:259015",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0371-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0371",
+    "student_key": "2025秋:259015",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0371-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0372",
+    "student_key": "2025秋:258957",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0372-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0374",
+    "student_key": "2025秋:258938",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0374-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0374",
+    "student_key": "2025秋:258938",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0374-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0376",
+    "student_key": "2025秋:258981",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0376-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0378",
+    "student_key": "2025秋:259401",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0378-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0378",
+    "student_key": "2025秋:259401",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0378-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0382",
+    "student_key": "2025秋:259403",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0382-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0382",
+    "student_key": "2025秋:259403",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0382-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0384",
+    "student_key": "2025秋:259437",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0384-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0384",
+    "student_key": "2025秋:259437",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0384-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0386",
+    "student_key": "2025秋:259885",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0386-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0386",
+    "student_key": "2025秋:259885",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0386-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0388",
+    "student_key": "2025秋:259037",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 1,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0388-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0391",
+    "student_key": "2025秋:259004",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0391-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0391",
+    "student_key": "2025秋:259004",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0391-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0397",
+    "student_key": "2025秋:259865",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0397-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0397",
+    "student_key": "2025秋:259865",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0397-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0399",
+    "student_key": "2025秋:259334",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0399-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0399",
+    "student_key": "2025秋:259334",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0399-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0400",
+    "student_key": "2025秋:258911",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-11",
+    "domain_id": "topic-11",
+    "task_ids": [
+      "S0400-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0400",
+    "student_key": "2025秋:258911",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-11",
+    "domain_id": "topic-11",
+    "task_ids": [
+      "S0400-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0402",
+    "student_key": "2025秋:259857",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0402-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0405",
+    "student_key": "2025秋:259315",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0405-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0405",
+    "student_key": "2025秋:259315",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0405-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0407",
+    "student_key": "2025秋:259895",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0407-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0407",
+    "student_key": "2025秋:259895",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0407-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0408",
+    "student_key": "2025秋:258995",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0408-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0408",
+    "student_key": "2025秋:258995",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0408-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0409",
+    "student_key": "2025秋:258932",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0409-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0409",
+    "student_key": "2025秋:258932",
+    "stage": "highest",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0409-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0411",
+    "student_key": "2025秋:25A081",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0411-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0411",
+    "student_key": "2025秋:25A081",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0411-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0412",
+    "student_key": "2025秋:258892",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-08",
+    "domain_id": "topic-08",
+    "task_ids": [
+      "S0412-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0413",
+    "student_key": "2025秋:258943",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0413-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0416",
+    "student_key": "2025秋:259003",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0416-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0418",
+    "student_key": "2025秋:259449",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0418-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0418",
+    "student_key": "2025秋:259449",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0418-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0419",
+    "student_key": "2025秋:259419",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0419-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0421",
+    "student_key": "2025秋:259422",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0421-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0421",
+    "student_key": "2025秋:259422",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0421-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0425",
+    "student_key": "2025秋:259790",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0425-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0426",
+    "student_key": "2025秋:259059",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0426-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0429",
+    "student_key": "2025秋:25A168",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0429-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0429",
+    "student_key": "2025秋:25A168",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0429-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0431",
+    "student_key": "2025秋:258951",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0431-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0432",
+    "student_key": "2025秋:259778",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0432-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0432",
+    "student_key": "2025秋:259778",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0432-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0438",
+    "student_key": "2025秋:258890",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0438-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0440",
+    "student_key": "2025秋:240957",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0440-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0440",
+    "student_key": "2025秋:240957",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0440-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0441",
+    "student_key": "2025秋:258936",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0441-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0441",
+    "student_key": "2025秋:258936",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0441-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0442",
+    "student_key": "2025秋:25A156",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0442-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0444",
+    "student_key": "2025秋:258431",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0444-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0444",
+    "student_key": "2025秋:258431",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0444-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0447",
+    "student_key": "2025秋:259867",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0447-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0455",
+    "student_key": "2025秋:259050",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0455-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0455",
+    "student_key": "2025秋:259050",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0455-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0457",
+    "student_key": "2025秋:259318",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0457-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0458",
+    "student_key": "2025秋:259858",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0458-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0458",
+    "student_key": "2025秋:259858",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0458-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0460",
+    "student_key": "2025秋:258900",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0460-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0460",
+    "student_key": "2025秋:258900",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0460-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0463",
+    "student_key": "2025秋:259023",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0463-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0463",
+    "student_key": "2025秋:259023",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0463-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0464",
+    "student_key": "2025秋:259021",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0464-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0466",
+    "student_key": "2025秋:260001",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0466-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0466",
+    "student_key": "2025秋:260001",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0466-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0472",
+    "student_key": "2025秋:25A168",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0472-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0472",
+    "student_key": "2025秋:25A168",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0472-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0473",
+    "student_key": "2025秋:258892",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0473-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0473",
+    "student_key": "2025秋:258892",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0473-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0475",
+    "student_key": "2025秋:257174",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0475-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0481",
+    "student_key": "2025秋:259451",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0481-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0484",
+    "student_key": "2025秋:258865",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0484-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0485",
+    "student_key": "2025秋:25A150",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0485-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0486",
+    "student_key": "2025秋:258976",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0486-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0486",
+    "student_key": "2025秋:258976",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0486-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0489",
+    "student_key": "2025秋:259052",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0489-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0489",
+    "student_key": "2025秋:259052",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0489-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0491",
+    "student_key": "2025秋:258990",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0491-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0491",
+    "student_key": "2025秋:258990",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0491-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0494",
+    "student_key": "2025秋:259097",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0494-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0494",
+    "student_key": "2025秋:259097",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0494-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0496",
+    "student_key": "2025秋:259326",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0496-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0496",
+    "student_key": "2025秋:259326",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0496-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0497",
+    "student_key": "2025秋:259442",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0497-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0497",
+    "student_key": "2025秋:259442",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0497-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0499",
+    "student_key": "2025秋:259393",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0499-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0500",
+    "student_key": "2025秋:259431",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0500-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0501",
+    "student_key": "2025秋:259452",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0501-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0501",
+    "student_key": "2025秋:259452",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-05",
+    "domain_id": "topic-05",
+    "task_ids": [
+      "S0501-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0502",
+    "student_key": "2025秋:248829",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0502-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0508",
+    "student_key": "2025秋:258504",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0508-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0508",
+    "student_key": "2025秋:258504",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0508-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0540",
+    "student_key": "2025秋:258881",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0540-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0585",
+    "student_key": "2025秋:259929",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0585-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0666",
+    "student_key": "2025秋:258440",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0666-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0666",
+    "student_key": "2025秋:258440",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0666-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0667",
+    "student_key": "2025秋:258431",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0667-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0667",
+    "student_key": "2025秋:258431",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0667-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0672",
+    "student_key": "2025秋:259346",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0672-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0672",
+    "student_key": "2025秋:259346",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0672-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0744",
+    "student_key": "2025秋:259325",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0744-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0744",
+    "student_key": "2025秋:259325",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0744-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0818",
+    "student_key": "2026春:250695",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-10",
+    "domain_id": "topic-10",
+    "task_ids": [
+      "S0818-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0818",
+    "student_key": "2026春:250695",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-10",
+    "domain_id": "topic-10",
+    "task_ids": [
+      "S0818-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0825",
+    "student_key": "2026春:250845",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0825-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0825",
+    "student_key": "2026春:250845",
+    "stage": "highest",
+    "s3": "高",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0825-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0828",
+    "student_key": "2026春:250868",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0828-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0838",
+    "student_key": "2026春:258955",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0838-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0838",
+    "student_key": "2026春:258955",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0838-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0840",
+    "student_key": "2026春:258973",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S0840-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0844",
+    "student_key": "2026春:259406",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0844-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0845",
+    "student_key": "2026春:259406",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0845-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0850",
+    "student_key": "2026春:259443",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0850-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0850",
+    "student_key": "2026春:259443",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0850-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0868",
+    "student_key": "2026春:25A071",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0868-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0868",
+    "student_key": "2026春:25A071",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0868-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0872",
+    "student_key": "2026春:268044",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S0872-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0880",
+    "student_key": "2026春:268109",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0880-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0889",
+    "student_key": "2026春:268112",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0889-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0889",
+    "student_key": "2026春:268112",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0889-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0897",
+    "student_key": "2026春:268115",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0897-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0897",
+    "student_key": "2026春:268115",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0897-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0904",
+    "student_key": "2026春:268117",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0904-Q02"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0906",
+    "student_key": "2026春:268119",
+    "stage": "highest",
+    "s3": "中",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0906-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0911",
+    "student_key": "2026春:268121",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0911-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0912",
+    "student_key": "2026春:268121",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0912-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0915",
+    "student_key": "2026春:268121",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0915-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0915",
+    "student_key": "2026春:268121",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0915-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0919",
+    "student_key": "2026春:268121",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S0919-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0927",
+    "student_key": "2026春:268125",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0927-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0931",
+    "student_key": "2026春:268126",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0931-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0931",
+    "student_key": "2026春:268126",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0931-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0935",
+    "student_key": "2026春:268127",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0935-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0935",
+    "student_key": "2026春:268127",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0935-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0938",
+    "student_key": "2026春:268130",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0938-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0938",
+    "student_key": "2026春:268130",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0938-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0944",
+    "student_key": "2026春:268133",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0944-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0944",
+    "student_key": "2026春:268133",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0944-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0948",
+    "student_key": "2026春:268135",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0948-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0948",
+    "student_key": "2026春:268135",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0948-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0954",
+    "student_key": "2026春:268137",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0954-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0956",
+    "student_key": "2026春:268139",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0956-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0956",
+    "student_key": "2026春:268139",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0956-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0958",
+    "student_key": "2026春:268139",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0958-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0959",
+    "student_key": "2026春:268139",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0959-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0961",
+    "student_key": "2026春:268140",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0961-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0963",
+    "student_key": "2026春:268140",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0963-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0964",
+    "student_key": "2026春:268140",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0964-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0964",
+    "student_key": "2026春:268140",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0964-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0977",
+    "student_key": "2026春:268143",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S0977-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0983",
+    "student_key": "2026春:268144",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0983-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0983",
+    "student_key": "2026春:268144",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S0983-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0988",
+    "student_key": "2026春:268145",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S0988-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S0995",
+    "student_key": "2026春:268147",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S0995-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1004",
+    "student_key": "2026春:268151",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1004-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1004",
+    "student_key": "2026春:268151",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1004-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1007",
+    "student_key": "2026春:268151",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1007-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1007",
+    "student_key": "2026春:268151",
+    "stage": "highest",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1007-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1009",
+    "student_key": "2026春:268154",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1009-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1009",
+    "student_key": "2026春:268154",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1009-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1027",
+    "student_key": "2026春:268162",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1027-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1027",
+    "student_key": "2026春:268162",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1027-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1035",
+    "student_key": "2026春:268166",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1035-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1044",
+    "student_key": "2026春:268174",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1044-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1044",
+    "student_key": "2026春:268174",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1044-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1047",
+    "student_key": "2026春:268176",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1047-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1047",
+    "student_key": "2026春:268176",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1047-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1051",
+    "student_key": "2026春:268183",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1051-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1051",
+    "student_key": "2026春:268183",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1051-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1054",
+    "student_key": "2026春:268184",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1054-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1054",
+    "student_key": "2026春:268184",
+    "stage": "highest",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1054-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1061",
+    "student_key": "2026春:268192",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 6,
+    "fold": 0,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1061-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1062",
+    "student_key": "2026春:268192",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S1062-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1067",
+    "student_key": "2026春:268194",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1067-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1067",
+    "student_key": "2026春:268194",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1067-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1075",
+    "student_key": "2026春:268195",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1075-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1075",
+    "student_key": "2026春:268195",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1075-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1076",
+    "student_key": "2026春:268195",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S1076-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1076",
+    "student_key": "2026春:268195",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S1076-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1083",
+    "student_key": "2026春:268206",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1083-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1083",
+    "student_key": "2026春:268206",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1083-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1085",
+    "student_key": "2026春:268206",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1085-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1089",
+    "student_key": "2026春:268214",
+    "stage": "highest",
+    "s3": "中",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1089-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1094",
+    "student_key": "2026春:268219",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-11",
+    "domain_id": "topic-11",
+    "task_ids": [
+      "S1094-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1094",
+    "student_key": "2026春:268219",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-11",
+    "domain_id": "topic-11",
+    "task_ids": [
+      "S1094-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1113",
+    "student_key": "2026春:268240",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1113-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1113",
+    "student_key": "2026春:268240",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1113-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1118",
+    "student_key": "2026春:268241",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 3,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1118-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1133",
+    "student_key": "2026春:268246",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 4,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1133-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1133",
+    "student_key": "2026春:268246",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 4,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1133-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1135",
+    "student_key": "2026春:268246",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S1135-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1135",
+    "student_key": "2026春:268246",
+    "stage": "highest",
+    "s3": "高",
+    "L": 3,
+    "fold": 4,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S1135-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1138",
+    "student_key": "2026春:268247",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 2,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1138-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1142",
+    "student_key": "2026春:268248",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1142-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1143",
+    "student_key": "2026春:268248",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1143-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1143",
+    "student_key": "2026春:268248",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1143-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1144",
+    "student_key": "2026春:268248",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1144-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1144",
+    "student_key": "2026春:268248",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1144-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1145",
+    "student_key": "2026春:268248",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1145-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1147",
+    "student_key": "2026春:268248",
+    "stage": "highest",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1147-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1194",
+    "student_key": "2026春:268436",
+    "stage": "highest",
+    "s3": "低",
+    "L": 4,
+    "fold": 2,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1194-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1199",
+    "student_key": "2026春:268444",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1199-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1199",
+    "student_key": "2026春:268444",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1199-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1201",
+    "student_key": "2026春:268444",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 1,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S1201-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1206",
+    "student_key": "2026春:268498",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1206-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1207",
+    "student_key": "2026春:268498",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1207-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1207",
+    "student_key": "2026春:268498",
+    "stage": "highest",
+    "s3": "中",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1207-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1214",
+    "student_key": "2026春:268500",
+    "stage": "highest",
+    "s3": "中",
+    "L": 3,
+    "fold": 0,
+    "module_id": "topic-10",
+    "domain_id": "topic-10",
+    "task_ids": [
+      "S1214-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1215",
+    "student_key": "2026春:268500",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 0,
+    "module_id": "topic-03",
+    "domain_id": "topic-03",
+    "task_ids": [
+      "S1215-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1220",
+    "student_key": "2026春:268502",
+    "stage": "baseline",
+    "s3": "中",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1220-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1220",
+    "student_key": "2026春:268502",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 4,
+    "module_id": "topic-04",
+    "domain_id": "topic-04",
+    "task_ids": [
+      "S1220-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1227",
+    "student_key": "2026春:268507",
+    "stage": "highest",
+    "s3": "高",
+    "L": 4,
+    "fold": 1,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1227-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1244",
+    "student_key": "2026春:268520",
+    "stage": "baseline",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S1244-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1244",
+    "student_key": "2026春:268520",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 3,
+    "module_id": "topic-09",
+    "domain_id": "topic-09",
+    "task_ids": [
+      "S1244-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1247",
+    "student_key": "2026春:268525",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 2,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S1247-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1247",
+    "student_key": "2026春:268525",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 2,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S1247-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1269",
+    "student_key": "2026春:268536",
+    "stage": "highest",
+    "s3": "低",
+    "L": 1,
+    "fold": 0,
+    "module_id": "topic-02",
+    "domain_id": "topic-02",
+    "task_ids": [
+      "S1269-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1276",
+    "student_key": "2026春:268538",
+    "stage": "baseline",
+    "s3": "低",
+    "L": 1,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1276-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1276",
+    "student_key": "2026春:268538",
+    "stage": "highest",
+    "s3": "低",
+    "L": 2,
+    "fold": 4,
+    "module_id": "topic-01",
+    "domain_id": "topic-01",
+    "task_ids": [
+      "S1276-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1284",
+    "student_key": "2026春:268543",
+    "stage": "highest",
+    "s3": "高",
+    "L": 2,
+    "fold": 1,
+    "module_id": "topic-07",
+    "domain_id": "topic-07",
+    "task_ids": [
+      "S1284-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  },
+  {
+    "id": "S1294",
+    "student_key": "2026春:268560",
+    "stage": "highest",
+    "s3": "高",
+    "L": 5,
+    "fold": 0,
+    "module_id": "topic-06",
+    "domain_id": "topic-06",
+    "task_ids": [
+      "S1294-Q01"
+    ],
+    "course_mapping_status": "ORIGINAL_TOPIC_EVIDENCE"
+  }
+]

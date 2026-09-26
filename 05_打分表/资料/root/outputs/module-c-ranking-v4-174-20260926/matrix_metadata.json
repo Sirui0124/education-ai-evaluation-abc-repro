@@ -1,0 +1,206 @@
+{
+  "cohort_n": 174,
+  "valid_dialogues": 195,
+  "observed_student_concepts": 185,
+  "domain_eligible": 147,
+  "strict_baseline_eligible": 146,
+  "strict_component_rows": 154,
+  "valid_domain_rows": 156,
+  "scale_counts": {
+    "s3": 164,
+    "s6": 9,
+    "mixed": 1
+  },
+  "strict_scale_counts": {
+    "s3": 138,
+    "s6": 8
+  },
+  "domain_count_upper_bound": 12,
+  "observed_concept_weight": 1,
+  "observed_concept_weight_reason": "全量观察对照统一等权；严格视图采用明确的目标重要性假设",
+  "observed_definition": "同概念内取最大有效对话增量；不是原最早baseline概念时间轴CTQ",
+  "average_definition": "观察视图概念等权；严格视图按目标重要性加权平均",
+  "strict_baseline_definition": "冻结有效领域样本按概念×topic×量尺校准固定自然均值，q情景乘max(T-before,0)/5；仅同一学生单量尺完整配对生成严格分项",
+  "baseline_calibration_population": "全部156有效领域行，包括混量尺学生的各自单领域行；随后按学生单量尺筛选146人合成",
+  "net_peak_definition": "max_c(CTQ_ic-natural_c)",
+  "missing_policy": "null不补0；讨论仅关联场景与评价，不转能力分；旧自主等级弃用",
+  "q_scenario": 0.23,
+  "q_source": "新版模块B保留的外部教学情景，非本班实测无AI增长率；未移植旧model编号q",
+  "importance_source": "L3=.6,L4=.8,L5/L6=1，目标层级代理假设，非教师确认权重",
+  "module_parameters": [
+    {
+      "module_id": "topic-01",
+      "name": "优化与运筹",
+      "target": 5,
+      "q": 0.23,
+      "weight": 1.0,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-02",
+      "name": "图论与网络",
+      "target": 4,
+      "q": 0.23,
+      "weight": 0.8,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-03",
+      "name": "微分方程与动态系统",
+      "target": 4,
+      "q": 0.23,
+      "weight": 0.8,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-04",
+      "name": "概率统计与随机过程",
+      "target": 5,
+      "q": 0.23,
+      "weight": 1.0,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-05",
+      "name": "数值计算与科学计算",
+      "target": 3,
+      "q": 0.23,
+      "weight": 0.6,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-06",
+      "name": "机器学习与人工智能",
+      "target": 5,
+      "q": 0.23,
+      "weight": 1.0,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-07",
+      "name": "数据处理与可视化",
+      "target": 4,
+      "q": 0.23,
+      "weight": 0.8,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-08",
+      "name": "评价与决策",
+      "target": 5,
+      "q": 0.23,
+      "weight": 1.0,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-09",
+      "name": "数学建模综合与案例",
+      "target": 6,
+      "q": 0.23,
+      "weight": 1.0,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-10",
+      "name": "数学基础",
+      "target": 4,
+      "q": 0.23,
+      "weight": 0.8,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-11",
+      "name": "学习过程与工具使用",
+      "target": 4,
+      "q": 0.23,
+      "weight": 0.8,
+      "target_status": "AI重设建议，待老师确认"
+    },
+    {
+      "module_id": "topic-12",
+      "name": "其他与待判定",
+      "target": null,
+      "q": null,
+      "weight": null,
+      "target_status": "其他与待判定无统一目标"
+    }
+  ],
+  "baseline_groups": {
+    "概率统计与随机过程|topic-04|s3": {
+      "n": 24,
+      "natural_ctq": 0.13680392675608974
+    },
+    "机器学习与人工智能|topic-06|s3": {
+      "n": 20,
+      "natural_ctq": 0.11788498564075993
+    },
+    "图论与网络|topic-02|s3": {
+      "n": 12,
+      "natural_ctq": 0.09508562772143313
+    },
+    "微分方程与动态系统|topic-03|s3": {
+      "n": 7,
+      "natural_ctq": 0.09397262801602238
+    },
+    "优化与运筹|topic-01|s3": {
+      "n": 64,
+      "natural_ctq": 0.13683228565235026
+    },
+    "数据处理与可视化|topic-07|s3": {
+      "n": 7,
+      "natural_ctq": 0.09153227001945982
+    },
+    "数学建模综合与案例|topic-09|s6": {
+      "n": 7,
+      "natural_ctq": 0.15771428571428572
+    },
+    "数学基础|topic-10|s6": {
+      "n": 2,
+      "natural_ctq": 0.138
+    },
+    "数值计算与科学计算|topic-05|s3": {
+      "n": 9,
+      "natural_ctq": 0.045477277653559384
+    },
+    "评价与决策|topic-08|s3": {
+      "n": 1,
+      "natural_ctq": 0.13285714285714287
+    },
+    "学习过程与工具使用|topic-11|s3": {
+      "n": 3,
+      "natural_ctq": 0.06458621772590344
+    }
+  },
+  "source_files": {
+    "conversations": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/conversations.jsonl",
+    "domains": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/domains.jsonl",
+    "students": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/students.jsonl",
+    "summary": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/summary.json",
+    "mapping": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/mapping.json",
+    "taxonomy": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/taxonomy.jsonl",
+    "discussion": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/discussion.jsonl",
+    "discussion_records": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/discussion_records.jsonl",
+    "discussion_stats": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/discussion_stats.json",
+    "sessions": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/sessions.jsonl",
+    "baseline_implementation": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/snapshot/baseline_implementation.py"
+  },
+  "source_hashes": {
+    "conversations": "e733a78f8f35e3a5737c18afc9e634eac5002cca2da8e90abef0b2d939086458",
+    "domains": "2a9453787a59530d672afd3b00de660fbbbd8204f4b76fde013cc8b53caefc92",
+    "students": "cce848c4e7848b34eda4567578bbf05e5f36f2e8bc59271852a992978d8eb78b",
+    "summary": "46a0ded442259e5b6e770cd7c25e8802e3b6f14536b497a8506c0540ef188328",
+    "mapping": "3b55cfabae64c5e9928631d8aaa1eeb7a2156dc542e7ce04fef64494f28160d4",
+    "taxonomy": "6fd3e2b4048508c4959097aa4a85046ecb1b07926bf0d398f6bbc6b80fa4aa31",
+    "discussion": "2fcdd5345bfac141dcb76be7bed46644e33b1e5f88531a6e0daf8f2352139c1f",
+    "discussion_records": "41a0108e9b68c97eb80303d21a1730c84bf05fcdd8476b32f905aaa910484285",
+    "discussion_stats": "0eeded7a1f3beb93042a609fb2d591cd829a1546797f49df5f79254228a6e37b",
+    "sessions": "5a15a487d1bea80866c451f9ab168c9b0da76893f064f5e32b053e1f3557fe00",
+    "baseline_implementation": "80f260a370f802990c6d8173ad50675f0c6fef12b0b8d5e3d59ec0f2709fee42"
+  },
+  "discussion_match_n": 165,
+  "version": "module-c-v4-topic-174-frozen",
+  "student_counts_by_term": {
+    "2025秋": 137,
+    "2026春": 37
+  }
+}

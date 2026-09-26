@@ -1,0 +1,3173 @@
+{
+  "schema": "two-independent-raters-full-v5",
+  "raters": [
+    "gpt-5.6-terra",
+    "gpt-5.6-sol"
+  ],
+  "reasoning_effort": "medium",
+  "adjudication_excluded": true,
+  "protocol": {
+    "primary": "nominal Krippendorff alpha, U as separate category",
+    "secondary": "Cohen kappa including U; U/gradable alpha; ordinal alpha with U missing",
+    "bootstrap": "2000 paired conversation resamples, seed 20260926; percentile 95% CI",
+    "domain_grouping": "first QA3 task domain; conversation maximum can belong to another task, no per-concept gain claim"
+  },
+  "stages": {
+    "baseline": {
+      "overall": {
+        "s6": {
+          "n": 708,
+          "exact": 565,
+          "agreement_rate": 0.7980225988700564,
+          "disagreements": 143,
+          "nominal_alpha_with_u": 0.6267007351788136,
+          "cohen_kappa_with_u": 0.6273505909373653,
+          "u_gradable_alpha": 0.7660383597883598,
+          "ordinal_alpha_u_missing": 0.5452957482148149,
+          "both_gradable_n": 214,
+          "both_u": 418,
+          "concrete_agree": 147,
+          "u_rates": {
+            "terra": 0.6694915254237288,
+            "sol": 0.6186440677966102
+          },
+          "counts": {
+            "terra": {
+              "U": 474,
+              "L2": 106,
+              "L1": 109,
+              "L3": 14,
+              "L5": 1,
+              "L6": 2,
+              "L4": 2
+            },
+            "sol": {
+              "U": 438,
+              "L5": 7,
+              "L4": 18,
+              "L2": 94,
+              "L1": 104,
+              "L3": 44,
+              "L6": 3
+            }
+          },
+          "pooled_u_rate": 0.6440677966101694,
+          "nominal_alpha_ci95": [
+            0.5773876684144157,
+            0.6733387138179341
+          ]
+        },
+        "s3": {
+          "n": 708,
+          "exact": 588,
+          "agreement_rate": 0.8305084745762712,
+          "disagreements": 120,
+          "nominal_alpha_with_u": 0.686225522172103,
+          "cohen_kappa_with_u": 0.6867903382782317,
+          "u_gradable_alpha": 0.8252946413292813,
+          "ordinal_alpha_u_missing": 0.6991364245091434,
+          "both_gradable_n": 226,
+          "both_u": 425,
+          "concrete_agree": 163,
+          "u_rates": {
+            "terra": 0.6299435028248588,
+            "sol": 0.6511299435028248
+          },
+          "counts": {
+            "terra": {
+              "U": 446,
+              "中": 104,
+              "高": 28,
+              "低": 130
+            },
+            "sol": {
+              "U": 461,
+              "中": 116,
+              "高": 46,
+              "低": 85
+            }
+          },
+          "pooled_u_rate": 0.6405367231638418,
+          "nominal_alpha_ci95": [
+            0.6386499252406044,
+            0.7327379185666874
+          ]
+        },
+        "mapped3": {
+          "n": 708,
+          "exact": 592,
+          "agreement_rate": 0.8361581920903954,
+          "disagreements": 116,
+          "nominal_alpha_with_u": 0.671157679632171,
+          "cohen_kappa_with_u": 0.6719158217684139,
+          "u_gradable_alpha": 0.7660383597883598,
+          "ordinal_alpha_u_missing": 0.3851872940283386,
+          "both_gradable_n": 214,
+          "both_u": 418,
+          "concrete_agree": 174,
+          "u_rates": {
+            "terra": 0.6694915254237288,
+            "sol": 0.6186440677966102
+          },
+          "counts": {
+            "terra": {
+              "U": 474,
+              "低": 215,
+              "中": 14,
+              "高": 5
+            },
+            "sol": {
+              "U": 438,
+              "高": 28,
+              "低": 198,
+              "中": 44
+            }
+          },
+          "pooled_u_rate": 0.6440677966101694,
+          "nominal_alpha_ci95": [
+            0.6201452951789553,
+            0.7181374329009809
+          ]
+        }
+      },
+      "学期:2025秋": {
+        "s6": {
+          "n": 437,
+          "exact": 327,
+          "agreement_rate": 0.7482837528604119,
+          "disagreements": 110,
+          "nominal_alpha_with_u": 0.5971845283287961,
+          "cohen_kappa_with_u": 0.5984697244334556,
+          "u_gradable_alpha": 0.7730289861993219,
+          "ordinal_alpha_u_missing": 0.4654025297978537,
+          "both_gradable_n": 169,
+          "both_u": 219,
+          "concrete_agree": 108,
+          "u_rates": {
+            "terra": 0.5720823798627003,
+            "sol": 0.5423340961098398
+          },
+          "counts": {
+            "terra": {
+              "U": 250,
+              "L2": 86,
+              "L1": 85,
+              "L3": 14,
+              "L5": 1,
+              "L6": 1
+            },
+            "sol": {
+              "U": 237,
+              "L5": 7,
+              "L4": 14,
+              "L2": 72,
+              "L1": 61,
+              "L3": 44,
+              "L6": 2
+            }
+          },
+          "pooled_u_rate": 0.5572082379862701
+        },
+        "s3": {
+          "n": 437,
+          "exact": 345,
+          "agreement_rate": 0.7894736842105263,
+          "disagreements": 92,
+          "nominal_alpha_with_u": 0.6574470172265987,
+          "cohen_kappa_with_u": 0.6591697115099314,
+          "u_gradable_alpha": 0.809879690861286,
+          "ordinal_alpha_u_missing": 0.7040447834770593,
+          "both_gradable_n": 172,
+          "both_u": 224,
+          "concrete_agree": 121,
+          "u_rates": {
+            "terra": 0.5354691075514875,
+            "sol": 0.5835240274599542
+          },
+          "counts": {
+            "terra": {
+              "U": 234,
+              "中": 75,
+              "高": 23,
+              "低": 105
+            },
+            "sol": {
+              "U": 255,
+              "中": 83,
+              "高": 40,
+              "低": 59
+            }
+          },
+          "pooled_u_rate": 0.5594965675057209
+        },
+        "mapped3": {
+          "n": 437,
+          "exact": 349,
+          "agreement_rate": 0.7986270022883295,
+          "disagreements": 88,
+          "nominal_alpha_with_u": 0.6429298492686533,
+          "cohen_kappa_with_u": 0.6449581771516147,
+          "u_gradable_alpha": 0.7730289861993219,
+          "ordinal_alpha_u_missing": 0.3042878982985969,
+          "both_gradable_n": 169,
+          "both_u": 219,
+          "concrete_agree": 130,
+          "u_rates": {
+            "terra": 0.5720823798627003,
+            "sol": 0.5423340961098398
+          },
+          "counts": {
+            "terra": {
+              "U": 250,
+              "低": 171,
+              "中": 14,
+              "高": 2
+            },
+            "sol": {
+              "U": 237,
+              "高": 23,
+              "低": 133,
+              "中": 44
+            }
+          },
+          "pooled_u_rate": 0.5572082379862701
+        }
+      },
+      "学期:2026春": {
+        "s6": {
+          "n": 271,
+          "exact": 238,
+          "agreement_rate": 0.8782287822878229,
+          "disagreements": 33,
+          "nominal_alpha_with_u": 0.665818093330588,
+          "cohen_kappa_with_u": 0.667990792990793,
+          "u_gradable_alpha": 0.7062443438914028,
+          "ordinal_alpha_u_missing": 0.8152723591881552,
+          "both_gradable_n": 45,
+          "both_u": 199,
+          "concrete_agree": 39,
+          "u_rates": {
+            "terra": 0.8265682656826568,
+            "sol": 0.7416974169741697
+          },
+          "counts": {
+            "terra": {
+              "U": 224,
+              "L1": 24,
+              "L2": 20,
+              "L4": 2,
+              "L6": 1
+            },
+            "sol": {
+              "L1": 43,
+              "U": 201,
+              "L2": 22,
+              "L4": 4,
+              "L6": 1
+            }
+          },
+          "pooled_u_rate": 0.7841328413284133
+        },
+        "s3": {
+          "n": 271,
+          "exact": 243,
+          "agreement_rate": 0.8966789667896679,
+          "disagreements": 28,
+          "nominal_alpha_with_u": 0.7306399701264292,
+          "cohen_kappa_with_u": 0.7302715768519834,
+          "u_gradable_alpha": 0.832998919586356,
+          "ordinal_alpha_u_missing": 0.6794932239874718,
+          "both_gradable_n": 54,
+          "both_u": 201,
+          "concrete_agree": 42,
+          "u_rates": {
+            "terra": 0.7822878228782287,
+            "sol": 0.7601476014760148
+          },
+          "counts": {
+            "terra": {
+              "中": 29,
+              "U": 212,
+              "高": 5,
+              "低": 25
+            },
+            "sol": {
+              "中": 33,
+              "U": 206,
+              "低": 26,
+              "高": 6
+            }
+          },
+          "pooled_u_rate": 0.7712177121771218
+        },
+        "mapped3": {
+          "n": 271,
+          "exact": 243,
+          "agreement_rate": 0.8966789667896679,
+          "disagreements": 28,
+          "nominal_alpha_with_u": 0.7006146609482775,
+          "cohen_kappa_with_u": 0.7029206796648656,
+          "u_gradable_alpha": 0.7062443438914028,
+          "ordinal_alpha_u_missing": 0.846815834767642,
+          "both_gradable_n": 45,
+          "both_u": 199,
+          "concrete_agree": 44,
+          "u_rates": {
+            "terra": 0.8265682656826568,
+            "sol": 0.7416974169741697
+          },
+          "counts": {
+            "terra": {
+              "U": 224,
+              "低": 44,
+              "高": 3
+            },
+            "sol": {
+              "低": 65,
+              "U": 201,
+              "高": 5
+            }
+          },
+          "pooled_u_rate": 0.7841328413284133
+        }
+      },
+      "首QA3领域:优化与运筹": {
+        "s6": {
+          "n": 195,
+          "exact": 142,
+          "agreement_rate": 0.7282051282051282,
+          "disagreements": 53,
+          "nominal_alpha_with_u": 0.5659122012843458,
+          "cohen_kappa_with_u": 0.567355994641661,
+          "u_gradable_alpha": 0.6995018779467782,
+          "ordinal_alpha_u_missing": 0.6365347745513599,
+          "both_gradable_n": 72,
+          "both_u": 94,
+          "concrete_agree": 48,
+          "u_rates": {
+            "terra": 0.5794871794871795,
+            "sol": 0.5333333333333333
+          },
+          "counts": {
+            "terra": {
+              "L2": 40,
+              "U": 113,
+              "L1": 37,
+              "L3": 3,
+              "L5": 1,
+              "L6": 1
+            },
+            "sol": {
+              "L4": 9,
+              "U": 104,
+              "L2": 25,
+              "L1": 36,
+              "L3": 16,
+              "L5": 3,
+              "L6": 2
+            }
+          },
+          "pooled_u_rate": 0.5564102564102564
+        },
+        "s3": {
+          "n": 195,
+          "exact": 144,
+          "agreement_rate": 0.7384615384615385,
+          "disagreements": 51,
+          "nominal_alpha_with_u": 0.577713920817369,
+          "cohen_kappa_with_u": 0.5812984169754126,
+          "u_gradable_alpha": 0.7314677145284623,
+          "ordinal_alpha_u_missing": 0.6321365917605404,
+          "both_gradable_n": 75,
+          "both_u": 94,
+          "concrete_agree": 50,
+          "u_rates": {
+            "terra": 0.5230769230769231,
+            "sol": 0.5743589743589743
+          },
+          "counts": {
+            "terra": {
+              "中": 34,
+              "U": 102,
+              "低": 52,
+              "高": 7
+            },
+            "sol": {
+              "高": 15,
+              "U": 112,
+              "中": 44,
+              "低": 24
+            }
+          },
+          "pooled_u_rate": 0.5487179487179488
+        },
+        "mapped3": {
+          "n": 195,
+          "exact": 150,
+          "agreement_rate": 0.7692307692307693,
+          "disagreements": 45,
+          "nominal_alpha_with_u": 0.5898066783831284,
+          "cohen_kappa_with_u": 0.5918604651162791,
+          "u_gradable_alpha": 0.6995018779467782,
+          "ordinal_alpha_u_missing": 0.23889762963826244,
+          "both_gradable_n": 72,
+          "both_u": 94,
+          "concrete_agree": 56,
+          "u_rates": {
+            "terra": 0.5794871794871795,
+            "sol": 0.5333333333333333
+          },
+          "counts": {
+            "terra": {
+              "低": 77,
+              "U": 113,
+              "中": 3,
+              "高": 2
+            },
+            "sol": {
+              "高": 14,
+              "U": 104,
+              "低": 61,
+              "中": 16
+            }
+          },
+          "pooled_u_rate": 0.5564102564102564
+        }
+      },
+      "首QA3领域:其他与待判定": {
+        "s6": {
+          "n": 45,
+          "exact": 39,
+          "agreement_rate": 0.8666666666666667,
+          "disagreements": 6,
+          "nominal_alpha_with_u": 0.6939828080229227,
+          "cohen_kappa_with_u": 0.69248291571754,
+          "u_gradable_alpha": 0.8876262626262627,
+          "ordinal_alpha_u_missing": 0.3149474855672255,
+          "both_gradable_n": 11,
+          "both_u": 32,
+          "concrete_agree": 7,
+          "u_rates": {
+            "terra": 0.7555555555555555,
+            "sol": 0.7111111111111111
+          },
+          "counts": {
+            "terra": {
+              "L1": 8,
+              "U": 34,
+              "L2": 2,
+              "L4": 1
+            },
+            "sol": {
+              "L1": 7,
+              "L3": 4,
+              "U": 32,
+              "L2": 1,
+              "L4": 1
+            }
+          },
+          "pooled_u_rate": 0.7333333333333333
+        },
+        "s3": {
+          "n": 45,
+          "exact": 41,
+          "agreement_rate": 0.9111111111111111,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.8184599694033656,
+          "cohen_kappa_with_u": 0.8170731707317073,
+          "u_gradable_alpha": 1.0,
+          "ordinal_alpha_u_missing": 0.6630769230769231,
+          "both_gradable_n": 14,
+          "both_u": 31,
+          "concrete_agree": 10,
+          "u_rates": {
+            "terra": 0.6888888888888889,
+            "sol": 0.6888888888888889
+          },
+          "counts": {
+            "terra": {
+              "低": 9,
+              "U": 31,
+              "中": 4,
+              "高": 1
+            },
+            "sol": {
+              "低": 6,
+              "U": 31,
+              "中": 6,
+              "高": 2
+            }
+          },
+          "pooled_u_rate": 0.6888888888888889
+        },
+        "mapped3": {
+          "n": 45,
+          "exact": 40,
+          "agreement_rate": 0.8888888888888888,
+          "disagreements": 5,
+          "nominal_alpha_with_u": 0.7382352941176471,
+          "cohen_kappa_with_u": 0.7371495327102803,
+          "u_gradable_alpha": 0.8876262626262627,
+          "ordinal_alpha_u_missing": 0.3971291866028709,
+          "both_gradable_n": 11,
+          "both_u": 32,
+          "concrete_agree": 8,
+          "u_rates": {
+            "terra": 0.7555555555555555,
+            "sol": 0.7111111111111111
+          },
+          "counts": {
+            "terra": {
+              "低": 10,
+              "U": 34,
+              "高": 1
+            },
+            "sol": {
+              "低": 8,
+              "中": 4,
+              "U": 32,
+              "高": 1
+            }
+          },
+          "pooled_u_rate": 0.7333333333333333
+        }
+      },
+      "首QA3领域:其他领域": {
+        "s6": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 0,
+          "both_u": 1,
+          "concrete_agree": 0,
+          "u_rates": {
+            "terra": 1.0,
+            "sol": 1.0
+          },
+          "counts": {
+            "terra": {
+              "U": 1
+            },
+            "sol": {
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 1.0
+        },
+        "s3": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 0,
+          "both_u": 1,
+          "concrete_agree": 0,
+          "u_rates": {
+            "terra": 1.0,
+            "sol": 1.0
+          },
+          "counts": {
+            "terra": {
+              "U": 1
+            },
+            "sol": {
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 1.0
+        },
+        "mapped3": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 0,
+          "both_u": 1,
+          "concrete_agree": 0,
+          "u_rates": {
+            "terra": 1.0,
+            "sol": 1.0
+          },
+          "counts": {
+            "terra": {
+              "U": 1
+            },
+            "sol": {
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 1.0
+        }
+      },
+      "首QA3领域:图论与网络": {
+        "s6": {
+          "n": 47,
+          "exact": 38,
+          "agreement_rate": 0.8085106382978723,
+          "disagreements": 9,
+          "nominal_alpha_with_u": 0.6618181818181819,
+          "cohen_kappa_with_u": 0.6594202898550724,
+          "u_gradable_alpha": 0.8648910411622276,
+          "ordinal_alpha_u_missing": 0.5196214933993399,
+          "both_gradable_n": 16,
+          "both_u": 28,
+          "concrete_agree": 10,
+          "u_rates": {
+            "terra": 0.6382978723404256,
+            "sol": 0.6170212765957447
+          },
+          "counts": {
+            "terra": {
+              "U": 30,
+              "L2": 8,
+              "L3": 3,
+              "L1": 6
+            },
+            "sol": {
+              "U": 29,
+              "L3": 3,
+              "L2": 5,
+              "L1": 8,
+              "L4": 2
+            }
+          },
+          "pooled_u_rate": 0.6276595744680851
+        },
+        "s3": {
+          "n": 47,
+          "exact": 39,
+          "agreement_rate": 0.8297872340425532,
+          "disagreements": 8,
+          "nominal_alpha_with_u": 0.6798623063683304,
+          "cohen_kappa_with_u": 0.6772532188841202,
+          "u_gradable_alpha": 0.8614008941877794,
+          "ordinal_alpha_u_missing": 0.5703703703703704,
+          "both_gradable_n": 15,
+          "both_u": 29,
+          "concrete_agree": 10,
+          "u_rates": {
+            "terra": 0.6808510638297872,
+            "sol": 0.6170212765957447
+          },
+          "counts": {
+            "terra": {
+              "U": 32,
+              "中": 8,
+              "低": 6,
+              "高": 1
+            },
+            "sol": {
+              "U": 29,
+              "中": 9,
+              "低": 7,
+              "高": 2
+            }
+          },
+          "pooled_u_rate": 0.648936170212766
+        },
+        "mapped3": {
+          "n": 47,
+          "exact": 40,
+          "agreement_rate": 0.851063829787234,
+          "disagreements": 7,
+          "nominal_alpha_with_u": 0.7160924552987353,
+          "cohen_kappa_with_u": 0.7134146341463414,
+          "u_gradable_alpha": 0.8648910411622276,
+          "ordinal_alpha_u_missing": 0.7006810897435898,
+          "both_gradable_n": 16,
+          "both_u": 28,
+          "concrete_agree": 12,
+          "u_rates": {
+            "terra": 0.6382978723404256,
+            "sol": 0.6170212765957447
+          },
+          "counts": {
+            "terra": {
+              "U": 30,
+              "低": 14,
+              "中": 3
+            },
+            "sol": {
+              "U": 29,
+              "中": 3,
+              "低": 13,
+              "高": 2
+            }
+          },
+          "pooled_u_rate": 0.6276595744680851
+        }
+      },
+      "首QA3领域:学习过程与工具使用": {
+        "s6": {
+          "n": 36,
+          "exact": 35,
+          "agreement_rate": 0.9722222222222222,
+          "disagreements": 1,
+          "nominal_alpha_with_u": 0.7905604719764012,
+          "cohen_kappa_with_u": 0.788235294117647,
+          "u_gradable_alpha": 0.7880597014925373,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 2,
+          "both_u": 33,
+          "concrete_agree": 2,
+          "u_rates": {
+            "terra": 0.9444444444444444,
+            "sol": 0.9166666666666666
+          },
+          "counts": {
+            "terra": {
+              "U": 34,
+              "L2": 2
+            },
+            "sol": {
+              "U": 33,
+              "L2": 2,
+              "L1": 1
+            }
+          },
+          "pooled_u_rate": 0.9305555555555556
+        },
+        "s3": {
+          "n": 36,
+          "exact": 33,
+          "agreement_rate": 0.9166666666666666,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.5429184549356223,
+          "cohen_kappa_with_u": 0.5384615384615383,
+          "u_gradable_alpha": 0.843956043956044,
+          "ordinal_alpha_u_missing": 0.16666666666666663,
+          "both_gradable_n": 3,
+          "both_u": 32,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.9166666666666666,
+            "sol": 0.8888888888888888
+          },
+          "counts": {
+            "terra": {
+              "U": 33,
+              "中": 3
+            },
+            "sol": {
+              "U": 32,
+              "高": 1,
+              "中": 2,
+              "低": 1
+            }
+          },
+          "pooled_u_rate": 0.9027777777777778
+        },
+        "mapped3": {
+          "n": 36,
+          "exact": 35,
+          "agreement_rate": 0.9722222222222222,
+          "disagreements": 1,
+          "nominal_alpha_with_u": 0.7880597014925373,
+          "cohen_kappa_with_u": 0.7857142857142857,
+          "u_gradable_alpha": 0.7880597014925373,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 2,
+          "both_u": 33,
+          "concrete_agree": 2,
+          "u_rates": {
+            "terra": 0.9444444444444444,
+            "sol": 0.9166666666666666
+          },
+          "counts": {
+            "terra": {
+              "U": 34,
+              "低": 2
+            },
+            "sol": {
+              "U": 33,
+              "低": 3
+            }
+          },
+          "pooled_u_rate": 0.9305555555555556
+        }
+      },
+      "首QA3领域:微分方程与动态系统": {
+        "s6": {
+          "n": 32,
+          "exact": 27,
+          "agreement_rate": 0.84375,
+          "disagreements": 5,
+          "nominal_alpha_with_u": 0.6959459459459459,
+          "cohen_kappa_with_u": 0.6917148362235067,
+          "u_gradable_alpha": 0.7906976744186047,
+          "ordinal_alpha_u_missing": 0.8315805517451608,
+          "both_gradable_n": 9,
+          "both_u": 20,
+          "concrete_agree": 7,
+          "u_rates": {
+            "terra": 0.65625,
+            "sol": 0.6875
+          },
+          "counts": {
+            "terra": {
+              "U": 21,
+              "L2": 6,
+              "L1": 4,
+              "L3": 1
+            },
+            "sol": {
+              "U": 22,
+              "L2": 5,
+              "L4": 1,
+              "L1": 3,
+              "L3": 1
+            }
+          },
+          "pooled_u_rate": 0.671875
+        },
+        "s3": {
+          "n": 32,
+          "exact": 30,
+          "agreement_rate": 0.9375,
+          "disagreements": 2,
+          "nominal_alpha_with_u": 0.8753709198813057,
+          "cohen_kappa_with_u": 0.873767258382643,
+          "u_gradable_alpha": 1.0,
+          "ordinal_alpha_u_missing": 0.8400427350427351,
+          "both_gradable_n": 10,
+          "both_u": 22,
+          "concrete_agree": 8,
+          "u_rates": {
+            "terra": 0.6875,
+            "sol": 0.6875
+          },
+          "counts": {
+            "terra": {
+              "U": 22,
+              "低": 3,
+              "中": 5,
+              "高": 2
+            },
+            "sol": {
+              "U": 22,
+              "低": 4,
+              "高": 3,
+              "中": 3
+            }
+          },
+          "pooled_u_rate": 0.6875
+        },
+        "mapped3": {
+          "n": 32,
+          "exact": 28,
+          "agreement_rate": 0.875,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.7372262773722628,
+          "cohen_kappa_with_u": 0.7338877338877339,
+          "u_gradable_alpha": 0.7906976744186047,
+          "ordinal_alpha_u_missing": 0.9934640522875817,
+          "both_gradable_n": 9,
+          "both_u": 20,
+          "concrete_agree": 8,
+          "u_rates": {
+            "terra": 0.65625,
+            "sol": 0.6875
+          },
+          "counts": {
+            "terra": {
+              "U": 21,
+              "低": 10,
+              "中": 1
+            },
+            "sol": {
+              "U": 22,
+              "低": 8,
+              "高": 1,
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.671875
+        }
+      },
+      "首QA3领域:数值计算与科学计算": {
+        "s6": {
+          "n": 28,
+          "exact": 24,
+          "agreement_rate": 0.8571428571428571,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.78743961352657,
+          "cohen_kappa_with_u": 0.7842003853564546,
+          "u_gradable_alpha": 0.8596938775510203,
+          "ordinal_alpha_u_missing": 0.7830068482242395,
+          "both_gradable_n": 13,
+          "both_u": 13,
+          "concrete_agree": 11,
+          "u_rates": {
+            "terra": 0.5357142857142857,
+            "sol": 0.4642857142857143
+          },
+          "counts": {
+            "terra": {
+              "L2": 7,
+              "U": 15,
+              "L3": 3,
+              "L1": 3
+            },
+            "sol": {
+              "L5": 1,
+              "U": 13,
+              "L3": 4,
+              "L2": 7,
+              "L1": 3
+            }
+          },
+          "pooled_u_rate": 0.5
+        },
+        "s3": {
+          "n": 28,
+          "exact": 24,
+          "agreement_rate": 0.8571428571428571,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.7908745247148289,
+          "cohen_kappa_with_u": 0.7878787878787876,
+          "u_gradable_alpha": 1.0,
+          "ordinal_alpha_u_missing": 0.7227633477633477,
+          "both_gradable_n": 15,
+          "both_u": 13,
+          "concrete_agree": 11,
+          "u_rates": {
+            "terra": 0.4642857142857143,
+            "sol": 0.4642857142857143
+          },
+          "counts": {
+            "terra": {
+              "中": 8,
+              "U": 13,
+              "高": 3,
+              "低": 4
+            },
+            "sol": {
+              "中": 8,
+              "U": 13,
+              "高": 5,
+              "低": 2
+            }
+          },
+          "pooled_u_rate": 0.4642857142857143
+        },
+        "mapped3": {
+          "n": 28,
+          "exact": 25,
+          "agreement_rate": 0.8928571428571429,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.8264984227129337,
+          "cohen_kappa_with_u": 0.8238993710691824,
+          "u_gradable_alpha": 0.8596938775510203,
+          "ordinal_alpha_u_missing": 0.7186813186813187,
+          "both_gradable_n": 13,
+          "both_u": 13,
+          "concrete_agree": 12,
+          "u_rates": {
+            "terra": 0.5357142857142857,
+            "sol": 0.4642857142857143
+          },
+          "counts": {
+            "terra": {
+              "低": 10,
+              "U": 15,
+              "中": 3
+            },
+            "sol": {
+              "高": 1,
+              "U": 13,
+              "中": 4,
+              "低": 10
+            }
+          },
+          "pooled_u_rate": 0.5
+        }
+      },
+      "首QA3领域:数学基础": {
+        "s6": {
+          "n": 13,
+          "exact": 10,
+          "agreement_rate": 0.7692307692307693,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.4274809160305343,
+          "cohen_kappa_with_u": 0.4179104477611942,
+          "u_gradable_alpha": 0.5833333333333333,
+          "ordinal_alpha_u_missing": -0.5,
+          "both_gradable_n": 2,
+          "both_u": 9,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.8461538461538461,
+            "sol": 0.6923076923076923
+          },
+          "counts": {
+            "terra": {
+              "L1": 1,
+              "U": 11,
+              "L2": 1
+            },
+            "sol": {
+              "L3": 1,
+              "L2": 2,
+              "U": 9,
+              "L1": 1
+            }
+          },
+          "pooled_u_rate": 0.7692307692307693
+        },
+        "s3": {
+          "n": 13,
+          "exact": 12,
+          "agreement_rate": 0.9230769230769231,
+          "disagreements": 1,
+          "nominal_alpha_with_u": 0.8251748251748252,
+          "cohen_kappa_with_u": 0.8194444444444445,
+          "u_gradable_alpha": 0.8120300751879699,
+          "ordinal_alpha_u_missing": 1.0,
+          "both_gradable_n": 3,
+          "both_u": 9,
+          "concrete_agree": 3,
+          "u_rates": {
+            "terra": 0.6923076923076923,
+            "sol": 0.7692307692307693
+          },
+          "counts": {
+            "terra": {
+              "低": 3,
+              "U": 9,
+              "中": 1
+            },
+            "sol": {
+              "低": 2,
+              "U": 10,
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.7307692307692307
+        },
+        "mapped3": {
+          "n": 13,
+          "exact": 10,
+          "agreement_rate": 0.7692307692307693,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.4,
+          "cohen_kappa_with_u": 0.39062500000000017,
+          "u_gradable_alpha": 0.5833333333333333,
+          "ordinal_alpha_u_missing": 0.0,
+          "both_gradable_n": 2,
+          "both_u": 9,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.8461538461538461,
+            "sol": 0.6923076923076923
+          },
+          "counts": {
+            "terra": {
+              "低": 2,
+              "U": 11
+            },
+            "sol": {
+              "中": 1,
+              "低": 3,
+              "U": 9
+            }
+          },
+          "pooled_u_rate": 0.7692307692307693
+        }
+      },
+      "首QA3领域:数学建模综合与案例": {
+        "s6": {
+          "n": 88,
+          "exact": 77,
+          "agreement_rate": 0.875,
+          "disagreements": 11,
+          "nominal_alpha_with_u": 0.5837837837837838,
+          "cohen_kappa_with_u": 0.584192439862543,
+          "u_gradable_alpha": 0.6803652968036529,
+          "ordinal_alpha_u_missing": 0.5133280286453153,
+          "both_gradable_n": 11,
+          "both_u": 69,
+          "concrete_agree": 8,
+          "u_rates": {
+            "terra": 0.8636363636363636,
+            "sol": 0.7954545454545454
+          },
+          "counts": {
+            "terra": {
+              "U": 76,
+              "L1": 9,
+              "L6": 1,
+              "L2": 2
+            },
+            "sol": {
+              "U": 70,
+              "L4": 1,
+              "L1": 9,
+              "L2": 7,
+              "L6": 1
+            }
+          },
+          "pooled_u_rate": 0.8295454545454546
+        },
+        "s3": {
+          "n": 88,
+          "exact": 78,
+          "agreement_rate": 0.8863636363636364,
+          "disagreements": 10,
+          "nominal_alpha_with_u": 0.6455337249341706,
+          "cohen_kappa_with_u": 0.6440129449838188,
+          "u_gradable_alpha": 0.8480902777777778,
+          "ordinal_alpha_u_missing": 0.625750300120048,
+          "both_gradable_n": 14,
+          "both_u": 70,
+          "concrete_agree": 8,
+          "u_rates": {
+            "terra": 0.8181818181818182,
+            "sol": 0.8181818181818182
+          },
+          "counts": {
+            "terra": {
+              "U": 72,
+              "中": 7,
+              "低": 6,
+              "高": 3
+            },
+            "sol": {
+              "U": 72,
+              "中": 4,
+              "低": 8,
+              "高": 4
+            }
+          },
+          "pooled_u_rate": 0.8181818181818182
+        },
+        "mapped3": {
+          "n": 88,
+          "exact": 79,
+          "agreement_rate": 0.8977272727272727,
+          "disagreements": 9,
+          "nominal_alpha_with_u": 0.6469401479488903,
+          "cohen_kappa_with_u": 0.6473731077471059,
+          "u_gradable_alpha": 0.6803652968036529,
+          "ordinal_alpha_u_missing": 0.631578947368421,
+          "both_gradable_n": 11,
+          "both_u": 69,
+          "concrete_agree": 10,
+          "u_rates": {
+            "terra": 0.8636363636363636,
+            "sol": 0.7954545454545454
+          },
+          "counts": {
+            "terra": {
+              "U": 76,
+              "低": 11,
+              "高": 1
+            },
+            "sol": {
+              "U": 70,
+              "高": 2,
+              "低": 16
+            }
+          },
+          "pooled_u_rate": 0.8295454545454546
+        }
+      },
+      "首QA3领域:数据处理与可视化": {
+        "s6": {
+          "n": 24,
+          "exact": 14,
+          "agreement_rate": 0.5833333333333334,
+          "disagreements": 10,
+          "nominal_alpha_with_u": 0.3840104849279161,
+          "cohen_kappa_with_u": 0.3766233766233767,
+          "u_gradable_alpha": 0.6518518518518519,
+          "ordinal_alpha_u_missing": 0.15813202716241792,
+          "both_gradable_n": 13,
+          "both_u": 7,
+          "concrete_agree": 7,
+          "u_rates": {
+            "terra": 0.4166666666666667,
+            "sol": 0.3333333333333333
+          },
+          "counts": {
+            "terra": {
+              "L2": 3,
+              "L1": 11,
+              "U": 10
+            },
+            "sol": {
+              "L4": 1,
+              "L3": 2,
+              "L1": 9,
+              "L2": 4,
+              "U": 8
+            }
+          },
+          "pooled_u_rate": 0.375
+        },
+        "s3": {
+          "n": 24,
+          "exact": 16,
+          "agreement_rate": 0.6666666666666666,
+          "disagreements": 8,
+          "nominal_alpha_with_u": 0.47412587412587415,
+          "cohen_kappa_with_u": 0.4696132596685082,
+          "u_gradable_alpha": 0.5913043478260869,
+          "ordinal_alpha_u_missing": 0.5420875420875422,
+          "both_gradable_n": 9,
+          "both_u": 10,
+          "concrete_agree": 6,
+          "u_rates": {
+            "terra": 0.5833333333333334,
+            "sol": 0.4583333333333333
+          },
+          "counts": {
+            "terra": {
+              "高": 1,
+              "低": 7,
+              "U": 14,
+              "中": 2
+            },
+            "sol": {
+              "高": 1,
+              "低": 7,
+              "中": 5,
+              "U": 11
+            }
+          },
+          "pooled_u_rate": 0.5208333333333334
+        },
+        "mapped3": {
+          "n": 24,
+          "exact": 17,
+          "agreement_rate": 0.7083333333333334,
+          "disagreements": 7,
+          "nominal_alpha_with_u": 0.4719101123595506,
+          "cohen_kappa_with_u": 0.46496815286624216,
+          "u_gradable_alpha": 0.6518518518518519,
+          "ordinal_alpha_u_missing": -0.08653846153846145,
+          "both_gradable_n": 13,
+          "both_u": 7,
+          "concrete_agree": 10,
+          "u_rates": {
+            "terra": 0.4166666666666667,
+            "sol": 0.3333333333333333
+          },
+          "counts": {
+            "terra": {
+              "低": 14,
+              "U": 10
+            },
+            "sol": {
+              "高": 1,
+              "中": 2,
+              "低": 13,
+              "U": 8
+            }
+          },
+          "pooled_u_rate": 0.375
+        }
+      },
+      "首QA3领域:无效": {
+        "s6": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 0,
+          "both_u": 1,
+          "concrete_agree": 0,
+          "u_rates": {
+            "terra": 1.0,
+            "sol": 1.0
+          },
+          "counts": {
+            "terra": {
+              "U": 1
+            },
+            "sol": {
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 1.0
+        },
+        "s3": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 0,
+          "both_u": 1,
+          "concrete_agree": 0,
+          "u_rates": {
+            "terra": 1.0,
+            "sol": 1.0
+          },
+          "counts": {
+            "terra": {
+              "U": 1
+            },
+            "sol": {
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 1.0
+        },
+        "mapped3": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 0,
+          "both_u": 1,
+          "concrete_agree": 0,
+          "u_rates": {
+            "terra": 1.0,
+            "sol": 1.0
+          },
+          "counts": {
+            "terra": {
+              "U": 1
+            },
+            "sol": {
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 1.0
+        }
+      },
+      "首QA3领域:机器学习与人工智能": {
+        "s6": {
+          "n": 127,
+          "exact": 103,
+          "agreement_rate": 0.8110236220472441,
+          "disagreements": 24,
+          "nominal_alpha_with_u": 0.6247914478156089,
+          "cohen_kappa_with_u": 0.6244455396747165,
+          "u_gradable_alpha": 0.712989222915485,
+          "ordinal_alpha_u_missing": 0.711612743006192,
+          "both_gradable_n": 33,
+          "both_u": 78,
+          "concrete_agree": 25,
+          "u_rates": {
+            "terra": 0.7086614173228346,
+            "sol": 0.6456692913385826
+          },
+          "counts": {
+            "terra": {
+              "U": 90,
+              "L2": 18,
+              "L3": 2,
+              "L1": 16,
+              "L4": 1
+            },
+            "sol": {
+              "U": 82,
+              "L1": 14,
+              "L2": 22,
+              "L3": 5,
+              "L5": 1,
+              "L4": 3
+            }
+          },
+          "pooled_u_rate": 0.6771653543307087
+        },
+        "s3": {
+          "n": 127,
+          "exact": 115,
+          "agreement_rate": 0.905511811023622,
+          "disagreements": 12,
+          "nominal_alpha_with_u": 0.8145047962363292,
+          "cohen_kappa_with_u": 0.8139875503478577,
+          "u_gradable_alpha": 0.8752201789614599,
+          "ordinal_alpha_u_missing": 0.8567718279734169,
+          "both_gradable_n": 38,
+          "both_u": 82,
+          "concrete_agree": 33,
+          "u_rates": {
+            "terra": 0.6614173228346457,
+            "sol": 0.6850393700787402
+          },
+          "counts": {
+            "terra": {
+              "U": 84,
+              "低": 17,
+              "中": 18,
+              "高": 8
+            },
+            "sol": {
+              "U": 87,
+              "中": 20,
+              "低": 12,
+              "高": 8
+            }
+          },
+          "pooled_u_rate": 0.6732283464566929
+        },
+        "mapped3": {
+          "n": 127,
+          "exact": 108,
+          "agreement_rate": 0.8503937007874016,
+          "disagreements": 19,
+          "nominal_alpha_with_u": 0.67908405100474,
+          "cohen_kappa_with_u": 0.6787378511516443,
+          "u_gradable_alpha": 0.712989222915485,
+          "ordinal_alpha_u_missing": 0.6201298701298701,
+          "both_gradable_n": 33,
+          "both_u": 78,
+          "concrete_agree": 30,
+          "u_rates": {
+            "terra": 0.7086614173228346,
+            "sol": 0.6456692913385826
+          },
+          "counts": {
+            "terra": {
+              "U": 90,
+              "低": 34,
+              "中": 2,
+              "高": 1
+            },
+            "sol": {
+              "U": 82,
+              "低": 36,
+              "中": 5,
+              "高": 4
+            }
+          },
+          "pooled_u_rate": 0.6771653543307087
+        }
+      },
+      "首QA3领域:概率统计与随机过程": {
+        "s6": {
+          "n": 68,
+          "exact": 52,
+          "agreement_rate": 0.7647058823529411,
+          "disagreements": 16,
+          "nominal_alpha_with_u": 0.6358118361153262,
+          "cohen_kappa_with_u": 0.6351441985244801,
+          "u_gradable_alpha": 0.8537378114842904,
+          "ordinal_alpha_u_missing": 0.3247555178268251,
+          "both_gradable_n": 30,
+          "both_u": 33,
+          "concrete_agree": 19,
+          "u_rates": {
+            "terra": 0.5441176470588235,
+            "sol": 0.5
+          },
+          "counts": {
+            "terra": {
+              "U": 37,
+              "L1": 13,
+              "L2": 17,
+              "L3": 1
+            },
+            "sol": {
+              "U": 34,
+              "L2": 13,
+              "L1": 12,
+              "L5": 2,
+              "L3": 7
+            }
+          },
+          "pooled_u_rate": 0.5220588235294118
+        },
+        "s3": {
+          "n": 68,
+          "exact": 53,
+          "agreement_rate": 0.7794117647058824,
+          "disagreements": 15,
+          "nominal_alpha_with_u": 0.6501382170006911,
+          "cohen_kappa_with_u": 0.6525885558583105,
+          "u_gradable_alpha": 0.70703125,
+          "ordinal_alpha_u_missing": 0.799072872464604,
+          "both_gradable_n": 27,
+          "both_u": 31,
+          "concrete_agree": 22,
+          "u_rates": {
+            "terra": 0.47058823529411764,
+            "sol": 0.5882352941176471
+          },
+          "counts": {
+            "terra": {
+              "U": 32,
+              "中": 13,
+              "低": 21,
+              "高": 2
+            },
+            "sol": {
+              "U": 40,
+              "中": 13,
+              "低": 11,
+              "高": 4
+            }
+          },
+          "pooled_u_rate": 0.5294117647058824
+        },
+        "mapped3": {
+          "n": 68,
+          "exact": 56,
+          "agreement_rate": 0.8235294117647058,
+          "disagreements": 12,
+          "nominal_alpha_with_u": 0.6873190503763752,
+          "cohen_kappa_with_u": 0.6872364890762743,
+          "u_gradable_alpha": 0.8537378114842904,
+          "ordinal_alpha_u_missing": -0.11280041797283191,
+          "both_gradable_n": 30,
+          "both_u": 33,
+          "concrete_agree": 23,
+          "u_rates": {
+            "terra": 0.5441176470588235,
+            "sol": 0.5
+          },
+          "counts": {
+            "terra": {
+              "U": 37,
+              "低": 30,
+              "中": 1
+            },
+            "sol": {
+              "U": 34,
+              "低": 25,
+              "高": 2,
+              "中": 7
+            }
+          },
+          "pooled_u_rate": 0.5220588235294118
+        }
+      },
+      "首QA3领域:评价与决策": {
+        "s6": {
+          "n": 3,
+          "exact": 2,
+          "agreement_rate": 0.6666666666666666,
+          "disagreements": 1,
+          "nominal_alpha_with_u": 0.6153846153846154,
+          "cohen_kappa_with_u": 0.5714285714285714,
+          "u_gradable_alpha": 0.0,
+          "ordinal_alpha_u_missing": 1.0,
+          "both_gradable_n": 2,
+          "both_u": 0,
+          "concrete_agree": 2,
+          "u_rates": {
+            "terra": 0.3333333333333333,
+            "sol": 0.0
+          },
+          "counts": {
+            "terra": {
+              "L3": 1,
+              "L1": 1,
+              "U": 1
+            },
+            "sol": {
+              "L3": 1,
+              "L1": 1,
+              "L2": 1
+            }
+          },
+          "pooled_u_rate": 0.16666666666666666
+        },
+        "s3": {
+          "n": 3,
+          "exact": 1,
+          "agreement_rate": 0.3333333333333333,
+          "disagreements": 2,
+          "nominal_alpha_with_u": 0.09090909090909094,
+          "cohen_kappa_with_u": 0.0,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": 0.5277777777777777,
+          "both_gradable_n": 3,
+          "both_u": 0,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.0,
+            "sol": 0.0
+          },
+          "counts": {
+            "terra": {
+              "低": 2,
+              "中": 1
+            },
+            "sol": {
+              "中": 1,
+              "低": 1,
+              "高": 1
+            }
+          },
+          "pooled_u_rate": 0.0
+        },
+        "mapped3": {
+          "n": 3,
+          "exact": 2,
+          "agreement_rate": 0.6666666666666666,
+          "disagreements": 1,
+          "nominal_alpha_with_u": 0.5454545454545454,
+          "cohen_kappa_with_u": 0.49999999999999994,
+          "u_gradable_alpha": 0.0,
+          "ordinal_alpha_u_missing": 1.0,
+          "both_gradable_n": 2,
+          "both_u": 0,
+          "concrete_agree": 2,
+          "u_rates": {
+            "terra": 0.3333333333333333,
+            "sol": 0.0
+          },
+          "counts": {
+            "terra": {
+              "中": 1,
+              "低": 1,
+              "U": 1
+            },
+            "sol": {
+              "中": 1,
+              "低": 2
+            }
+          },
+          "pooled_u_rate": 0.16666666666666666
+        }
+      }
+    },
+    "highest": {
+      "overall": {
+        "s6": {
+          "n": 425,
+          "exact": 230,
+          "agreement_rate": 0.5411764705882353,
+          "disagreements": 195,
+          "nominal_alpha_with_u": 0.4299325443420233,
+          "cohen_kappa_with_u": 0.4381508298080051,
+          "u_gradable_alpha": 0.5373707420924574,
+          "ordinal_alpha_u_missing": 0.643763839271746,
+          "both_gradable_n": 245,
+          "both_u": 94,
+          "concrete_agree": 136,
+          "u_rates": {
+            "terra": 0.4117647058823529,
+            "sol": 0.23294117647058823
+          },
+          "counts": {
+            "terra": {
+              "L5": 28,
+              "U": 175,
+              "L2": 86,
+              "L4": 59,
+              "L3": 33,
+              "L6": 14,
+              "L1": 30
+            },
+            "sol": {
+              "L5": 82,
+              "U": 99,
+              "L3": 31,
+              "L4": 75,
+              "L2": 77,
+              "L1": 36,
+              "L6": 25
+            }
+          },
+          "pooled_u_rate": 0.32235294117647056,
+          "nominal_alpha_ci95": [
+            0.3711995227008549,
+            0.4868362090227287
+          ]
+        },
+        "s3": {
+          "n": 425,
+          "exact": 340,
+          "agreement_rate": 0.8,
+          "disagreements": 85,
+          "nominal_alpha_with_u": 0.7241820822504204,
+          "cohen_kappa_with_u": 0.7247870670871996,
+          "u_gradable_alpha": 0.8711527954835185,
+          "ordinal_alpha_u_missing": 0.7941716898787947,
+          "both_gradable_n": 313,
+          "both_u": 92,
+          "concrete_agree": 248,
+          "u_rates": {
+            "terra": 0.24941176470588236,
+            "sol": 0.23058823529411765
+          },
+          "counts": {
+            "terra": {
+              "高": 147,
+              "U": 106,
+              "低": 89,
+              "中": 83
+            },
+            "sol": {
+              "高": 179,
+              "U": 98,
+              "中": 85,
+              "低": 63
+            }
+          },
+          "pooled_u_rate": 0.24,
+          "nominal_alpha_ci95": [
+            0.6716140579732128,
+            0.7763270556237869
+          ]
+        },
+        "mapped3": {
+          "n": 425,
+          "exact": 269,
+          "agreement_rate": 0.6329411764705882,
+          "disagreements": 156,
+          "nominal_alpha_with_u": 0.4814231848989229,
+          "cohen_kappa_with_u": 0.4930688829929579,
+          "u_gradable_alpha": 0.5373707420924574,
+          "ordinal_alpha_u_missing": 0.5379033160901232,
+          "both_gradable_n": 245,
+          "both_u": 94,
+          "concrete_agree": 175,
+          "u_rates": {
+            "terra": 0.4117647058823529,
+            "sol": 0.23294117647058823
+          },
+          "counts": {
+            "terra": {
+              "高": 101,
+              "U": 175,
+              "低": 116,
+              "中": 33
+            },
+            "sol": {
+              "高": 182,
+              "U": 99,
+              "中": 31,
+              "低": 113
+            }
+          },
+          "pooled_u_rate": 0.32235294117647056,
+          "nominal_alpha_ci95": [
+            0.4178606894594977,
+            0.5423612777828053
+          ]
+        }
+      },
+      "学期:2025秋": {
+        "s6": {
+          "n": 297,
+          "exact": 152,
+          "agreement_rate": 0.5117845117845118,
+          "disagreements": 145,
+          "nominal_alpha_with_u": 0.39655837912569925,
+          "cohen_kappa_with_u": 0.4087401834257785,
+          "u_gradable_alpha": 0.4250864689235929,
+          "ordinal_alpha_u_missing": 0.6553618033384094,
+          "both_gradable_n": 166,
+          "both_u": 57,
+          "concrete_agree": 95,
+          "u_rates": {
+            "terra": 0.4276094276094276,
+            "sol": 0.2053872053872054
+          },
+          "counts": {
+            "terra": {
+              "L5": 22,
+              "U": 127,
+              "L2": 50,
+              "L4": 45,
+              "L3": 18,
+              "L6": 11,
+              "L1": 24
+            },
+            "sol": {
+              "L5": 65,
+              "U": 61,
+              "L3": 20,
+              "L4": 49,
+              "L2": 56,
+              "L1": 25,
+              "L6": 21
+            }
+          },
+          "pooled_u_rate": 0.3164983164983165
+        },
+        "s3": {
+          "n": 297,
+          "exact": 239,
+          "agreement_rate": 0.8047138047138047,
+          "disagreements": 58,
+          "nominal_alpha_with_u": 0.7271465177346037,
+          "cohen_kappa_with_u": 0.7276091081593928,
+          "u_gradable_alpha": 0.9067496025020529,
+          "ordinal_alpha_u_missing": 0.8137464282664455,
+          "both_gradable_n": 232,
+          "both_u": 56,
+          "concrete_agree": 183,
+          "u_rates": {
+            "terra": 0.20875420875420875,
+            "sol": 0.19865319865319866
+          },
+          "counts": {
+            "terra": {
+              "高": 112,
+              "U": 62,
+              "低": 64,
+              "中": 59
+            },
+            "sol": {
+              "高": 133,
+              "U": 59,
+              "中": 61,
+              "低": 44
+            }
+          },
+          "pooled_u_rate": 0.2037037037037037
+        },
+        "mapped3": {
+          "n": 297,
+          "exact": 182,
+          "agreement_rate": 0.6127946127946128,
+          "disagreements": 115,
+          "nominal_alpha_with_u": 0.4470391722818199,
+          "cohen_kappa_with_u": 0.4627858693258674,
+          "u_gradable_alpha": 0.4250864689235929,
+          "ordinal_alpha_u_missing": 0.578250106319538,
+          "both_gradable_n": 166,
+          "both_u": 57,
+          "concrete_agree": 125,
+          "u_rates": {
+            "terra": 0.4276094276094276,
+            "sol": 0.2053872053872054
+          },
+          "counts": {
+            "terra": {
+              "高": 78,
+              "U": 127,
+              "低": 74,
+              "中": 18
+            },
+            "sol": {
+              "高": 135,
+              "U": 61,
+              "中": 20,
+              "低": 81
+            }
+          },
+          "pooled_u_rate": 0.3164983164983165
+        }
+      },
+      "学期:2026春": {
+        "s6": {
+          "n": 128,
+          "exact": 78,
+          "agreement_rate": 0.609375,
+          "disagreements": 50,
+          "nominal_alpha_with_u": 0.5072273324572931,
+          "cohen_kappa_with_u": 0.5112638411607484,
+          "u_gradable_alpha": 0.7906976744186047,
+          "ordinal_alpha_u_missing": 0.5920894047642117,
+          "both_gradable_n": 79,
+          "both_u": 37,
+          "concrete_agree": 41,
+          "u_rates": {
+            "terra": 0.375,
+            "sol": 0.296875
+          },
+          "counts": {
+            "terra": {
+              "L2": 36,
+              "L1": 6,
+              "L4": 14,
+              "U": 48,
+              "L6": 3,
+              "L5": 6,
+              "L3": 15
+            },
+            "sol": {
+              "L2": 21,
+              "L4": 26,
+              "U": 38,
+              "L6": 4,
+              "L1": 11,
+              "L5": 17,
+              "L3": 11
+            }
+          },
+          "pooled_u_rate": 0.3359375
+        },
+        "s3": {
+          "n": 128,
+          "exact": 101,
+          "agreement_rate": 0.7890625,
+          "disagreements": 27,
+          "nominal_alpha_with_u": 0.7122016469506333,
+          "cohen_kappa_with_u": 0.7121679020571333,
+          "u_gradable_alpha": 0.8046521345497597,
+          "ordinal_alpha_u_missing": 0.7383298917252663,
+          "both_gradable_n": 81,
+          "both_u": 36,
+          "concrete_agree": 65,
+          "u_rates": {
+            "terra": 0.34375,
+            "sol": 0.3046875
+          },
+          "counts": {
+            "terra": {
+              "中": 24,
+              "高": 35,
+              "低": 25,
+              "U": 44
+            },
+            "sol": {
+              "中": 24,
+              "U": 39,
+              "低": 19,
+              "高": 46
+            }
+          },
+          "pooled_u_rate": 0.32421875
+        },
+        "mapped3": {
+          "n": 128,
+          "exact": 87,
+          "agreement_rate": 0.6796875,
+          "disagreements": 41,
+          "nominal_alpha_with_u": 0.5559378185524975,
+          "cohen_kappa_with_u": 0.5615705931495405,
+          "u_gradable_alpha": 0.7906976744186047,
+          "ordinal_alpha_u_missing": 0.44858853396022114,
+          "both_gradable_n": 79,
+          "both_u": 37,
+          "concrete_agree": 50,
+          "u_rates": {
+            "terra": 0.375,
+            "sol": 0.296875
+          },
+          "counts": {
+            "terra": {
+              "低": 42,
+              "高": 23,
+              "U": 48,
+              "中": 15
+            },
+            "sol": {
+              "低": 32,
+              "高": 47,
+              "U": 38,
+              "中": 11
+            }
+          },
+          "pooled_u_rate": 0.3359375
+        }
+      },
+      "首QA3领域:优化与运筹": {
+        "s6": {
+          "n": 138,
+          "exact": 81,
+          "agreement_rate": 0.5869565217391305,
+          "disagreements": 57,
+          "nominal_alpha_with_u": 0.4933742727860375,
+          "cohen_kappa_with_u": 0.49625360230547555,
+          "u_gradable_alpha": 0.5440051020408163,
+          "ordinal_alpha_u_missing": 0.7456803853019005,
+          "both_gradable_n": 85,
+          "both_u": 27,
+          "concrete_agree": 54,
+          "u_rates": {
+            "terra": 0.36231884057971014,
+            "sol": 0.21739130434782608
+          },
+          "counts": {
+            "terra": {
+              "L5": 11,
+              "L4": 25,
+              "L2": 24,
+              "U": 50,
+              "L3": 12,
+              "L1": 11,
+              "L6": 5
+            },
+            "sol": {
+              "L5": 20,
+              "L4": 30,
+              "L2": 29,
+              "U": 30,
+              "L3": 10,
+              "L1": 8,
+              "L6": 11
+            }
+          },
+          "pooled_u_rate": 0.2898550724637681
+        },
+        "s3": {
+          "n": 138,
+          "exact": 112,
+          "agreement_rate": 0.8115942028985508,
+          "disagreements": 26,
+          "nominal_alpha_with_u": 0.7408575260048567,
+          "cohen_kappa_with_u": 0.7408825016249008,
+          "u_gradable_alpha": 0.9553571428571429,
+          "ordinal_alpha_u_missing": 0.8307172201404408,
+          "both_gradable_n": 109,
+          "both_u": 27,
+          "concrete_agree": 85,
+          "u_rates": {
+            "terra": 0.2028985507246377,
+            "sol": 0.2028985507246377
+          },
+          "counts": {
+            "terra": {
+              "高": 48,
+              "中": 31,
+              "低": 31,
+              "U": 28
+            },
+            "sol": {
+              "高": 59,
+              "中": 29,
+              "低": 22,
+              "U": 28
+            }
+          },
+          "pooled_u_rate": 0.2028985507246377
+        },
+        "mapped3": {
+          "n": 138,
+          "exact": 95,
+          "agreement_rate": 0.6884057971014492,
+          "disagreements": 43,
+          "nominal_alpha_with_u": 0.5596231193207211,
+          "cohen_kappa_with_u": 0.5645729380686821,
+          "u_gradable_alpha": 0.5440051020408163,
+          "ordinal_alpha_u_missing": 0.6885098039215686,
+          "both_gradable_n": 85,
+          "both_u": 27,
+          "concrete_agree": 68,
+          "u_rates": {
+            "terra": 0.36231884057971014,
+            "sol": 0.21739130434782608
+          },
+          "counts": {
+            "terra": {
+              "高": 41,
+              "低": 35,
+              "U": 50,
+              "中": 12
+            },
+            "sol": {
+              "高": 61,
+              "低": 37,
+              "U": 30,
+              "中": 10
+            }
+          },
+          "pooled_u_rate": 0.2898550724637681
+        }
+      },
+      "首QA3领域:其他与待判定": {
+        "s6": {
+          "n": 25,
+          "exact": 12,
+          "agreement_rate": 0.48,
+          "disagreements": 13,
+          "nominal_alpha_with_u": 0.3061002178649237,
+          "cohen_kappa_with_u": 0.3243243243243243,
+          "u_gradable_alpha": 0.4367816091954023,
+          "ordinal_alpha_u_missing": 0.30438462840697467,
+          "both_gradable_n": 11,
+          "both_u": 7,
+          "concrete_agree": 5,
+          "u_rates": {
+            "terra": 0.56,
+            "sol": 0.28
+          },
+          "counts": {
+            "terra": {
+              "L4": 2,
+              "L2": 7,
+              "U": 14,
+              "L5": 1,
+              "L3": 1
+            },
+            "sol": {
+              "L4": 5,
+              "L2": 4,
+              "L3": 3,
+              "L5": 5,
+              "U": 7,
+              "L1": 1
+            }
+          },
+          "pooled_u_rate": 0.42
+        },
+        "s3": {
+          "n": 25,
+          "exact": 17,
+          "agreement_rate": 0.68,
+          "disagreements": 8,
+          "nominal_alpha_with_u": 0.5565610859728507,
+          "cohen_kappa_with_u": 0.5555555555555556,
+          "u_gradable_alpha": 0.8055555555555556,
+          "ordinal_alpha_u_missing": 0.5444450883801797,
+          "both_gradable_n": 17,
+          "both_u": 6,
+          "concrete_agree": 11,
+          "u_rates": {
+            "terra": 0.28,
+            "sol": 0.28
+          },
+          "counts": {
+            "terra": {
+              "高": 8,
+              "中": 5,
+              "低": 5,
+              "U": 7
+            },
+            "sol": {
+              "高": 12,
+              "中": 5,
+              "U": 7,
+              "低": 1
+            }
+          },
+          "pooled_u_rate": 0.28
+        },
+        "mapped3": {
+          "n": 25,
+          "exact": 13,
+          "agreement_rate": 0.52,
+          "disagreements": 12,
+          "nominal_alpha_with_u": 0.3202312138728324,
+          "cohen_kappa_with_u": 0.34640522875817,
+          "u_gradable_alpha": 0.4367816091954023,
+          "ordinal_alpha_u_missing": 0.25757575757575757,
+          "both_gradable_n": 11,
+          "both_u": 7,
+          "concrete_agree": 6,
+          "u_rates": {
+            "terra": 0.56,
+            "sol": 0.28
+          },
+          "counts": {
+            "terra": {
+              "高": 3,
+              "低": 7,
+              "U": 14,
+              "中": 1
+            },
+            "sol": {
+              "高": 10,
+              "低": 5,
+              "中": 3,
+              "U": 7
+            }
+          },
+          "pooled_u_rate": 0.42
+        }
+      },
+      "首QA3领域:图论与网络": {
+        "s6": {
+          "n": 30,
+          "exact": 16,
+          "agreement_rate": 0.5333333333333333,
+          "disagreements": 14,
+          "nominal_alpha_with_u": 0.43502051983584133,
+          "cohen_kappa_with_u": 0.43699731903485256,
+          "u_gradable_alpha": 0.5629629629629629,
+          "ordinal_alpha_u_missing": 0.5232292917166868,
+          "both_gradable_n": 20,
+          "both_u": 5,
+          "concrete_agree": 11,
+          "u_rates": {
+            "terra": 0.3333333333333333,
+            "sol": 0.16666666666666666
+          },
+          "counts": {
+            "terra": {
+              "L5": 4,
+              "U": 10,
+              "L4": 7,
+              "L3": 2,
+              "L2": 3,
+              "L1": 4
+            },
+            "sol": {
+              "L5": 9,
+              "U": 5,
+              "L4": 5,
+              "L3": 1,
+              "L2": 5,
+              "L1": 4,
+              "L6": 1
+            }
+          },
+          "pooled_u_rate": 0.25
+        },
+        "s3": {
+          "n": 30,
+          "exact": 26,
+          "agreement_rate": 0.8666666666666667,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.8202589489718203,
+          "cohen_kappa_with_u": 0.817629179331307,
+          "u_gradable_alpha": 0.8905380333951762,
+          "ordinal_alpha_u_missing": 0.8946993321993322,
+          "both_gradable_n": 24,
+          "both_u": 5,
+          "concrete_agree": 21,
+          "u_rates": {
+            "terra": 0.2,
+            "sol": 0.16666666666666666
+          },
+          "counts": {
+            "terra": {
+              "高": 10,
+              "U": 6,
+              "中": 8,
+              "低": 6
+            },
+            "sol": {
+              "高": 12,
+              "U": 5,
+              "中": 7,
+              "低": 6
+            }
+          },
+          "pooled_u_rate": 0.18333333333333332
+        },
+        "mapped3": {
+          "n": 30,
+          "exact": 20,
+          "agreement_rate": 0.6666666666666666,
+          "disagreements": 10,
+          "nominal_alpha_with_u": 0.5152013147082991,
+          "cohen_kappa_with_u": 0.5161290322580645,
+          "u_gradable_alpha": 0.5629629629629629,
+          "ordinal_alpha_u_missing": 0.4867760617760618,
+          "both_gradable_n": 20,
+          "both_u": 5,
+          "concrete_agree": 15,
+          "u_rates": {
+            "terra": 0.3333333333333333,
+            "sol": 0.16666666666666666
+          },
+          "counts": {
+            "terra": {
+              "高": 11,
+              "U": 10,
+              "中": 2,
+              "低": 7
+            },
+            "sol": {
+              "高": 15,
+              "U": 5,
+              "中": 1,
+              "低": 9
+            }
+          },
+          "pooled_u_rate": 0.25
+        }
+      },
+      "首QA3领域:学习过程与工具使用": {
+        "s6": {
+          "n": 14,
+          "exact": 10,
+          "agreement_rate": 0.7142857142857143,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.4033149171270719,
+          "cohen_kappa_with_u": 0.3978494623655915,
+          "u_gradable_alpha": 0.6625,
+          "ordinal_alpha_u_missing": 0.30107526881720437,
+          "both_gradable_n": 3,
+          "both_u": 9,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.7142857142857143,
+            "sol": 0.7142857142857143
+          },
+          "counts": {
+            "terra": {
+              "L3": 2,
+              "U": 10,
+              "L4": 1,
+              "L2": 1
+            },
+            "sol": {
+              "L5": 1,
+              "U": 10,
+              "L2": 3
+            }
+          },
+          "pooled_u_rate": 0.7142857142857143
+        },
+        "s3": {
+          "n": 14,
+          "exact": 12,
+          "agreement_rate": 0.8571428571428571,
+          "disagreements": 2,
+          "nominal_alpha_with_u": 0.7,
+          "cohen_kappa_with_u": 0.6888888888888888,
+          "u_gradable_alpha": 0.6625,
+          "ordinal_alpha_u_missing": 1.0,
+          "both_gradable_n": 3,
+          "both_u": 9,
+          "concrete_agree": 3,
+          "u_rates": {
+            "terra": 0.7142857142857143,
+            "sol": 0.7142857142857143
+          },
+          "counts": {
+            "terra": {
+              "高": 2,
+              "U": 10,
+              "中": 1,
+              "低": 1
+            },
+            "sol": {
+              "高": 2,
+              "U": 10,
+              "中": 1,
+              "低": 1
+            }
+          },
+          "pooled_u_rate": 0.7142857142857143
+        },
+        "mapped3": {
+          "n": 14,
+          "exact": 10,
+          "agreement_rate": 0.7142857142857143,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.4,
+          "cohen_kappa_with_u": 0.391304347826087,
+          "u_gradable_alpha": 0.6625,
+          "ordinal_alpha_u_missing": 0.19444444444444453,
+          "both_gradable_n": 3,
+          "both_u": 9,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.7142857142857143,
+            "sol": 0.7142857142857143
+          },
+          "counts": {
+            "terra": {
+              "中": 2,
+              "U": 10,
+              "高": 1,
+              "低": 1
+            },
+            "sol": {
+              "高": 1,
+              "U": 10,
+              "低": 3
+            }
+          },
+          "pooled_u_rate": 0.7142857142857143
+        }
+      },
+      "首QA3领域:微分方程与动态系统": {
+        "s6": {
+          "n": 18,
+          "exact": 8,
+          "agreement_rate": 0.4444444444444444,
+          "disagreements": 10,
+          "nominal_alpha_with_u": 0.30417495029821073,
+          "cohen_kappa_with_u": 0.32584269662921345,
+          "u_gradable_alpha": 0.1806020066889632,
+          "ordinal_alpha_u_missing": 0.7502920560747663,
+          "both_gradable_n": 8,
+          "both_u": 3,
+          "concrete_agree": 5,
+          "u_rates": {
+            "terra": 0.5555555555555556,
+            "sol": 0.16666666666666666
+          },
+          "counts": {
+            "terra": {
+              "L3": 3,
+              "U": 10,
+              "L4": 2,
+              "L1": 2,
+              "L2": 1
+            },
+            "sol": {
+              "L3": 4,
+              "L4": 4,
+              "L2": 3,
+              "U": 3,
+              "L5": 2,
+              "L1": 2
+            }
+          },
+          "pooled_u_rate": 0.3611111111111111
+        },
+        "s3": {
+          "n": 18,
+          "exact": 16,
+          "agreement_rate": 0.8888888888888888,
+          "disagreements": 2,
+          "nominal_alpha_with_u": 0.83451536643026,
+          "cohen_kappa_with_u": 0.830188679245283,
+          "u_gradable_alpha": 0.8275862068965517,
+          "ordinal_alpha_u_missing": 0.9747899159663865,
+          "both_gradable_n": 14,
+          "both_u": 3,
+          "concrete_agree": 13,
+          "u_rates": {
+            "terra": 0.2222222222222222,
+            "sol": 0.16666666666666666
+          },
+          "counts": {
+            "terra": {
+              "高": 8,
+              "U": 4,
+              "低": 6
+            },
+            "sol": {
+              "高": 8,
+              "低": 6,
+              "U": 3,
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.19444444444444445
+        },
+        "mapped3": {
+          "n": 18,
+          "exact": 9,
+          "agreement_rate": 0.5,
+          "disagreements": 9,
+          "nominal_alpha_with_u": 0.33684210526315783,
+          "cohen_kappa_with_u": 0.3647058823529412,
+          "u_gradable_alpha": 0.1806020066889632,
+          "ordinal_alpha_u_missing": 0.84375,
+          "both_gradable_n": 8,
+          "both_u": 3,
+          "concrete_agree": 6,
+          "u_rates": {
+            "terra": 0.5555555555555556,
+            "sol": 0.16666666666666666
+          },
+          "counts": {
+            "terra": {
+              "中": 3,
+              "U": 10,
+              "高": 2,
+              "低": 3
+            },
+            "sol": {
+              "中": 4,
+              "高": 6,
+              "低": 5,
+              "U": 3
+            }
+          },
+          "pooled_u_rate": 0.3611111111111111
+        }
+      },
+      "首QA3领域:数值计算与科学计算": {
+        "s6": {
+          "n": 21,
+          "exact": 11,
+          "agreement_rate": 0.5238095238095238,
+          "disagreements": 10,
+          "nominal_alpha_with_u": 0.41344778254649506,
+          "cohen_kappa_with_u": 0.4385026737967915,
+          "u_gradable_alpha": 0.16326530612244905,
+          "ordinal_alpha_u_missing": 0.6881720430107527,
+          "both_gradable_n": 15,
+          "both_u": 1,
+          "concrete_agree": 10,
+          "u_rates": {
+            "terra": 0.2857142857142857,
+            "sol": 0.047619047619047616
+          },
+          "counts": {
+            "terra": {
+              "L5": 3,
+              "L2": 5,
+              "L3": 3,
+              "U": 6,
+              "L4": 2,
+              "L1": 2
+            },
+            "sol": {
+              "L5": 11,
+              "L2": 3,
+              "L3": 1,
+              "L1": 3,
+              "L4": 2,
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 0.16666666666666666
+        },
+        "s3": {
+          "n": 21,
+          "exact": 19,
+          "agreement_rate": 0.9047619047619048,
+          "disagreements": 2,
+          "nominal_alpha_with_u": 0.8395303326810176,
+          "cohen_kappa_with_u": 0.8359375,
+          "u_gradable_alpha": 1.0,
+          "ordinal_alpha_u_missing": 0.9191193181818181,
+          "both_gradable_n": 20,
+          "both_u": 1,
+          "concrete_agree": 18,
+          "u_rates": {
+            "terra": 0.047619047619047616,
+            "sol": 0.047619047619047616
+          },
+          "counts": {
+            "terra": {
+              "高": 12,
+              "低": 4,
+              "中": 4,
+              "U": 1
+            },
+            "sol": {
+              "高": 13,
+              "中": 4,
+              "低": 3,
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 0.047619047619047616
+        },
+        "mapped3": {
+          "n": 21,
+          "exact": 12,
+          "agreement_rate": 0.5714285714285714,
+          "disagreements": 9,
+          "nominal_alpha_with_u": 0.3880597014925373,
+          "cohen_kappa_with_u": 0.4184615384615384,
+          "u_gradable_alpha": 0.16326530612244905,
+          "ordinal_alpha_u_missing": 0.6178774928774928,
+          "both_gradable_n": 15,
+          "both_u": 1,
+          "concrete_agree": 11,
+          "u_rates": {
+            "terra": 0.2857142857142857,
+            "sol": 0.047619047619047616
+          },
+          "counts": {
+            "terra": {
+              "高": 5,
+              "低": 7,
+              "中": 3,
+              "U": 6
+            },
+            "sol": {
+              "高": 13,
+              "低": 6,
+              "中": 1,
+              "U": 1
+            }
+          },
+          "pooled_u_rate": 0.16666666666666666
+        }
+      },
+      "首QA3领域:数学基础": {
+        "s6": {
+          "n": 9,
+          "exact": 5,
+          "agreement_rate": 0.5555555555555556,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.4086956521739131,
+          "cohen_kappa_with_u": 0.37931034482758624,
+          "u_gradable_alpha": 1.0,
+          "ordinal_alpha_u_missing": 0.4367681498829039,
+          "both_gradable_n": 7,
+          "both_u": 2,
+          "concrete_agree": 3,
+          "u_rates": {
+            "terra": 0.2222222222222222,
+            "sol": 0.2222222222222222
+          },
+          "counts": {
+            "terra": {
+              "L5": 1,
+              "L2": 4,
+              "L1": 2,
+              "U": 2
+            },
+            "sol": {
+              "L5": 1,
+              "L2": 4,
+              "L1": 1,
+              "U": 2,
+              "L3": 1
+            }
+          },
+          "pooled_u_rate": 0.2222222222222222
+        },
+        "s3": {
+          "n": 9,
+          "exact": 6,
+          "agreement_rate": 0.6666666666666666,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.5714285714285714,
+          "cohen_kappa_with_u": 0.5573770491803278,
+          "u_gradable_alpha": 0.7384615384615385,
+          "ordinal_alpha_u_missing": 0.32705026455026465,
+          "both_gradable_n": 6,
+          "both_u": 2,
+          "concrete_agree": 4,
+          "u_rates": {
+            "terra": 0.2222222222222222,
+            "sol": 0.3333333333333333
+          },
+          "counts": {
+            "terra": {
+              "高": 1,
+              "低": 3,
+              "中": 3,
+              "U": 2
+            },
+            "sol": {
+              "高": 2,
+              "低": 1,
+              "中": 3,
+              "U": 3
+            }
+          },
+          "pooled_u_rate": 0.2777777777777778
+        },
+        "mapped3": {
+          "n": 9,
+          "exact": 8,
+          "agreement_rate": 0.8888888888888888,
+          "disagreements": 1,
+          "nominal_alpha_with_u": 0.8131868131868132,
+          "cohen_kappa_with_u": 0.8043478260869563,
+          "u_gradable_alpha": 1.0,
+          "ordinal_alpha_u_missing": 0.7142857142857142,
+          "both_gradable_n": 7,
+          "both_u": 2,
+          "concrete_agree": 6,
+          "u_rates": {
+            "terra": 0.2222222222222222,
+            "sol": 0.2222222222222222
+          },
+          "counts": {
+            "terra": {
+              "高": 1,
+              "低": 6,
+              "U": 2
+            },
+            "sol": {
+              "高": 1,
+              "低": 5,
+              "U": 2,
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.2222222222222222
+        }
+      },
+      "首QA3领域:数学建模综合与案例": {
+        "s6": {
+          "n": 21,
+          "exact": 17,
+          "agreement_rate": 0.8095238095238095,
+          "disagreements": 4,
+          "nominal_alpha_with_u": 0.7220338983050848,
+          "cohen_kappa_with_u": 0.7171717171717171,
+          "u_gradable_alpha": 0.8136363636363637,
+          "ordinal_alpha_u_missing": 0.8557537470580949,
+          "both_gradable_n": 9,
+          "both_u": 10,
+          "concrete_agree": 7,
+          "u_rates": {
+            "terra": 0.5714285714285714,
+            "sol": 0.47619047619047616
+          },
+          "counts": {
+            "terra": {
+              "L6": 3,
+              "U": 12,
+              "L2": 3,
+              "L4": 1,
+              "L1": 1,
+              "L3": 1
+            },
+            "sol": {
+              "L6": 4,
+              "L4": 2,
+              "U": 10,
+              "L2": 3,
+              "L3": 1,
+              "L5": 1
+            }
+          },
+          "pooled_u_rate": 0.5238095238095238
+        },
+        "s3": {
+          "n": 21,
+          "exact": 18,
+          "agreement_rate": 0.8571428571428571,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.7505070993914807,
+          "cohen_kappa_with_u": 0.7449392712550607,
+          "u_gradable_alpha": 0.8136363636363637,
+          "ordinal_alpha_u_missing": 0.537037037037037,
+          "both_gradable_n": 9,
+          "both_u": 10,
+          "concrete_agree": 8,
+          "u_rates": {
+            "terra": 0.5238095238095238,
+            "sol": 0.5238095238095238
+          },
+          "counts": {
+            "terra": {
+              "高": 8,
+              "U": 11,
+              "低": 1,
+              "中": 1
+            },
+            "sol": {
+              "高": 9,
+              "U": 11,
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.5238095238095238
+        },
+        "mapped3": {
+          "n": 21,
+          "exact": 18,
+          "agreement_rate": 0.8571428571428571,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.7775768535262206,
+          "cohen_kappa_with_u": 0.775,
+          "u_gradable_alpha": 0.8136363636363637,
+          "ordinal_alpha_u_missing": 0.7615039281705949,
+          "both_gradable_n": 9,
+          "both_u": 10,
+          "concrete_agree": 8,
+          "u_rates": {
+            "terra": 0.5714285714285714,
+            "sol": 0.47619047619047616
+          },
+          "counts": {
+            "terra": {
+              "高": 4,
+              "U": 12,
+              "低": 4,
+              "中": 1
+            },
+            "sol": {
+              "高": 7,
+              "U": 10,
+              "低": 3,
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.5238095238095238
+        }
+      },
+      "首QA3领域:数据处理与可视化": {
+        "s6": {
+          "n": 17,
+          "exact": 7,
+          "agreement_rate": 0.4117647058823529,
+          "disagreements": 10,
+          "nominal_alpha_with_u": 0.2963752665245203,
+          "cohen_kappa_with_u": 0.3253968253968254,
+          "u_gradable_alpha": 0.17499999999999993,
+          "ordinal_alpha_u_missing": 0.8074433656957929,
+          "both_gradable_n": 9,
+          "both_u": 2,
+          "concrete_agree": 5,
+          "u_rates": {
+            "terra": 0.47058823529411764,
+            "sol": 0.11764705882352941
+          },
+          "counts": {
+            "terra": {
+              "L2": 4,
+              "L5": 2,
+              "U": 8,
+              "L6": 2,
+              "L1": 1
+            },
+            "sol": {
+              "L5": 4,
+              "L1": 5,
+              "L6": 2,
+              "L2": 1,
+              "L4": 2,
+              "U": 2,
+              "L3": 1
+            }
+          },
+          "pooled_u_rate": 0.29411764705882354
+        },
+        "s3": {
+          "n": 17,
+          "exact": 14,
+          "agreement_rate": 0.8235294117647058,
+          "disagreements": 3,
+          "nominal_alpha_with_u": 0.7506297229219143,
+          "cohen_kappa_with_u": 0.7462686567164178,
+          "u_gradable_alpha": 0.8533333333333333,
+          "ordinal_alpha_u_missing": 0.8606060606060606,
+          "both_gradable_n": 12,
+          "both_u": 4,
+          "concrete_agree": 10,
+          "u_rates": {
+            "terra": 0.29411764705882354,
+            "sol": 0.23529411764705882
+          },
+          "counts": {
+            "terra": {
+              "高": 6,
+              "低": 4,
+              "U": 5,
+              "中": 2
+            },
+            "sol": {
+              "高": 8,
+              "低": 5,
+              "U": 4
+            }
+          },
+          "pooled_u_rate": 0.2647058823529412
+        },
+        "mapped3": {
+          "n": 17,
+          "exact": 7,
+          "agreement_rate": 0.4117647058823529,
+          "disagreements": 10,
+          "nominal_alpha_with_u": 0.16455696202531644,
+          "cohen_kappa_with_u": 0.19431279620853076,
+          "u_gradable_alpha": 0.17499999999999993,
+          "ordinal_alpha_u_missing": 0.2513227513227514,
+          "both_gradable_n": 9,
+          "both_u": 2,
+          "concrete_agree": 5,
+          "u_rates": {
+            "terra": 0.47058823529411764,
+            "sol": 0.11764705882352941
+          },
+          "counts": {
+            "terra": {
+              "低": 5,
+              "高": 4,
+              "U": 8
+            },
+            "sol": {
+              "高": 8,
+              "低": 6,
+              "U": 2,
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.29411764705882354
+        }
+      },
+      "首QA3领域:机器学习与人工智能": {
+        "s6": {
+          "n": 80,
+          "exact": 37,
+          "agreement_rate": 0.4625,
+          "disagreements": 43,
+          "nominal_alpha_with_u": 0.31909172393187935,
+          "cohen_kappa_with_u": 0.3315196268946755,
+          "u_gradable_alpha": 0.531948051948052,
+          "ordinal_alpha_u_missing": 0.46118524433911234,
+          "both_gradable_n": 44,
+          "both_u": 19,
+          "concrete_agree": 18,
+          "u_rates": {
+            "terra": 0.45,
+            "sol": 0.2375
+          },
+          "counts": {
+            "terra": {
+              "U": 36,
+              "L2": 17,
+              "L4": 12,
+              "L5": 3,
+              "L3": 7,
+              "L1": 2,
+              "L6": 3
+            },
+            "sol": {
+              "U": 19,
+              "L5": 14,
+              "L4": 20,
+              "L3": 4,
+              "L1": 5,
+              "L2": 14,
+              "L6": 4
+            }
+          },
+          "pooled_u_rate": 0.34375
+        },
+        "s3": {
+          "n": 80,
+          "exact": 57,
+          "agreement_rate": 0.7125,
+          "disagreements": 23,
+          "nominal_alpha_with_u": 0.6112469437652812,
+          "cohen_kappa_with_u": 0.6128760782663581,
+          "u_gradable_alpha": 0.7862903225806451,
+          "ordinal_alpha_u_missing": 0.6222019234762026,
+          "both_gradable_n": 59,
+          "both_u": 15,
+          "concrete_agree": 42,
+          "u_rates": {
+            "terra": 0.2625,
+            "sol": 0.1875
+          },
+          "counts": {
+            "terra": {
+              "U": 21,
+              "低": 18,
+              "中": 17,
+              "高": 24
+            },
+            "sol": {
+              "U": 15,
+              "低": 10,
+              "高": 31,
+              "中": 24
+            }
+          },
+          "pooled_u_rate": 0.225
+        },
+        "mapped3": {
+          "n": 80,
+          "exact": 45,
+          "agreement_rate": 0.5625,
+          "disagreements": 35,
+          "nominal_alpha_with_u": 0.3773078214165827,
+          "cohen_kappa_with_u": 0.39694163256515186,
+          "u_gradable_alpha": 0.531948051948052,
+          "ordinal_alpha_u_missing": 0.24508236640408776,
+          "both_gradable_n": 44,
+          "both_u": 19,
+          "concrete_agree": 26,
+          "u_rates": {
+            "terra": 0.45,
+            "sol": 0.2375
+          },
+          "counts": {
+            "terra": {
+              "U": 36,
+              "低": 19,
+              "高": 18,
+              "中": 7
+            },
+            "sol": {
+              "U": 19,
+              "高": 38,
+              "中": 4,
+              "低": 19
+            }
+          },
+          "pooled_u_rate": 0.34375
+        }
+      },
+      "首QA3领域:概率统计与随机过程": {
+        "s6": {
+          "n": 51,
+          "exact": 25,
+          "agreement_rate": 0.49019607843137253,
+          "disagreements": 26,
+          "nominal_alpha_with_u": 0.3824082784571966,
+          "cohen_kappa_with_u": 0.3956244302643573,
+          "u_gradable_alpha": 0.5511111111111111,
+          "ordinal_alpha_u_missing": 0.5663930976430976,
+          "both_gradable_n": 33,
+          "both_u": 9,
+          "concrete_agree": 16,
+          "u_rates": {
+            "terra": 0.3333333333333333,
+            "sol": 0.19607843137254902
+          },
+          "counts": {
+            "terra": {
+              "U": 17,
+              "L4": 7,
+              "L5": 3,
+              "L2": 16,
+              "L1": 5,
+              "L6": 1,
+              "L3": 2
+            },
+            "sol": {
+              "L3": 5,
+              "L5": 14,
+              "L2": 7,
+              "L1": 7,
+              "L6": 3,
+              "U": 10,
+              "L4": 5
+            }
+          },
+          "pooled_u_rate": 0.2647058823529412
+        },
+        "s3": {
+          "n": 51,
+          "exact": 42,
+          "agreement_rate": 0.8235294117647058,
+          "disagreements": 9,
+          "nominal_alpha_with_u": 0.7538586515028431,
+          "cohen_kappa_with_u": 0.7518918918918919,
+          "u_gradable_alpha": 0.8852272727272728,
+          "ordinal_alpha_u_missing": 0.873300528521961,
+          "both_gradable_n": 39,
+          "both_u": 10,
+          "concrete_agree": 32,
+          "u_rates": {
+            "terra": 0.21568627450980393,
+            "sol": 0.21568627450980393
+          },
+          "counts": {
+            "terra": {
+              "低": 10,
+              "高": 20,
+              "中": 10,
+              "U": 11
+            },
+            "sol": {
+              "中": 9,
+              "高": 23,
+              "低": 8,
+              "U": 11
+            }
+          },
+          "pooled_u_rate": 0.21568627450980393
+        },
+        "mapped3": {
+          "n": 51,
+          "exact": 31,
+          "agreement_rate": 0.6078431372549019,
+          "disagreements": 20,
+          "nominal_alpha_with_u": 0.4474835886214442,
+          "cohen_kappa_with_u": 0.4588859416445622,
+          "u_gradable_alpha": 0.5511111111111111,
+          "ordinal_alpha_u_missing": 0.4747474747474748,
+          "both_gradable_n": 33,
+          "both_u": 9,
+          "concrete_agree": 22,
+          "u_rates": {
+            "terra": 0.3333333333333333,
+            "sol": 0.19607843137254902
+          },
+          "counts": {
+            "terra": {
+              "U": 17,
+              "高": 11,
+              "低": 21,
+              "中": 2
+            },
+            "sol": {
+              "中": 5,
+              "高": 22,
+              "低": 14,
+              "U": 10
+            }
+          },
+          "pooled_u_rate": 0.2647058823529412
+        }
+      },
+      "首QA3领域:评价与决策": {
+        "s6": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 1,
+          "both_u": 0,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.0,
+            "sol": 0.0
+          },
+          "counts": {
+            "terra": {
+              "L2": 1
+            },
+            "sol": {
+              "L2": 1
+            }
+          },
+          "pooled_u_rate": 0.0
+        },
+        "s3": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 1,
+          "both_u": 0,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.0,
+            "sol": 0.0
+          },
+          "counts": {
+            "terra": {
+              "中": 1
+            },
+            "sol": {
+              "中": 1
+            }
+          },
+          "pooled_u_rate": 0.0
+        },
+        "mapped3": {
+          "n": 1,
+          "exact": 1,
+          "agreement_rate": 1.0,
+          "disagreements": 0,
+          "nominal_alpha_with_u": null,
+          "cohen_kappa_with_u": null,
+          "u_gradable_alpha": null,
+          "ordinal_alpha_u_missing": null,
+          "both_gradable_n": 1,
+          "both_u": 0,
+          "concrete_agree": 1,
+          "u_rates": {
+            "terra": 0.0,
+            "sol": 0.0
+          },
+          "counts": {
+            "terra": {
+              "低": 1
+            },
+            "sol": {
+              "低": 1
+            }
+          },
+          "pooled_u_rate": 0.0
+        }
+      }
+    }
+  }
+}

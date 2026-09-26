@@ -1,0 +1,54 @@
+{
+  "n": 708,
+  "qapro": 425,
+  "qa3_only": 283,
+  "sources": {
+    "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_full_hierarchy_v1/conversation_labels.jsonl": "2abdb1268472958b89ec737f05b6edf6460107ae0d1b17e408c263500421b08e",
+    "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_domain_qa3_calibrated/aligned_sessions.jsonl": "a58a8cbd2620be7a1a0f6827a3806cfd7b4848892192842b39e73acea2d316fc"
+  },
+  "status": "completed",
+  "execution": {
+    "models": [
+      "gpt-5.6-terra",
+      "gpt-5.6-sol"
+    ],
+    "adjudicator": "gpt-6-sol",
+    "reasoning_effort": "medium",
+    "context_isolation": "fork_turns=none, separate stage/scale, no old or peer labels",
+    "streams": [
+      "baseline_s6",
+      "baseline_s3",
+      "highest_s6",
+      "highest_s3"
+    ]
+  },
+  "frozen_input_sha256": {
+    "workspace/data_clean/module_b_cognitive_full_v5/baseline/all.jsonl": "6f89b3b2de86e594910b94b83e4ebcbc33e5c7d2130c776599c53f5835b1fe40",
+    "workspace/data_clean/module_b_cognitive_full_v5/highest/all.jsonl": "f7b9858ea6a3ed782f8d80d66158176f43c5feb669a5dcf06c123a85ac6d01f4",
+    "workspace/data_clean/module_b_cognitive_full_v5/metadata.jsonl": "8c56a45f499fe2301c4c8699ddf00d39a61af161aadf21613a7ae4ba1f9f4127",
+    "workspace/data_clean/module_b_cognitive_full_v5/rubric_s6.md": "7cd485809ff3f2883d443597461459d9e41a432611b632c392947ae66e143989",
+    "workspace/data_clean/module_b_cognitive_full_v5/rubric_s3.md": "71203ca9e6616973930cc6a5281085fa73ca47505f9c9145caebf036cfa70b73",
+    "workspace/data_clean/module_b_cognitive_full_v5/protocol.md": "cad7de082137a1b6d0e9634bf80216da57cf8f64bf04cc8589cd1918bc2d8cb7",
+    "workspace/data_clean/module_b_domain_completion_v1/annotations.jsonl": "e1b75ba04b16f8af87124a4bd55e1564b1443aa87aa5428aaa7c99f741b1ab69"
+  },
+  "baseline_definition": "earliest QA3 task, first effective student turn; task start through cutoff, target student response only",
+  "highest_definition": "highest evidenced student cognition in all existing QA3 tasks in the conversation",
+  "scale": "independent s6 and direct s3; U retained; no mechanical mapping",
+  "schema": "cognitive-full-v5",
+  "version": "module-b-cognitive-qapro-v5",
+  "highest_n": 425,
+  "qa_pro_standard": "v2.4",
+  "validation": "PASS",
+  "output_sha256": {
+    "metrics.json": "cdf8c48a69eb4fe13d6762ef9e8f6a400caca948afab0bb743211f6df08bd1a9",
+    "rubric_s6.md": "7cd485809ff3f2883d443597461459d9e41a432611b632c392947ae66e143989",
+    "post_review_protocol.md": "d52c88802c7a1401e4b6eafec1ec7ec3f66f1fa93d31e1785fff4d64e67e0ced",
+    "rubric_s3.md": "71203ca9e6616973930cc6a5281085fa73ca47505f9c9145caebf036cfa70b73",
+    "audit_rows.jsonl": "3d0f3b8963d3ef638b178f0745d015723b2cfd5b030707632d57d01e8967f3c9",
+    "record_labels.csv": "5a990db4185fe57a0677ee04d7b3da709bf45aae5d5f811d7cb9c3a9d2ae1b6f",
+    "evidence_lineage.jsonl": "ad54683f3dd7357057f50ec640d32ca6a71c7f6fdb36d0e551bfca9ab3bada7d",
+    "final_rows.jsonl": "1009e4b698467f00c5c30ce1c1a7ca459838c9e90faad354f3ca0b2057d2eaba",
+    "confirmed_baseline_inclusion.json": "160a3139e0403324575d1d1ab4080eb46ecba44901da06e0294b3fae71c5d428",
+    "protocol.md": "cad7de082137a1b6d0e9634bf80216da57cf8f64bf04cc8589cd1918bc2d8cb7"
+  }
+}

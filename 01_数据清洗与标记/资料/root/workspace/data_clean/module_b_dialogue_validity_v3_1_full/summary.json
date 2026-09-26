@@ -1,0 +1,30 @@
+{
+  "version": "v3.1_full",
+  "student_session_denominator": 1299,
+  "segment_denominator": 1382,
+  "session_label_counts": {
+    "NO_FOLLOWUP_NEEDED": 452,
+    "QA3": 708,
+    "STOPPED_NO_REPLY": 100,
+    "POOR_REPLY": 8,
+    "MIXED": 3,
+    "REVIEW": 6,
+    "DATA_REVIEW": 22
+  },
+  "segment_label_counts": {
+    "NO_FOLLOWUP_NEEDED": 536,
+    "QA3": 721,
+    "STOPPED_NO_REPLY": 107,
+    "POOR_REPLY": 10,
+    "REVIEW": 8
+  },
+  "annotated_sessions": 1277,
+  "pending_sessions": 0,
+  "data_review_sessions": 22,
+  "qa_pro": "PENDING",
+  "qa_pro_confirmed_excluded_sessions": 1,
+  "pending_boundary_reviews": 1,
+  "reviewed_session_replacements": 3,
+  "aggregation": "session_label is QA3 if any segment is QA3; otherwise the sole segment label or MIXED for differing non-QA3 segment labels.",
+  "updated_at": "2026-09-25T15:13:39.278536+00:00"
+}

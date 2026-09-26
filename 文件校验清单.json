@@ -1,0 +1,828 @@
+[
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/.gitignore",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/.gitignore",
+    "bytes": 62,
+    "sha256": "9e556031613df1180d8e68f8f486f968dd674fb2f6c9c908a57b3a12b078edbf"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/PROVENANCE.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/PROVENANCE.md",
+    "bytes": 1648,
+    "sha256": "4cffc20f6d4251a22833c97fde94c312ee30e07138aa17c6dac1603c1aa5dd22"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/README.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/README.md",
+    "bytes": 7666,
+    "sha256": "114c6bbdd1b7feb447fcf197bafaaadcbf4ba721e9b9c6a00e9eb4e6a48b7f72"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/acceptance.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/acceptance.json",
+    "bytes": 257,
+    "sha256": "b2e746a25f3657585ac83b1989375194ffa510a2825f676b8c0ce699402d1251"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/examples/conversations.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/examples/conversations.jsonl",
+    "bytes": 577,
+    "sha256": "02ea7273751670998b8d7ed99d1da1d9b60d575212f09787fa46e5ace46b0e59"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/examples/expected_labels.csv",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/examples/expected_labels.csv",
+    "bytes": 329,
+    "sha256": "9adcadaa8a1f53095f3b15dfdec9ba99faebddde9a73cb58326e430d4b0f1edf"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/examples/expected_labels.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/examples/expected_labels.jsonl",
+    "bytes": 2952,
+    "sha256": "78a6e4fa171fe2d1d0834cfb42473304f1690601427a66a670315ac5966e770c"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/examples/qa3_annotations.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/examples/qa3_annotations.jsonl",
+    "bytes": 1276,
+    "sha256": "e4fe98704b70704fc3e02076adbf1f89299391bf2af74f48a7beeb11be120eb2"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/pyproject.toml",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/pyproject.toml",
+    "bytes": 432,
+    "sha256": "a5f3ce0f68bd2e84e0d5638f519cf6c024688675af79f9e2bfd14cdbcd92cd74"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/__init__.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/__init__.py",
+    "bytes": 71,
+    "sha256": "6b79fe33a92da0ebf1550f4a3cfc6547c1e743bd8c9e9ae7314d044f2b411d75"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/__main__.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/__main__.py",
+    "bytes": 8369,
+    "sha256": "a82e7911bbcf72928c35f6ea120b4d1c422e4341a93dee1fc3b6045726165adc"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/backend.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/backend.py",
+    "bytes": 2403,
+    "sha256": "1896bb1f7f9824b9196f0c0f81585af0f9e7c69109362554c69ecd7fc16c67f7"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/candidates.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/candidates.py",
+    "bytes": 4100,
+    "sha256": "15f79891748c35c19cfbc254e4806a9fc3214215fc0f6371a2419eb59f1e3cc7"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/core.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/core.py",
+    "bytes": 6951,
+    "sha256": "696ea882ee214f879779d621bfa9fe3c1eb19f313425eb5dfb36860d69ca508a"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/frozen_hits.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/frozen_hits.py",
+    "bytes": 2482,
+    "sha256": "0d52ea1ef6f0781361c7f8734eb42b57661bd782b4a89b23b57e74d7f896ee8c"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/qa3_contract.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/qa3_contract.py",
+    "bytes": 9956,
+    "sha256": "ab1f10476465f8873faf80aaf491ba4099f8ad2242d239542e9e697194cf9045"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/rules/qa3_v3.1.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/rules/qa3_v3.1.md",
+    "bytes": 7584,
+    "sha256": "3430c81bf6b30d63c5cd2580361a87ac641dad2650b58a0f50d1b14b27e23c68"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/rules/qapro_v2.4.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/rules/qapro_v2.4.md",
+    "bytes": 1107,
+    "sha256": "712439ad39236cc6ad180977626573c51bedc976cccbc5d84ede856c83e01691"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/qa_labeler/student_retrieval.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/qa_labeler/student_retrieval.py",
+    "bytes": 2318,
+    "sha256": "63639f3a783eab4e569d2c6d307e419adf3dfa7e91a159310ad7c6ddc38cd454"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/tests/test_labeler.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/tests/test_labeler.py",
+    "bytes": 6398,
+    "sha256": "714896beb4266058f02b96afb12efc6364dcea4ef5155f2652951e296d4bb3f3"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/verification.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/verification.json",
+    "bytes": 553,
+    "sha256": "d21abfcf71ea605dcc8430821cd174ce238dab58594527cf01b61e2d382b0887"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/code/qa_labeler_v1/verify_historical.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/code/qa_labeler_v1/verify_historical.py",
+    "bytes": 2461,
+    "sha256": "d4165a18e4a5aa64db06cc1bac9b21154404e14b4bfbf479ea52c16977aaa4f7"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_dialogue_validity_v3_1_full/standard_v3.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_dialogue_validity_v3_1_full/standard_v3.md",
+    "bytes": 7584,
+    "sha256": "3430c81bf6b30d63c5cd2580361a87ac641dad2650b58a0f50d1b14b27e23c68"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_dialogue_validity_v3_1_full/annotations.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_dialogue_validity_v3_1_full/annotations.jsonl",
+    "bytes": 13129913,
+    "sha256": "d534f4b7c855348db4ce1cae4b9b766e67bb048c6499b0fd8096c0999d644069"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_dialogue_validity_v3_1_full/corpus.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_dialogue_validity_v3_1_full/corpus.json",
+    "bytes": 12629223,
+    "sha256": "52ccfe89384074708a94843aac8c66889f3feea5652006fff0c0d08cf8bb6fef"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_dialogue_validity_v3_1_full/summary.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_dialogue_validity_v3_1_full/summary.json",
+    "bytes": 849,
+    "sha256": "fc5846b812a90eeb78fe7b8f43806ce691610861d3b5e7b6da4c7565ac31c1d2"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_dialogue_validity_v3_1_full/validation.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_dialogue_validity_v3_1_full/validation.json",
+    "bytes": 152,
+    "sha256": "3d05566f3157dd68d5173cb19105a5723eab21c81c2cc31a27403f79dbfc1732"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_full_hierarchy_v1/conversation_labels.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_full_hierarchy_v1/conversation_labels.jsonl",
+    "bytes": 1325317,
+    "sha256": "2abdb1268472958b89ec737f05b6edf6460107ae0d1b17e408c263500421b08e"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_full_hierarchy_v1/topic_labels.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_full_hierarchy_v1/topic_labels.jsonl",
+    "bytes": 920573,
+    "sha256": "2f3fea4f96025589b8f9cbd8b1591e8070c44438be478fdfc882b307a702b8c0"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_full_hierarchy_v1/manifest.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_full_hierarchy_v1/manifest.json",
+    "bytes": 835,
+    "sha256": "c31cae7e8616ecc726f43e2ef64cdd44cc995ba9b7b7a37946aca77c623ff9e2"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_domain_completion_v1/annotations.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_domain_completion_v1/annotations.jsonl",
+    "bytes": 390250,
+    "sha256": "e1b75ba04b16f8af87124a4bd55e1564b1443aa87aa5428aaa7c99f741b1ab69"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_domain_completion_v1/README.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_domain_completion_v1/README.md",
+    "bytes": 1709,
+    "sha256": "0d4a05dff23f34706a2912e3113bdd648159f275faabeb9288f4bf10f1c585d9"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_domain_qa3_calibrated/校准说明.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_domain_qa3_calibrated/校准说明.md",
+    "bytes": 1413,
+    "sha256": "42f1b8564cb5d9366fed50d8eef284d77d1809af2b062278f2e57f4d6a007742"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/data_clean/module_b_domain_qa3_calibrated/任务段领域对照.csv",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_domain_qa3_calibrated/任务段领域对照.csv",
+    "bytes": 100748,
+    "sha256": "d7f45db5c7d7f0c5fd1c5f0db82bfe4d31b957101bf96281cd488c86b192e50d"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/workspace/code/scripts/calibrate_domain_qa3.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/code/scripts/calibrate_domain_qa3.py",
+    "bytes": 9228,
+    "sha256": "bf91e92b6654fe401045696e7e4737e6b79ec2c1e712765fdc8f9ade2c470d07"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/黑客松赛题-关老师/附件2-2025 年秋季学期脱敏数据/2025秋-数学模型-问答记录导出20260502导出_已标注_已更新.xlsx",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/黑客松赛题-关老师/附件2-2025 年秋季学期脱敏数据/2025秋-数学模型-问答记录导出20260502导出_已标注_已更新.xlsx",
+    "bytes": 1639507,
+    "sha256": "7693e033e9452f605027b2846429a2678e4350f1d6a9e541c8a715dc5619c8db"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/root/黑客松赛题-关老师/附件3-2026年春季学期脱敏数据/问答记录导出0919_已更新.xlsx",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/黑客松赛题-关老师/附件3-2026年春季学期脱敏数据/问答记录导出0919_已更新.xlsx",
+    "bytes": 3627926,
+    "sha256": "48e225c60816545c24fec4de18ff767cd71e3382931abcc6400697711a15b4c1"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/notes/模块A思路/教学对话漏斗/topics_v1/annotations.jsonl",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/模块A思路/教学对话漏斗/topics_v1/annotations.jsonl",
+    "bytes": 672965,
+    "sha256": "1c36520620056f548a362fc8bd7dec6170adb70cd2ef0d9135dd2ab63d470f0c"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/notes/模块A思路/教学对话漏斗/topics_v1/summary.json",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/模块A思路/教学对话漏斗/topics_v1/summary.json",
+    "bytes": 132249,
+    "sha256": "521753914694df94325b8798633297e55280e55da3a60f69a10013bc76fdc090"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/notes/模块A思路/教学对话漏斗/topics_v1/prompt.txt",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/模块A思路/教学对话漏斗/topics_v1/prompt.txt",
+    "bytes": 5393,
+    "sha256": "ab42b97a52a12e675428cd4149539fbafa006f97301549e180324cddb33c20f8"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/notes/模块A思路/教学对话漏斗/topics_v1/复核总览.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/模块A思路/教学对话漏斗/topics_v1/复核总览.md",
+    "bytes": 3855,
+    "sha256": "81d39002b50affa62e740cb8680c77ee6c9597a66af7afdc28e0043e1ea7a46c"
+  },
+  {
+    "package": "01_数据清洗与标记",
+    "path": "01_数据清洗与标记/资料/notes/文档终稿大纲/1-0 一切的基础：有效对话QA3、QA Pro.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-0 一切的基础：有效对话QA3、QA Pro.md",
+    "bytes": 88,
+    "sha256": "e53ee6a4bd0390395d94be29d0d662f5135439d17fa75b79c70ff74345da33ac"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/rubric_s6.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/rubric_s6.md",
+    "bytes": 7439,
+    "sha256": "7cd485809ff3f2883d443597461459d9e41a432611b632c392947ae66e143989"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/rubric_s3.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/rubric_s3.md",
+    "bytes": 9872,
+    "sha256": "71203ca9e6616973930cc6a5281085fa73ca47505f9c9145caebf036cfa70b73"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/protocol.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/protocol.md",
+    "bytes": 1540,
+    "sha256": "cad7de082137a1b6d0e9634bf80216da57cf8f64bf04cc8589cd1918bc2d8cb7"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/post_review_protocol.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/post_review_protocol.md",
+    "bytes": 929,
+    "sha256": "d52c88802c7a1401e4b6eafec1ec7ec3f66f1fa93d31e1785fff4d64e67e0ced"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/manifest.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/manifest.json",
+    "bytes": 3259,
+    "sha256": "3000404a273982ff0cc35d099e72416deecc283e77dea77a3ef5fe95de356cb4"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/evidence_lineage.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/evidence_lineage.jsonl",
+    "bytes": 1311494,
+    "sha256": "ad54683f3dd7357057f50ec640d32ca6a71c7f6fdb36d0e551bfca9ab3bada7d"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_full_v5/baseline/all.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/baseline/all.jsonl",
+    "bytes": 1660753,
+    "sha256": "6f89b3b2de86e594910b94b83e4ebcbc33e5c7d2130c776599c53f5835b1fe40"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/workspace/data_clean/module_b_cognitive_full_v5/highest/all.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/highest/all.jsonl",
+    "bytes": 5361009,
+    "sha256": "f7b9858ea6a3ed782f8d80d66158176f43c5feb669a5dcf06c123a85ac6d01f4"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/outputs/module-b-course-mapping/折算规则.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-course-mapping/折算规则.md",
+    "bytes": 3304,
+    "sha256": "4ea7cdf273b879d42ed2bd8e6c9824e21af2929019fc7e3ec5c2f4ffb08f1b5c"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/outputs/module-b-course-mapping/模块映射配置.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-course-mapping/模块映射配置.json",
+    "bytes": 226648,
+    "sha256": "3b55cfabae64c5e9928631d8aaa1eeb7a2156dc542e7ce04fef64494f28160d4"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/outputs/module-b-course-mapping/模块映射配对依据.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-course-mapping/模块映射配对依据.json",
+    "bytes": 141241,
+    "sha256": "0c7c3558aa610b40747e54152ca4dd88ddd5f9af791e8585858009787ecd9d6e"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/outputs/module-b-course-mapping/build_mapping.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-course-mapping/build_mapping.py",
+    "bytes": 6367,
+    "sha256": "2eb6f6d3950cfdb629344c544b3e8f13160679cc15213cb7f0971640985cbd6b"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/研究/Agent定义与认知映射/依据核验与映射建议.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/研究/Agent定义与认知映射/依据核验与映射建议.md",
+    "bytes": 9070,
+    "sha256": "23940c776191e462f039056a56eea5540d7ca7e62f54e871fe1ba34ed9523270"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/root/研究/Agent定义与认知映射/agent_mapping.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/研究/Agent定义与认知映射/agent_mapping.json",
+    "bytes": 5806,
+    "sha256": "4508cbae787005d8ab2a59db251e2455e01fd28766069e1ec88e25cbc418a756"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/notes/文档终稿大纲/1-1 附件Q1_QAPro六级评分Prompt_v4.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-1 附件Q1_QAPro六级评分Prompt_v4.md",
+    "bytes": 7439,
+    "sha256": "7cd485809ff3f2883d443597461459d9e41a432611b632c392947ae66e143989"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/notes/文档终稿大纲/1-1 附件Q2_QAPro独立三级评分Prompt_v4.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-1 附件Q2_QAPro独立三级评分Prompt_v4.md",
+    "bytes": 9872,
+    "sha256": "71203ca9e6616973930cc6a5281085fa73ca47505f9c9145caebf036cfa70b73"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/notes/文档终稿大纲/1-1 附件R_QAPro评分与一致性标准_v4.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-1 附件R_QAPro评分与一致性标准_v4.md",
+    "bytes": 3956,
+    "sha256": "e790b2ad916f95e7c103d3346e87ff557cff2e0a621e604bc3c6cbf62b8f64cf"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/notes/文档终稿大纲/1-1 附件G_六级与三级的任务分流标准.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-1 附件G_六级与三级的任务分流标准.md",
+    "bytes": 10771,
+    "sha256": "a51354f2f9cd54c92cb50a2cb7d66517ac1ab4d10729061509de799c31cf8ff9"
+  },
+  {
+    "package": "02_L级标注与映射逻辑",
+    "path": "02_L级标注与映射逻辑/资料/notes/文档终稿大纲/0-1 理论：多智能体及L1-6概述.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/0-1 理论：多智能体及L1-6概述.md",
+    "bytes": 10,
+    "sha256": "cf1b73b176b7c235b02aa6749769f82639c6cd01869e424506b84e579bc3859c"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/record_labels.csv",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/record_labels.csv",
+    "bytes": 2081295,
+    "sha256": "5a990db4185fe57a0677ee04d7b3da709bf45aae5d5f811d7cb9c3a9d2ae1b6f"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/metrics.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/metrics.json",
+    "bytes": 87559,
+    "sha256": "cdf8c48a69eb4fe13d6762ef9e8f6a400caca948afab0bb743211f6df08bd1a9"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/audit_rows.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/audit_rows.jsonl",
+    "bytes": 1450288,
+    "sha256": "3d0f3b8963d3ef638b178f0745d015723b2cfd5b030707632d57d01e8967f3c9"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_qapro_v5/final_rows.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_qapro_v5/final_rows.jsonl",
+    "bytes": 274598,
+    "sha256": "1009e4b698467f00c5c30ce1c1a7ca459838c9e90faad354f3ca0b2057d2eaba"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/metrics_full.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/metrics_full.py",
+    "bytes": 3809,
+    "sha256": "6c11ff6cdafc0d394ea11bac21bbf8c5dc85a9053167fd9eba4f3fe0b4f21e35"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/validate.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/validate.py",
+    "bytes": 3261,
+    "sha256": "49acd83a28f19f89bb293f88710cfdfd8cae489368fc079a7c9068b120b25c5a"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/cross_stage_review.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/cross_stage_review.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/terra_baseline_s6.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/terra_baseline_s6.jsonl",
+    "bytes": 227954,
+    "sha256": "dca5a7db337b6433163bd9b0c48efdbd3308b62967d764d0ff4995e6ef8307c1"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/sol_baseline_s6.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/sol_baseline_s6.jsonl",
+    "bytes": 210713,
+    "sha256": "d13deecfa96da0657f19d0e2bd12cbab4c1cadf9a72d9676b20e7e5271d747d7"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/terra_baseline_s3.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/terra_baseline_s3.jsonl",
+    "bytes": 206200,
+    "sha256": "868bb7b74e827b8863f92203787e2028c6a5b95f6b40551f1cb31df491649e5e"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/sol_baseline_s3.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/sol_baseline_s3.jsonl",
+    "bytes": 221318,
+    "sha256": "e196fc0a5b91a0f82d6727d15bb3fa44cea4f56344d630d8c232cf1d10674362"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/terra_highest_s6.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/terra_highest_s6.jsonl",
+    "bytes": 141821,
+    "sha256": "7bbee7290782e919b382355417029d38509c4233cb8b89072fc41423247ee988"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/sol_highest_s6.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/sol_highest_s6.jsonl",
+    "bytes": 225150,
+    "sha256": "03b785d24566067cd3326cf3349d487b20c19b1d1cb86319893771c602356bd5"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/terra_highest_s3.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/terra_highest_s3.jsonl",
+    "bytes": 167100,
+    "sha256": "1ce5fefa124b7d36e3c540c028756105b5fd13832752f8db926c192be79c8bc4"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/sol_highest_s3.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/sol_highest_s3.jsonl",
+    "bytes": 165418,
+    "sha256": "169e94e945a3b32a02228815a8060a85eb01a86038ee93be2cee991d620d4a3f"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/final_baseline_s6.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/final_baseline_s6.jsonl",
+    "bytes": 440472,
+    "sha256": "c74e4acb245ba1151b860c02ce79e6fcd7b6abeadfbcb9aba7120ba81ff72a58"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/final_baseline_s3.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/final_baseline_s3.jsonl",
+    "bytes": 429313,
+    "sha256": "802138bec975012058402558f6ca0a02ecf531e63298b9c8f14aefc26899e720"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/final_highest_s6.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/final_highest_s6.jsonl",
+    "bytes": 302083,
+    "sha256": "8fcbe7ade3f541c30f8be97607fad8404d586567019747f0dd95ae780ed88683"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/data_clean/module_b_cognitive_full_v5/final_highest_s3.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/data_clean/module_b_cognitive_full_v5/final_highest_s3.jsonl",
+    "bytes": 319595,
+    "sha256": "22994fd44cd9a76503a8a2934bccdeed75013571f75b21d963197393d7c38168"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/code/scripts/analyze_cognitive_qapro_v4.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/code/scripts/analyze_cognitive_qapro_v4.py",
+    "bytes": 7158,
+    "sha256": "dabd8de6ef801cfcfb1bb6b6fa9b7c9e6d076608594159144424a403cdc13a39"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/workspace/code/scripts/audit_qapro_interannotator_agreement.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/code/scripts/audit_qapro_interannotator_agreement.py",
+    "bytes": 5910,
+    "sha256": "7c77b42527f1ab5571b4ae66ce9b275369b81bff892c575c05a09c893dc2a4b9"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/root/outputs/annotation-resource-model/标注资源配置_200人最新测算.xlsx",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/annotation-resource-model/标注资源配置_200人最新测算.xlsx",
+    "bytes": 82207,
+    "sha256": "b20b19cc99df68695df116ee9cbe9dccf064328c8318a839893da81a48417987"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/notes/文档终稿大纲/1-3 具体的人工review方案设计.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-3 具体的人工review方案设计.md",
+    "bytes": 227,
+    "sha256": "a23103dc9c699f8dcc433f236af7969014df34ebec130acd7034f59d1baa0306"
+  },
+  {
+    "package": "03_模型测算与人工抽检",
+    "path": "03_模型测算与人工抽检/资料/notes/文档终稿大纲/1-1 附件S_QAPro130分级复测报告.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-1 附件S_QAPro130分级复测报告.md",
+    "bytes": 7297,
+    "sha256": "2b1f159e0b15039e360c0fc5775651d43bbd13337482141fbda59ce943be5eb0"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/采纳规则.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/采纳规则.md",
+    "bytes": 3304,
+    "sha256": "4ea7cdf273b879d42ed2bd8e6c9824e21af2929019fc7e3ec5c2f4ffb08f1b5c"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/采纳版分析结论.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/采纳版分析结论.md",
+    "bytes": 4482,
+    "sha256": "3c15ec4fbc18fe15bf15e18f005fe2901da616939cc1d14f95a5f72663e7c04f"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/逐对话采纳及学生指标.xlsx",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/逐对话采纳及学生指标.xlsx",
+    "bytes": 98682,
+    "sha256": "cec653ff31aa5608a6ce39edb79010a220e5d8416723b5ca63e6c67815cd0832"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/逐对话采纳版.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/逐对话采纳版.jsonl",
+    "bytes": 1283654,
+    "sha256": "e733a78f8f35e3a5737c18afc9e634eac5002cca2da8e90abef0b2d939086458"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/逐对话领域证据.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/逐对话领域证据.jsonl",
+    "bytes": 1093189,
+    "sha256": "e720b376a72043b5fbaec85a912630445adceb7ede7b3e01fb2faf6e7576d7da"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/学生领域采纳版.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/学生领域采纳版.jsonl",
+    "bytes": 614690,
+    "sha256": "2a9453787a59530d672afd3b00de660fbbbd8204f4b76fde013cc8b53caefc92"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/学生指标采纳版.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/学生指标采纳版.jsonl",
+    "bytes": 349236,
+    "sha256": "cce848c4e7848b34eda4567578bbf05e5f36f2e8bc59271852a992978d8eb78b"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/领域不可核对清单.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/领域不可核对清单.jsonl",
+    "bytes": 126821,
+    "sha256": "5c50c25109d2ac882ae7132817e2d219136f34397217a7dc772b88810df808f0"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/冻结映射.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/冻结映射.json",
+    "bytes": 226647,
+    "sha256": "758c1e4963538c040a00da1c4861176935cfa53599627c6b38a4c560bf13679b"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/build_data.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/build_data.py",
+    "bytes": 17213,
+    "sha256": "746986978086943337efb16f7c0909ddf2ae97ad2cd078ea5acf4d7c3ce8c813"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/build_workbooks.mjs",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/build_workbooks.mjs",
+    "bytes": 8969,
+    "sha256": "a3e0f9abbef57bd93aba61372cebd325b290fa85e5a4823806c93019d7050115"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-q3-adopted-v1/verify_module_application.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-q3-adopted-v1/verify_module_application.py",
+    "bytes": 3337,
+    "sha256": "fc20e357c29d077324c19ec2c311e31d59a11408eebc8cecc8788c38fcad91d4"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-student-hlm-v1/逐学生分层模型评估.xlsx",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-student-hlm-v1/逐学生分层模型评估.xlsx",
+    "bytes": 130561,
+    "sha256": "21c3e5cc05db015da952ebabff89da7cdc0f33bcde087c6faf04ce0c6a16564e"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-student-hlm-v1/逐学生模型说明与结果.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-student-hlm-v1/逐学生模型说明与结果.md",
+    "bytes": 5722,
+    "sha256": "aeabc3bba3218a1d45c4e30f130928c3f2f0d360442a202e7f5043987199644d"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/outputs/module-b-student-hlm-v1/analyze.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-b-student-hlm-v1/analyze.py",
+    "bytes": 8416,
+    "sha256": "de40c9ebb4b67f56d2f2614dd98c53819c517d9f7ce60664c4b36b1cad00179a"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/workspace/code/scripts/build_student_dialogue_panel.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/code/scripts/build_student_dialogue_panel.py",
+    "bytes": 23759,
+    "sha256": "cdd87a54b053a9dc2b0c2179655447475301002690d7e14f2f623953b29d91fb"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/results/module_b_causal_literature_v2/q2_interface.csv",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/results/module_b_causal_literature_v2/q2_interface.csv",
+    "bytes": 2348079,
+    "sha256": "faabb0f941dfe128e44245f2fc796edc1dddcf53beec49f7cc6fdf665fbf2ff8"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/root/workspace/code/causal_increment_v1/Q2_INTERFACE.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/workspace/code/causal_increment_v1/Q2_INTERFACE.md",
+    "bytes": 6935,
+    "sha256": "3469190197807b999570bf7ec90ac98e2482b7caaeb89c74ad69fdfcd580cb10"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/notes/文档终稿大纲/2-1.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/2-1.md",
+    "bytes": 884,
+    "sha256": "0840ea43e38c6bf69fbf9b9ccf01645930d44e89283d6b9729c2cf4b10fad6eb"
+  },
+  {
+    "package": "04_学生评分产出",
+    "path": "04_学生评分产出/资料/notes/文档终稿大纲/2-2.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/2-2.md",
+    "bytes": 5897,
+    "sha256": "bb791d1ce4c2141131ad7d451271bd610c52e3e4b6aecbb9831e7d5714be3850"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-ranking-v4-174-20260926/AIV全量174人多方案评分与排名.xlsx",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/AIV全量174人多方案评分与排名.xlsx",
+    "bytes": 342487,
+    "sha256": "a574aec3759db203c3e808d52bfa11d02b8731c2347aa8b3ca86bba2b22577b9"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-ranking-v4-174-20260926/指标定义与公式性质.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/指标定义与公式性质.md",
+    "bytes": 15438,
+    "sha256": "153450665bd628f7877a5ef55abf79662e655cb8ab4d1ade855ff95f739e84bf"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-ranking-v4-174-20260926/学生指标与多方案排名_174人.jsonl",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/学生指标与多方案排名_174人.jsonl",
+    "bytes": 4739588,
+    "sha256": "eb33b1683c741acc6df45659d516b4fb8583defeb027fbc8e2e47abd1acbeef4"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-ranking-v4-174-20260926/matrix_metadata.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/matrix_metadata.json",
+    "bytes": 7713,
+    "sha256": "ee43a04c830bb26f8228543e9cfdafb3db84b9b4b4c5e9918353650e05a39e4f"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-ranking-v4-174-20260926/weights/compute_rankings_v4.py",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-ranking-v4-174-20260926/weights/compute_rankings_v4.py",
+    "bytes": 31299,
+    "sha256": "5f259ef7083bcd68dbd49fef1a344901e2a91361d71e256d178919db6893bae6"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-eight-indicator-20260926/rubric/评分规范.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-eight-indicator-20260926/rubric/评分规范.md",
+    "bytes": 8730,
+    "sha256": "1240530c1de319f357548a51242437eb236567d29a035a23729ac5f57d545fd8"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-eight-indicator-20260926/rubric/rubric.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-eight-indicator-20260926/rubric/rubric.json",
+    "bytes": 17846,
+    "sha256": "b38b2a4de44d16456078c7c6d172f469afa456099b00b2ef7cc0744f8741f607"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-purpose-weights-20260927/三类目的八指标权重说明.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-purpose-weights-20260927/三类目的八指标权重说明.md",
+    "bytes": 4371,
+    "sha256": "2a48d80958b2789f6ed40eb960187900b30cb654ff6cba578a73f8ed57abb8a5"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-purpose-weights-20260927/三类目的八指标权重.csv",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-purpose-weights-20260927/三类目的八指标权重.csv",
+    "bytes": 673,
+    "sha256": "488582265a3f270de241a496e27d8ae269694d5d71f705a62d7650b01cd109f9"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-purpose-weights-20260927/weights.json",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-purpose-weights-20260927/weights.json",
+    "bytes": 6938,
+    "sha256": "ac2f4e3be1abbc7cf21bd771cce198fb329e794b4c7ee504de552a77ed1eea4a"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-student-discussion-20260926/模块C_春秋学生使用讨论分类报告.md",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-student-discussion-20260926/模块C_春秋学生使用讨论分类报告.md",
+    "bytes": 7402,
+    "sha256": "1b785725767e138f1f9cb4739a46b5faa6c209616a6960b6ff7c8d8936c40c7e"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/root/outputs/module-c-student-discussion-20260926/春秋学生使用讨论分类.xlsx",
+    "source": "/Users/sirui/Documents/ChatGPT/数学建模/outputs/module-c-student-discussion-20260926/春秋学生使用讨论分类.xlsx",
+    "bytes": 2485410,
+    "sha256": "07cf60a46877341564c59e12a478d3887e93717dea29b466e91a5d5135544ed6"
+  },
+  {
+    "package": "05_打分表",
+    "path": "05_打分表/资料/notes/文档终稿大纲/1-1 标注方案设计：打什么标、整体维度概览.md",
+    "source": "/Users/sirui/CC/Sirui/Work/11-AI/5_Hackathon/项目/260927数学建模/文档终稿大纲/1-1 标注方案设计：打什么标、整体维度概览.md",
+    "bytes": 14728,
+    "sha256": "734d7480e5c14e328beec3d001c800c9be648ad5d8d7df12fca345f935663cf4"
+  }
+]

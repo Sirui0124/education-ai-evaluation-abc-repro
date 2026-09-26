@@ -1,0 +1,5 @@
+﻿id,status,exclusion,tier,qa3,qapro,qa3_reason,primary_type,r1_count,r2_count,r3_count,error
+example-r2,DONE,不剔除,QA Pro,True,True,QA3,R2_EFFECTIVE_ANSWER,0,1,0,
+example-qa3-only,DONE,不剔除,仅QA3,True,False,QA3,,0,0,0,
+example-empty,DONE,空对话,,,,,,0,0,0,
+example-teacher,DONE,疑似老师剔除,,,,,,0,0,0,
