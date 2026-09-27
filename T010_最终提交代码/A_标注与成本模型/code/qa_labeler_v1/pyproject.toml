@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qa-dialogue-labeler"
+version = "1.0.0"
+description = "Standalone QA3 v3.1 and QAPro v2.4 dialogue labeling"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+qa-label = "qa_labeler.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["qa_labeler*"]
+
+[tool.setuptools.package-data]
+qa_labeler = ["rules/*.md"]

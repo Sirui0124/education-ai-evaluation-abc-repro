@@ -1,0 +1,4 @@
+{"id": "example-r2", "messages": [{"role": "user", "content": "什么是非平稳序列？"}, {"role": "assistant", "content": "统计性质随时间变化。请举一个非平稳序列？"}, {"role": "user", "content": "股价"}]}
+{"id": "example-qa3-only", "messages": [{"role": "user", "content": "什么是非平稳序列？"}, {"role": "assistant", "content": "统计性质随时间变化。请举一个非平稳序列？"}, {"role": "user", "content": "不知道"}]}
+{"id": "example-empty", "turns": []}
+{"id": "example-teacher", "identity_role": "teacher", "turns": []}

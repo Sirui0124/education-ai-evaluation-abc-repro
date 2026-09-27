@@ -1,0 +1,1041 @@
+{
+  "version": "causal-original-domain-v1",
+  "source_sha256": "12222019dfcffcda11ca129e82f4db22e297bbfbc665503348fbe60765072303",
+  "scope": {
+    "all_pairs": 156,
+    "s3_pairs": 147,
+    "s3_students": 139,
+    "s3_domains": 9,
+    "s6_pairs_reported_separately": 9,
+    "student_repeats": {
+      "1": 131,
+      "2": 8
+    },
+    "spring_pairs": 29,
+    "spring_students": 29
+  },
+  "identification": {
+    "ai_effect": "NOT_IDENTIFIED",
+    "verified_no_ai_controls": 0,
+    "true_pre_ai_baseline": "UNVERIFIED",
+    "intercept_plus_ai_indicator_rank": 1,
+    "n_columns": 2,
+    "psm": "NOT_ESTIMABLE_NO_CONTROL_ARM",
+    "did": "NOT_ESTIMABLE_NO_CONTROL_PREPOST_PANEL",
+    "hlm": "FITTED_DESCRIPTIVE_BAYESIAN_HIERARCHY"
+  },
+  "priors": {
+    "sigma2": "InverseGamma(shape=2,scale=1)",
+    "fixed_effect_sd_ratios": [
+      10,
+      2,
+      2
+    ],
+    "domain_sd_ratios": [
+      0.25,
+      0.5,
+      1
+    ],
+    "student_sd_ratios": [
+      0,
+      0.5,
+      1
+    ],
+    "conditional_noise_variance": "sigma2 * number_of_comparable_domains_for_this_student",
+    "before_weighted_center": 2.049943945004053,
+    "semester_weighted_center": 0.20863309352517986
+  },
+  "scenarios": [
+    {
+      "q": 0,
+      "student_equal_mean": 0.994912177862137,
+      "conditional_cluster_bootstrap_ci95": [
+        0.843090742806514,
+        1.149916739290621
+      ]
+    },
+    {
+      "q": 0.23,
+      "student_equal_mean": 0.3858956880907672,
+      "conditional_cluster_bootstrap_ci95": [
+        0.23983765779637783,
+        0.5333333556030905
+      ]
+    },
+    {
+      "q": 0.48,
+      "student_equal_mean": -0.27607875731289566,
+      "conditional_cluster_bootstrap_ci95": [
+        -0.423334462841262,
+        -0.13051270982786503
+      ]
+    }
+  ],
+  "critical_q": 0.3757366257754305,
+  "transition_counts": [
+    {
+      "before": "中",
+      "after": "中",
+      "n": 24
+    },
+    {
+      "before": "中",
+      "after": "高",
+      "n": 52
+    },
+    {
+      "before": "低",
+      "after": "中",
+      "n": 17
+    },
+    {
+      "before": "低",
+      "after": "低",
+      "n": 17
+    },
+    {
+      "before": "低",
+      "after": "高",
+      "n": 19
+    },
+    {
+      "before": "高",
+      "after": "高",
+      "n": 18
+    }
+  ],
+  "fits": [
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": 0.9948465846098679,
+        "ci95": [
+          0.8563314444628214,
+          1.1333617247569143
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.3680014789845193,
+        "ci95": [
+          -0.5755006603829395,
+          -0.1605022975860991
+        ]
+      },
+      "spring_association": {
+        "mean": 0.47450920001237584,
+        "ci95": [
+          0.12593750282699695,
+          0.8230808971977548
+        ]
+      },
+      "residual_variance_posterior_mean": 0.6923819239338441
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": 0.3858704102429941,
+        "ci95": [
+          0.24847748500646447,
+          0.5232633354795238
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.14822056870150951,
+        "ci95": [
+          -0.3540386437960402,
+          0.05759750639302122
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4458070704274225,
+        "ci95": [
+          0.100059413672211,
+          0.791554727182634
+        ]
+      },
+      "residual_variance_posterior_mean": 0.681208361489683
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": -0.2760602140688246,
+        "ci95": [
+          -0.4141960806340873,
+          -0.13792434750356186
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.09067172508437046,
+        "ci95": [
+          -0.1162592949010618,
+          0.2976027450698027
+        ]
+      },
+      "spring_association": {
+        "mean": 0.41460910348725605,
+        "ci95": [
+          0.06699184374430822,
+          0.7622263632302039
+        ]
+      },
+      "residual_variance_posterior_mean": 0.6885954403556787
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": 0.9948292473613655,
+        "ci95": [
+          0.8553251906303558,
+          1.134333304092375
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.37360128377015056,
+        "ci95": [
+          -0.58036295289535,
+          -0.16683961464495112
+        ]
+      },
+      "spring_association": {
+        "mean": 0.47598839203829924,
+        "ci95": [
+          0.12605031330735206,
+          0.8259264707692464
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5618529945589545
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": 0.385863568015825,
+        "ci95": [
+          0.24760424606831624,
+          0.5241228899633338
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.1553710764188686,
+        "ci95": [
+          -0.3602878999712179,
+          0.04954574713348067
+        ]
+      },
+      "spring_association": {
+        "mean": 0.44428788927976604,
+        "ci95": [
+          0.09747215773265566,
+          0.7911036208268765
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5518713790206726
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": -0.27605564866410914,
+        "ci95": [
+          -0.41512016485865605,
+          -0.13699113246956224
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.08183567070209019,
+        "ci95": [
+          -0.12427454686609499,
+          0.28794588827027534
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4098308210639685,
+        "ci95": [
+          0.060995305043084425,
+          0.7586663370848525
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5583180705728213
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": 0.9947765935802593,
+        "ci95": [
+          0.8526596204580408,
+          1.1368935667024778
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.3880108012381503,
+        "ci95": [
+          -0.5925186897616032,
+          -0.18350291271469746
+        ]
+      },
+      "spring_association": {
+        "mean": 0.47773173428827653,
+        "ci95": [
+          0.12405282195707029,
+          0.8314106466194828
+        ]
+      },
+      "residual_variance_posterior_mean": 0.36445538269624045
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": 0.3858427229422927,
+        "ci95": [
+          0.24521672439924025,
+          0.5264687214853452
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.1738675585504229,
+        "ci95": [
+          -0.3762299182441478,
+          0.028494801143301995
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4399478805612724,
+        "ci95": [
+          0.08997947694614628,
+          0.7899162841763985
+        ]
+      },
+      "residual_variance_posterior_mean": 0.35684836322955205
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 0.25,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": -0.27604191905549547,
+        "ci95": [
+          -0.41762097155247935,
+          -0.13446286655851156
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.05889683567536709,
+        "ci95": [
+          -0.14483697914778726,
+          0.26263065049852147
+        ]
+      },
+      "spring_association": {
+        "mean": 0.3988784743362693,
+        "ci95": [
+          0.04653825630366637,
+          0.7512186923688722
+        ]
+      },
+      "residual_variance_posterior_mean": 0.3617016364458496
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": 0.9948511148318844,
+        "ci95": [
+          0.8580528929842154,
+          1.1316493366795535
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.36545529454560866,
+        "ci95": [
+          -0.5719110323739567,
+          -0.1589995567172606
+        ]
+      },
+      "spring_association": {
+        "mean": 0.46301458221970143,
+        "ci95": [
+          0.11542278450603843,
+          0.8106063799333645
+        ]
+      },
+      "residual_variance_posterior_mean": 0.675323910396702
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": 0.3858730206672279,
+        "ci95": [
+          0.24951500801180085,
+          0.522231033322655
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.1405526412752925,
+        "ci95": [
+          -0.3463440158366652,
+          0.06523873328608021
+        ]
+      },
+      "spring_association": {
+        "mean": 0.45145788450323887,
+        "ci95": [
+          0.10498461817422977,
+          0.797931150832248
+        ]
+      },
+      "residual_variance_posterior_mean": 0.6709845927126084
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": -0.27605969038131095,
+        "ci95": [
+          -0.412837246335248,
+          -0.1392821344273739
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.10390676445331196,
+        "ci95": [
+          -0.10251778442915158,
+          0.31033131333577546
+        ]
+      },
+      "spring_association": {
+        "mean": 0.43889625655056225,
+        "ci95": [
+          0.09135696898693352,
+          0.786435544114191
+        ]
+      },
+      "residual_variance_posterior_mean": 0.6751198855517905
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": 0.994834706760914,
+        "ci95": [
+          0.8570250139639304,
+          1.1326443995578976
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.37131874659095676,
+        "ci95": [
+          -0.5772064738212429,
+          -0.16543101936067064
+        ]
+      },
+      "spring_association": {
+        "mean": 0.46261330028694314,
+        "ci95": [
+          0.11347374668526489,
+          0.8117528538886214
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5482877531102593,
+      "domain_deviations": {
+        "优化与运筹": {
+          "mean": 0.22495509588599916,
+          "ci95": [
+            -0.12762856724439559,
+            0.5775387590163938
+          ]
+        },
+        "图论与网络": {
+          "mean": -0.10024399624715041,
+          "ci95": [
+            -0.562005894611411,
+            0.36151790211711027
+          ]
+        },
+        "学习过程与工具使用": {
+          "mean": -0.26732828599542335,
+          "ci95": [
+            -0.868698757153799,
+            0.33404218516295225
+          ]
+        },
+        "微分方程与动态系统": {
+          "mean": -0.115001946459655,
+          "ci95": [
+            -0.625286037026183,
+            0.395282144106873
+          ]
+        },
+        "数值计算与科学计算": {
+          "mean": -0.2006187741762555,
+          "ci95": [
+            -0.6898366927142359,
+            0.28859914436172485
+          ]
+        },
+        "数据处理与可视化": {
+          "mean": 0.2742242629235312,
+          "ci95": [
+            -0.235950406730855,
+            0.7843989325779174
+          ]
+        },
+        "机器学习与人工智能": {
+          "mean": 0.0305817590867834,
+          "ci95": [
+            -0.38512899960832947,
+            0.44629251778189627
+          ]
+        },
+        "概率统计与随机过程": {
+          "mean": 0.279251152860982,
+          "ci95": [
+            -0.11960879044327744,
+            0.6781110961652415
+          ]
+        },
+        "评价与决策": {
+          "mean": -0.12366557126473188,
+          "ci95": [
+            -0.789071576045926,
+            0.5417404335164623
+          ]
+        }
+      }
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": 0.3858664779508156,
+        "ci95": [
+          0.2485879236287437,
+          0.5231450322728874
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.14755504142009224,
+        "ci95": [
+          -0.3526492475908311,
+          0.05753916475064663
+        ]
+      },
+      "spring_association": {
+        "mean": 0.44895330425025354,
+        "ci95": [
+          0.10115938495243043,
+          0.7967472235480766
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5440695371135006,
+      "domain_deviations": {
+        "优化与运筹": {
+          "mean": 0.09434902498948228,
+          "ci95": [
+            -0.2568757297411255,
+            0.44557377972009005
+          ]
+        },
+        "图论与网络": {
+          "mean": -0.04105682999672633,
+          "ci95": [
+            -0.5010390312620983,
+            0.41892537126864554
+          ]
+        },
+        "学习过程与工具使用": {
+          "mean": -0.2360361763161934,
+          "ci95": [
+            -0.835088878757251,
+            0.3630165261248643
+          ]
+        },
+        "微分方程与动态系统": {
+          "mean": -0.06673741463119665,
+          "ci95": [
+            -0.5750547965567402,
+            0.4415799672943469
+          ]
+        },
+        "数值计算与科学计算": {
+          "mean": -0.0056072657769460355,
+          "ci95": [
+            -0.4929396677458229,
+            0.4817251361919308
+          ]
+        },
+        "数据处理与可视化": {
+          "mean": 0.3226435824340043,
+          "ci95": [
+            -0.18556480030340833,
+            0.830851965171417
+          ]
+        },
+        "机器学习与人工智能": {
+          "mean": -0.08105374375910301,
+          "ci95": [
+            -0.4951622931037966,
+            0.3330548055855906
+          ]
+        },
+        "概率统计与随机过程": {
+          "mean": 0.16202896457998073,
+          "ci95": [
+            -0.23529371485197548,
+            0.5593516440119369
+          ]
+        },
+        "评价与决策": {
+          "mean": -0.14771809963257732,
+          "ci95": [
+            -0.8105595334942408,
+            0.5151233342290862
+          ]
+        }
+      }
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": -0.2760555098862513,
+        "ci95": [
+          -0.41380642527561856,
+          -0.1383045944968841
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.09566637724389088,
+        "ci95": [
+          -0.11013353651971514,
+          0.3014662910074969
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4341054824712435,
+        "ci95": [
+          0.08511484087597448,
+          0.7830961240665124
+        ]
+      },
+      "residual_variance_posterior_mean": 0.54782015087526,
+      "domain_deviations": {
+        "优化与运筹": {
+          "mean": -0.0476140955502129,
+          "ci95": [
+            -0.40004737772215637,
+            0.3048191866217306
+          ]
+        },
+        "图论与网络": {
+          "mean": 0.023277046362427667,
+          "ci95": [
+            -0.43828790527935646,
+            0.4848419980042118
+          ]
+        },
+        "学习过程与工具使用": {
+          "mean": -0.20202301362137903,
+          "ci95": [
+            -0.8031369934068018,
+            0.39909096616404366
+          ]
+        },
+        "微分方程与动态系统": {
+          "mean": -0.01427596699156597,
+          "ci95": [
+            -0.5243424155665718,
+            0.49579048158343986
+          ]
+        },
+        "数值计算与科学计算": {
+          "mean": 0.20636176509186777,
+          "ci95": [
+            -0.2826474964175137,
+            0.6953710266012492
+          ]
+        },
+        "数据处理与可视化": {
+          "mean": 0.375273277554088,
+          "ci95": [
+            -0.13468379677804465,
+            0.8852303518862207
+          ]
+        },
+        "机器学习与人工智能": {
+          "mean": -0.2023966816350673,
+          "ci95": [
+            -0.617930134944627,
+            0.2131367716744924
+          ]
+        },
+        "概率统计与随机过程": {
+          "mean": 0.03461354253541571,
+          "ci95": [
+            -0.364076282448473,
+            0.4333033675193044
+          ]
+        },
+        "评价与决策": {
+          "mean": -0.1738621522063214,
+          "ci95": [
+            -0.8389843537282555,
+            0.49126004931561273
+          ]
+        }
+      }
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": 0.994784366212497,
+        "ci95": [
+          0.8542276346063536,
+          1.1353410978186405
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.3868607843826818,
+        "ci95": [
+          -0.590954723843746,
+          -0.1827668449216175
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4617400024751961,
+        "ci95": [
+          0.10836267692272078,
+          0.8151173280276713
+        ]
+      },
+      "residual_variance_posterior_mean": 0.3564968964865238
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": 0.3858461512073796,
+        "ci95": [
+          0.24604525732789825,
+          0.5256470450868609
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.16627920904334048,
+        "ci95": [
+          -0.3692756421988369,
+          0.03671722411215597
+        ]
+      },
+      "spring_association": {
+        "mean": 0.44305011492765745,
+        "ci95": [
+          0.09157306061333192,
+          0.794527169241983
+        ]
+      },
+      "residual_variance_posterior_mean": 0.35267311213039454
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 0.5,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": -0.2760432129286225,
+        "ci95": [
+          -0.4164444888750291,
+          -0.13564193698221588
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.07348337284724779,
+        "ci95": [
+          -0.13038483884080523,
+          0.27735158453530084
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4227350197672903,
+        "ci95": [
+          0.06974852932212033,
+          0.7757215102124602
+        ]
+      },
+      "residual_variance_posterior_mean": 0.3557087618641571
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": 0.9948554287680643,
+        "ci95": [
+          0.8593348861657469,
+          1.1303759713703818
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.36234009784269533,
+        "ci95": [
+          -0.5677349567249198,
+          -0.15694523896047083
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4634791614579115,
+        "ci95": [
+          0.11706133571978994,
+          0.8098969871960331
+        ]
+      },
+      "residual_variance_posterior_mean": 0.6627678880689017
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": 0.38587658822882936,
+        "ci95": [
+          0.2504721455069991,
+          0.5212810309506597
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.13453601350846117,
+        "ci95": [
+          -0.33975491147648784,
+          0.07068288445956547
+        ]
+      },
+      "spring_association": {
+        "mean": 0.46020790716862764,
+        "ci95": [
+          0.11408685612897246,
+          0.8063289582082829
+        ]
+      },
+      "residual_variance_posterior_mean": 0.6616327935523701
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 0.0,
+      "standardized_remaining": {
+        "mean": -0.27605693409642834,
+        "ci95": [
+          -0.4116443913183521,
+          -0.14046947687450456
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.11307712163744532,
+        "ci95": [
+          -0.09241915300498271,
+          0.31857339627987336
+        ]
+      },
+      "spring_association": {
+        "mean": 0.45665219598462364,
+        "ci95": [
+          0.11006332298983512,
+          0.8032410689794122
+        ]
+      },
+      "residual_variance_posterior_mean": 0.6634225461614964
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": 0.9948401741378895,
+        "ci95": [
+          0.8583964355619852,
+          1.1312839127137937
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.3681397584214597,
+        "ci95": [
+          -0.5730082692099842,
+          -0.1632712476329352
+        ]
+      },
+      "spring_association": {
+        "mean": 0.46183830141933224,
+        "ci95": [
+          0.11388854082979555,
+          0.8097880620088689
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5374724434779096
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": 0.3858707858346661,
+        "ci95": [
+          0.24957641828751428,
+          0.5221651533818179
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.1408897455648096,
+        "ci95": [
+          -0.3455339776833498,
+          0.06375448655373064
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4578038081566826,
+        "ci95": [
+          0.11023496364461427,
+          0.8053726526687509
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5362962976457355
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 0.5,
+      "standardized_remaining": {
+        "mean": -0.27605246232099495,
+        "ci95": [
+          -0.4125593242116057,
+          -0.1395456004303842
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.10612113797502701,
+        "ci95": [
+          -0.09884215165505456,
+          0.31108442760510857
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4534184893929327,
+        "ci95": [
+          0.10530775591838887,
+          0.8015292228674766
+        ]
+      },
+      "residual_variance_posterior_mean": 0.5379698630066752
+    },
+    {
+      "q": 0.0,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": 0.9947929550517247,
+        "ci95": [
+          0.8557424528877458,
+          1.1338434572157037
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.38394100994484354,
+        "ci95": [
+          -0.5872754083710214,
+          -0.18060661151866558
+        ]
+      },
+      "spring_association": {
+        "mean": 0.45765297873168764,
+        "ci95": [
+          0.10540798502854992,
+          0.8098979724348254
+        ]
+      },
+      "residual_variance_posterior_mean": 0.3488972284531441
+    },
+    {
+      "q": 0.23,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": 0.3858520778411685,
+        "ci95": [
+          0.24704928225435843,
+          0.5246548734279786
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": -0.15833358610456155,
+        "ci95": [
+          -0.36130576169032536,
+          0.04463858948120228
+        ]
+      },
+      "spring_association": {
+        "mean": 0.4515261755981994,
+        "ci95": [
+          0.09990867622523086,
+          0.803143674971168
+        ]
+      },
+      "residual_variance_posterior_mean": 0.3476552745113075
+    },
+    {
+      "q": 0.48,
+      "domain_prior_sd_ratio": 1.0,
+      "student_prior_sd_ratio": 1.0,
+      "standardized_remaining": {
+        "mean": -0.2760401799964083,
+        "ci95": [
+          -0.4151279953282836,
+          -0.136952364664533
+        ]
+      },
+      "baseline_coefficient": {
+        "mean": 0.08689187459139738,
+        "ci95": [
+          -0.11649708710804821,
+          0.290280836290843
+        ]
+      },
+      "spring_association": {
+        "mean": 0.44486660697484315,
+        "ci95": [
+          0.09252709094790112,
+          0.7972061230017852
+        ]
+      },
+      "residual_variance_posterior_mean": 0.3490845015282467
+    }
+  ],
+  "limitations": [
+    "Empirical index, not equal-interval Bloom levels",
+    "Highest after is opportunity-sensitive and not a final independent test",
+    "Baseline may be post-treatment; current adjustment is descriptive",
+    "Intervals condition on frozen mapping, targets and selected observable sample",
+    "Fixed variance-ratio priors sensitivity, not data-estimated heterogeneity variances",
+    "No independent pretreatment achievement, socioeconomic mix, or validated control arm"
+  ]
+}

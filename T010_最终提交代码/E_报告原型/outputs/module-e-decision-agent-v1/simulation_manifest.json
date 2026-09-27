@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "n": 800,
+  "seed": 20260926,
+  "bootstrap": 1000,
+  "reference_weights": {
+    "low_easy": 0.25,
+    "low_hard": 0.25,
+    "high_easy": 0.25,
+    "high_hard": 0.25
+  },
+  "data_design": "fixed constructed stratum counts; bootstrap is illustrative only",
+  "unit": "one independent fictional student per row; spring and autumn are different cohorts",
+  "thresholds": "minimum observed cell 10; coverage .8; demonstration policy, not validated standard",
+  "code_sha256": "2fed5ab564dc472695cc262e3b5cdd2d531405a28b5d4061fcee07f2244054a3"
+}

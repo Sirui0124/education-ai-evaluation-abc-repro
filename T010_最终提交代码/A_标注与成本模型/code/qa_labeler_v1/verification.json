@@ -1,0 +1,17 @@
+{
+  "regression_population": 708,
+  "mismatches": [],
+  "counts": {
+    "r1": 66,
+    "r2": 348,
+    "r3": 102,
+    "ENTER": 425,
+    "NOT_ENTER": 283
+  },
+  "qa3_contract_errors": [],
+  "source_sha256": {
+    "qa3": "d534f4b7c855348db4ce1cae4b9b766e67bb048c6499b0fd8096c0999d644069",
+    "qapro": "195fc665ee4859a1a15a97873736459feb479bfe78de1f22500645e806825bf8"
+  },
+  "scope": "从历史完整正文重新执行 QAPro v2.4。比较标签、主类型和全部命中；校验导入 QA3 的结构与证据。未调用远程模型重新判定 QA3。"
+}

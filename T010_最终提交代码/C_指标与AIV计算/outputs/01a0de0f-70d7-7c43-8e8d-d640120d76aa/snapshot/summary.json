@@ -1,0 +1,134 @@
+{
+  "version": "adopted-v4-original-topic-domain",
+  "backup_sha256": "2a274eb04202b5035d75cdbbef5575c072e0bc3e8ac0f9269a605fecf556fcbf",
+  "raw_labels_sha256": "1009e4b698467f00c5c30ce1c1a7ca459838c9e90faad354f3ca0b2057d2eaba",
+  "mapping_sha256": "758c1e4963538c040a00da1c4861176935cfa53599627c6b38a4c560bf13679b",
+  "n_calibration_pairs": 519,
+  "students": 369,
+  "conversations": 708,
+  "student_domains": 621,
+  "conversation_scales": {
+    "s3": 615,
+    "s6": 93
+  },
+  "student_domain_scales": {
+    "s3": 532,
+    "s6": 89
+  },
+  "computable_conversation_pairs": 195,
+  "computable_student_domain_pairs": 156,
+  "na_student_domain_pairs": 465,
+  "literal_high_students": 3,
+  "literal_low_students": 77,
+  "category_high_students": 22,
+  "category_low_students": 56,
+  "group_medians": {
+    "high_literal": {
+      "n": 3,
+      "included_session_count": 5,
+      "ab3_inclusive_share_all_included": 0.4,
+      "abpro_share_all_included": 0.2,
+      "observed_agent_category_count": 2,
+      "ability_adopted_ge3_share_all_abpro": 1.0
+    },
+    "low_literal": {
+      "n": 77,
+      "included_session_count": 3,
+      "ab3_inclusive_share_all_included": 0.5,
+      "abpro_share_all_included": 0.5,
+      "observed_agent_category_count": 1,
+      "ability_adopted_ge3_share_all_abpro": 0.0
+    },
+    "high_category": {
+      "n": 22,
+      "included_session_count": 3.0,
+      "ab3_inclusive_share_all_included": 0.6333333333333333,
+      "abpro_share_all_included": 0.5,
+      "observed_agent_category_count": 2,
+      "ability_adopted_ge3_share_all_abpro": 1.0
+    },
+    "low_category": {
+      "n": 56,
+      "included_session_count": 3.0,
+      "ab3_inclusive_share_all_included": 0.5,
+      "abpro_share_all_included": 0.5,
+      "observed_agent_category_count": 2,
+      "ability_adopted_ge3_share_all_abpro": 0.0
+    }
+  },
+  "old_136_students_willingness_unchanged": true,
+  "pair_status_counts": {
+    "BEFORE_U": 340,
+    "BEFORE_TARGET_UNDEFINED": 12,
+    "COMPARABLE": 156,
+    "BEFORE_DOMAIN_UNVERIFIED": 92,
+    "AFTER_NOT_ASSESSED": 21
+  },
+  "conversation_point_status_counts": {
+    "before": {
+      "U": 429,
+      "OBSERVED": 220,
+      "TARGET_UNDEFINED": 13,
+      "DOMAIN_UNVERIFIED": 46
+    },
+    "after": {
+      "OBSERVED": 289,
+      "U": 89,
+      "NOT_ASSESSED": 283,
+      "TARGET_UNDEFINED": 16,
+      "DOMAIN_UNVERIFIED": 31
+    }
+  },
+  "module_mapping_version": "original-topic-domain-bounded-proxy-v1",
+  "module_fit_pairs": 488,
+  "all_369_willingness_unchanged": true,
+  "all_direct_six_scores_unchanged": true,
+  "direct_six_domains": [
+    "数学基础",
+    "数学建模综合与案例"
+  ],
+  "math_basic_scope": {
+    "first_domain_conversations": 13,
+    "first_domain_tiers": {
+      "QAPro": 9,
+      "QA3": 4
+    },
+    "any_domain_conversations": 15,
+    "any_domain_tiers": {
+      "QAPro": 11,
+      "QA3": 4
+    },
+    "first_domain_ids": [
+      "S0041",
+      "S0324",
+      "S0441",
+      "S0525",
+      "S0542",
+      "S0687",
+      "S0689",
+      "S0818",
+      "S0926",
+      "S1131",
+      "S1149",
+      "S1214",
+      "S1242"
+    ],
+    "any_domain_ids": [
+      "S0041",
+      "S0324",
+      "S0441",
+      "S0525",
+      "S0542",
+      "S0687",
+      "S0689",
+      "S0818",
+      "S0925",
+      "S0926",
+      "S1050",
+      "S1131",
+      "S1149",
+      "S1214",
+      "S1242"
+    ]
+  }
+}

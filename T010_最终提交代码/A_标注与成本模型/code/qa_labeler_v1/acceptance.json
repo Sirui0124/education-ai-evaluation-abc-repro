@@ -1,0 +1,9 @@
+{
+  "tests_passed": 17,
+  "python": "3.9.6",
+  "standalone_temp_directory": "PASS",
+  "offline_example_exact_match": "PASS",
+  "remote_model_call": "NOT_RUN",
+  "historical_qa_pro_exact_match": "708/708",
+  "historical_qa3_schema_and_evidence": "708/708"
+}

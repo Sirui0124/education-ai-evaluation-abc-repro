@@ -1,0 +1,8 @@
+{
+  "composition_reversal": true,
+  "balanced_reference_identity": true,
+  "sparse_refused": true,
+  "missing_not_zero": true,
+  "no_overlap_refused": true,
+  "unique_students": true
+}
