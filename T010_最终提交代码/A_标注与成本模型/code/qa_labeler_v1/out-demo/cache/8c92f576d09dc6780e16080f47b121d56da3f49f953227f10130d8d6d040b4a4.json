@@ -1,0 +1,72 @@
+{
+  "id": "example-r2",
+  "input_sha256": "4ed53cefa75de6f5214281b23cd678caf1fac1ed8591506a751de892155c8d0e",
+  "status": "DONE",
+  "exclusion": "不剔除",
+  "qa3": true,
+  "qapro": true,
+  "tier": "QA Pro",
+  "qa3_version": "3.1",
+  "qapro_version": "2.4",
+  "segments": [
+    {
+      "topic": "非平稳序列",
+      "turn_start": 1,
+      "turn_end": 3,
+      "label": "QA3",
+      "reason": "学生回答了同一任务中的问题",
+      "evidence": [
+        {
+          "turn_index": 3,
+          "quote": "股价"
+        }
+      ],
+      "effective_student_turns": [
+        3
+      ],
+      "deferred_student_turns": [],
+      "closure": "UNKNOWN",
+      "agent_uptake": "未知",
+      "review_reason": ""
+    }
+  ],
+  "qa3_reason": "QA3",
+  "qapro_details": {
+    "label": "ENTER",
+    "primary_type": "R2_EFFECTIVE_ANSWER",
+    "reason": null,
+    "r1": [],
+    "r2": [
+      {
+        "agent_turn": 2,
+        "agent_questions": [
+          "统计性质随时间变化。请举一个非平稳序列？"
+        ],
+        "student_turn": 3,
+        "student_text": "股价"
+      }
+    ],
+    "r3": []
+  },
+  "error": null,
+  "metadata": {
+    "id": "example-r2"
+  },
+  "turns": [
+    {
+      "turn_index": 1,
+      "role": "student",
+      "text": "什么是非平稳序列？"
+    },
+    {
+      "turn_index": 2,
+      "role": "agent",
+      "text": "统计性质随时间变化。请举一个非平稳序列？"
+    },
+    {
+      "turn_index": 3,
+      "role": "student",
+      "text": "股价"
+    }
+  ]
+}

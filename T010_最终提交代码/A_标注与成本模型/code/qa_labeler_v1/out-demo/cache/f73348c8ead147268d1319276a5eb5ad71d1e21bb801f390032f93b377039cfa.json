@@ -1,0 +1,19 @@
+{
+  "id": "example-teacher",
+  "input_sha256": "883b4d2bdf8408fe2c6202d40f6ce9cf2420bc6980fadf6078885ad62f387772",
+  "status": "DONE",
+  "exclusion": "疑似老师剔除",
+  "qa3": null,
+  "qapro": null,
+  "tier": null,
+  "qa3_version": "3.1",
+  "qapro_version": "2.4",
+  "segments": [],
+  "qa3_reason": null,
+  "qapro_details": null,
+  "error": null,
+  "metadata": {
+    "id": "example-teacher",
+    "identity_role": "teacher"
+  }
+}

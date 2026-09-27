@@ -1,0 +1,15 @@
+{
+  "total": 4,
+  "status_counts": {
+    "DONE": 4
+  },
+  "tier_counts": {
+    "QA Pro": 1,
+    "仅QA3": 1,
+    "未定级/剔除": 2
+  },
+  "qa3_true": 2,
+  "qapro_true": 1,
+  "excluded": 2,
+  "semantic_accuracy": "NOT_ESTABLISHED_BY_MECHANICAL_TESTS"
+}

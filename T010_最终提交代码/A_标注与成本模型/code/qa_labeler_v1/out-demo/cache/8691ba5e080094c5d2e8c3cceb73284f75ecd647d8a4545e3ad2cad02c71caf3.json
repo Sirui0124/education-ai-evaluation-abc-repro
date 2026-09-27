@@ -1,0 +1,19 @@
+{
+  "id": "example-empty",
+  "input_sha256": "9f1d0a9b60d09f748cc85b34671ec3670f00216135a02f4c79d38ba65a806cb3",
+  "status": "DONE",
+  "exclusion": "空对话",
+  "qa3": null,
+  "qapro": null,
+  "tier": null,
+  "qa3_version": "3.1",
+  "qapro_version": "2.4",
+  "segments": [],
+  "qa3_reason": null,
+  "qapro_details": null,
+  "error": null,
+  "metadata": {
+    "id": "example-empty"
+  },
+  "turns": []
+}
